@@ -1,0 +1,6 @@
+- if user_signed_in?
+  %button.btn.btn-primary{:type => "submit"}
+    =raw label
+- else
+  %button.btn.btn-primary.disabled{:type => "submit", :disabled => 'true'}
+    =raw label

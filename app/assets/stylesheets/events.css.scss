@@ -1,0 +1,133 @@
+// Place all the styles related to the Events controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+html, body {
+  height: 100% !important;
+  width: 100% !important;
+  overflow-x: hidden !important;
+  overflow-y: hidden !important;
+}
+
+h1.h1-in-infowindow {
+  margin-top: -5px;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 5px;
+}
+
+.button-container {
+  display: inline;
+}
+
+.tags form {
+  display: inline;
+}
+
+.tags-buttons {
+  display: inline;
+}
+
+#close-maps-overlay {
+  padding-right: 13px;
+  padding-top: 8px;
+}
+
+#index-container {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 40px;
+  overflow-y: hidden;
+}
+
+#index-alert-container {
+  position: absolute;
+}
+
+#index-tabbable {
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#maps-overlay {
+  position: absolute;
+  background: #f4f4f4;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 855px;
+  width: 50%;
+}
+
+#overlay-alert-container {
+  padding-left: 90px;
+  padding-right: 90px;
+  padding-top: 20px;
+  position: absolute;
+  width: 100%;
+}
+
+#map>div>div>div>div>div>div>div {
+  background: url("/assets/noise.png") repeat;
+}
+// ensures that the infowindow is not affected
+#map>div>div>div>div>div>div>div:last-child:nth-child(2) {
+  background: #fff;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.image-wrapper {
+  margin-bottom: 12px;
+  vertical-align: middle;
+}
+
+#my-events-modal * hr {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.image-wrapper * {
+  vertical-align: middle;
+}
+
+.overlay-wrapper {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+}
+.overlay-wrapper img {
+  position: absolute;
+}
+
+.userinfo {
+  display: inline-block;
+}
+
+a:hover.image-link {
+  text-decoration: none;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+}
+
+.infowindow-text{
+  padding-bottom: 5px;
+}
+
+.disabled-not-logged-in {
+  font-family: EraserRegular;
+}
+
+.brand {
+  padding: 5px !important;
+}

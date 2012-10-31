@@ -1,0 +1,26 @@
+#my-events-modal.modal.hide.fade{"aria-hidden" => "true", "aria-labelledby" => "my-events-label", role: "dialog", tabindex: "-1"}
+  .modal-header
+    %button.close{"aria-hidden" => "true", "data-dismiss" => "modal", type: "button"} ×
+    %h3#my-events-label
+      My events
+    %small
+      %a{style: "color: black;", href: '#', onclick: "$('#show-all').show(300);$('#past-events').show(300);$('#show-past').hide(300);$('#present-events').show(300);$('#show-present').hide(300);$('#future-events').show(300);$('#show-future').hide(300);"}
+        %i.icon-globe
+        all
+      %a{style: "color: #{Event.color_past};", href: '#', onclick: "$('#show-all').hide(300);$('#past-events').show(300);$('#show-past').show(300);$('#present-events').hide(300);$('#show-present').hide(300);$('#future-events').hide(300);$('#show-future').hide(300);"}
+        %i.icon-arrow-left
+        past
+      %a{style: "color: #{Event.color_present};", href: '#', onclick: "$('#show-all').hide(300);$('#past-events').hide(300);$('#show-past').hide(300);$('#present-events').show(300);$('#show-present').show(300);$('#future-events').hide(300);$('#show-future').hide(300);"}
+        %i.icon-asterisk
+        present
+      %a{style: "color: #{Event.color_future};", href: '#', onclick: "$('#show-all').hide(300);$('#past-events').hide(300);$('#show-past').hide(300);$('#present-events').hide(300);$('#show-present').hide(300);$('#future-events').show(300);$('#show-future').show(300);"}
+        %i.icon-arrow-right
+        future
+  .modal-body
+
+#edit-event-modal.modal.hide.fade{"aria-hidden" => "true", "aria-labelledby" => "edit-event-label", role: "dialog", tabindex: "-1"}
+  .modal-header
+    %button.close{"aria-hidden" => "true", "data-dismiss" => "modal", type: "button"} ×
+    %h3#edit-event-label
+      Edit
+  .modal-body

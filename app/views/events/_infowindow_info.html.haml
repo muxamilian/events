@@ -1,0 +1,25 @@
+.image-wrapper
+  .overlay-wrapper
+    - if user.image.blank?
+      = image_tag '/assets/human.png', class: 'avatar img-rounded'
+    - else
+      = image_tag user.image, class: 'avatar img-rounded'
+    - if user.events_users.find_by_event_id(event.id).owner
+      = image_tag '/assets/star.svg'
+  %div.userinfo
+    %span
+      = user.username
+    %br
+    %small
+      - if !user.page.blank?
+        = link_to user.page do 'homepage' end
+      - else
+        has no homepage
+      - if user_signed_in? && current_user.events_users.find_by_event_id(event.id) && current_user.events_users.find_by_event_id(event.id).owner
+        - if !user.events_users.find_by_event_id(event.id).owner
+          ·
+          %a{onclick: "add_owner(#{event.id},#{user.id});"} make owner
+        - else
+          ·
+          %a{onclick: "remove_owner(#{event.id},#{user.id});"} remove owner
+

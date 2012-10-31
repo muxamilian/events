@@ -1,0 +1,17 @@
+%div{id: 'my-event-'+event.id.to_s}
+  .left
+    - if time == 'past'
+      %span{style: "color: #{Event.color_past};"}
+        %i.icon-arrow-left
+    - elsif time == 'present'
+      %span{style: "color: #{Event.color_present};"}
+        %i.icon-asterisk
+    - else
+      %span{style: "color: #{Event.color_future};"}
+        %i.icon-arrow-right
+    %strong #{truncate(event.description, length: 20)} at #{truncate(event.address, length: 20)}, #{format_datetime event.datetime}
+  .right
+    %a.btn.btn-mini{:onclick => "replaceHelper(#{mapify event})"} Show
+    = render partial: 'buttons_for_event', locals: {event: event, size: 'btn-mini'}
+  %br
+  %hr

@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  descr: MyString
+  time: 2012-06-26 23:36:25
+  lat: 1.5
+  lon: 1.5
+
+two:
+  descr: MyString
+  time: 2012-06-26 23:36:25
+  lat: 1.5
+  lon: 1.5

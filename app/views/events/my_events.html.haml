@@ -1,0 +1,15 @@
+%small
+  #future-events
+    - @events_future.each do |event|
+      = render partial: 'my_event', locals: {event: event, time: 'future'}
+  #present-events
+    - @events_present.each do |event|
+      = render partial: 'my_event', locals: {event: event, time: 'present'}
+  #past-events
+    - @events_past.each do |event|
+      = render partial: 'my_event', locals: {event: event, time: 'past'}
+
+%a.btn.btn-primary#show-all{onclick: "all_events();"} Show all events
+%a.btn.btn-primary#show-past{onclick: "past_events();", style: 'display:none'} Show past events
+%a.btn.btn-primary#show-present{onclick: "present_events();", style: 'display:none'} Show present events
+%a.btn.btn-primary#show-future{onclick: "future_events();", style: 'display:none'} Show future events

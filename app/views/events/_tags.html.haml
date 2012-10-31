@@ -1,0 +1,19 @@
+.tags
+  - if event.tags.empty?
+    %button.btn.btn-success.btn-mini.disabled
+      no tags yet :/
+  - else
+    - event.tags.each do |tag|
+      %button.btn.btn-info.btn-mini{onclick: "remove_tag(#{event.id},'#{tag.name}');"}
+        = tag.name 
+        %strong
+          ×
+  - if user_signed_in?
+    = form_tag '/events/add_tag', method: "post", class: 'form-inline', remote: true do
+      = hidden_field_tag :t_event_id, event.id
+      %button.btn.btn-mini.plus-button{type: 'button', onclick: "$('.tags-buttons').show(300);$('#t_tag').focus();$('.plus-button').hide(300);"}
+        %i.icon-plus
+      .tags-buttons{style: 'display: none;'}
+        = text_field_tag :t_tag, nil, class: 'input-mini', placeholder: 'tag'
+        %button.btn.btn-mini{type: 'submit'} add
+        %button.btn.btn-mini.btn-danger{type: 'button', onclick: "$('.tags-buttons').hide(300);$('.plus-button').show(300);"} cancel

@@ -1,0 +1,36 @@
+.infowindow-text 
+  %h1.h1-in-infowindow
+    = event.description
+  .tags-container
+    = render partial: 'tags', locals: {event: event}
+  %small
+    at
+    %a{'data-original-title' => event.normalized_address, rel: "tooltip"}
+      = event.address
+    ·
+    = format_datetime event.datetime
+    ·
+    = pluralize event.users.length, 'person'
+    - if event.max_attendees<EventsHelper.infinity
+      of
+      = event.max_attendees
+    attending
+- if !event.users.empty?
+  .attending-users
+    - if event.users.length <= 5
+      - event.users.each do |user|
+        = render(partial: 'infowindow_info', locals: {user: user, event: event})
+    - else
+      - (event.users.sample(5)).each do |user|
+        = render(partial: 'infowindow_info', locals: {user: user, event: event})
+      .image-wrapper
+        And #{event.users.length-5} more
+%div{style: 'padding-bottom: 35px;'}
+  .left.button-container
+    = render partial: 'buttons_for_event', locals: {event: event, size: 'btn-small'}
+  .right
+    .perma-link-div{style: 'vertical-align: bottom;'}
+      %button.btn.btn-small.perma-link-button{onmouseover: "show_perma_link();", onclick: "show_perma_link();"}
+        %i{class: 'icon-envelope'}
+      %input.perma-link-text{type: 'text', value: @perma_link, style: 'display:none; width:150px', onmouseout: "hide_perma_link();", onclick: "hide_perma_link();", onfocus: '$(this).select();', placeholder: 'nothing to see'}
+.fb-comments{"data-href" => @perma_link, "data-num-posts" => "3", "data-width" => "500"}

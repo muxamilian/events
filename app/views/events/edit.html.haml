@@ -1,0 +1,25 @@
+= form_tag event_path(@event), method: :put, id: 'edit-form',class: 'form-inline', remote: true do
+  %fieldset
+    = render partial: 'error_div', locals: {error_div_id: 'update-errors'}
+    = text_field_tag :e_description, @event.description, class: 'input-medium', placeholder: 'description'
+    %button.btn.btn-mini.btn-inverse{onclick: 'reverse_geocode(Gmaps.map.userLocation.lat(),Gmaps.map.userLocation.lng(),"#e_address","#update-errors")', type: 'button', title: 'set current location'}
+      %i.icon-screenshot
+      here
+    = text_field_tag :e_address, @event.address, class: 'input-medium', placeholder: 'location'
+    %button.btn.btn-mini.btn-inverse{onclick: "set_date_and_time('#e_date', '#e_time');", type: 'button', title: 'set current time'}
+      %i.icon-time
+      now
+    = text_field_tag :e_date, nil, class: 'input-small'
+    = text_field_tag :e_time, nil, class: 'input-mini'
+    %a{'data-original-title' => 'leave empty if you want no restriction regarding the number of visitors', rel: "tooltip"}
+      max. persons
+    = text_field_tag :e_max_attendees, (@event.max_attendees if @event.max_attendees<EventsHelper.infinity), class: 'input-mini'
+    = render partial: 'application/only_when_signed_in_button', locals: {label: '<i class="icon-wrench"></i> Edit'} 
+      
+/ This is hacky... Is there another way?
+:erb
+  <script>
+    set_date_and_time('#e_date', '#e_time');
+    $('#e_date').datepicker({format: 'yyyy-mm-dd'});
+    $('#e_time').timepicker({showMeridian: false});
+  </script>

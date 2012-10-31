@@ -1,0 +1,6 @@
+<% if @success %>
+  delete_marker(<%= @id %>);
+  $("#my-event-<%=@id.to_s%>").hide(300);
+<% else %>
+  bootstrap_alert.error('You are not attending this event. One should implement a ownership relation here');  
+<% end %>

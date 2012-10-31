@@ -1,0 +1,10 @@
+<% if @event.errors.any? %>
+  $("#create-errors").html("<ul><% @event.errors.full_messages.each do |msg| %><li><%= msg %></li><% end %></ul>");
+  $("#create-errors").show(300);
+<% else %>
+  $("#create-errors").hide(300);
+  addHelper(<%=raw @events %>);
+  $("#c_address").val("");
+  $("#c_description").val("");
+  $("#c_max_attendees").val("");
+<% end %>

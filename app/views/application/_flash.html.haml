@@ -1,0 +1,6 @@
+/ For creating messages when the whole site is rendered. E.g. after logging in with facebook
+- [:notice, :error, :alert].each do |level|
+  - unless flash[level].blank?
+    %div{:class => "fade in alert alert-#{flash_class(level)}"}
+      %a.close{"data-dismiss" => "alert"} ×
+      = content_tag :span, flash[level]

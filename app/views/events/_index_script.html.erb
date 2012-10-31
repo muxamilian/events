@@ -1,0 +1,4 @@
+<script>
+  window.history.replaceState({"markers":<%=raw @events %>,"query":<%=raw @query %>},'Search','');
+  set_search_form(<%=raw @query %>);
+</script>

@@ -1,0 +1,13 @@
+<% if @event.errors.any? %>
+  $("#update-errors").html("<ul><% @event.errors.full_messages.each do |msg| %><li><%= msg %></li><% end %></ul>");
+  $("#update-errors").show(300);
+<% else %>
+  $("#update-errors").hide(300);
+  $("#e_address").val("");
+  $("#e_description").val("");
+  $('#edit-event-modal').modal('hide');
+  $('#my-events-modal').modal('hide');
+  close_infowindow();
+  delete_marker(<%= @id %>);
+  addHelper(<%=raw @updated_event %>);
+<% end %>

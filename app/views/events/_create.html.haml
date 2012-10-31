@@ -1,0 +1,19 @@
+= form_tag '/events', method: 'post', class: 'form-inline', remote: true do
+  %fieldset
+    = render partial: 'error_div', locals: {error_div_id: 'create-errors'}
+    = text_field_tag :c_description, nil, class: 'input-medium', placeholder: 'description'
+    %button.btn.btn-mini.btn-inverse{onclick: 'reverse_geocode(Gmaps.map.userLocation.lat(),Gmaps.map.userLocation.lng(),"#c_address","#create-errors")', type: 'button', title: 'set current location'}
+      %i.icon-screenshot
+      here
+    = text_field_tag :c_address, nil, class: 'input-medium', placeholder: 'location'
+    %button.btn.btn-mini.btn-inverse{onclick: "set_date_and_time('#c_date', '#c_time');", type: 'button', title: 'set current time'}
+      %i.icon-time
+      now
+    = text_field_tag :c_date, nil, class: 'input-small'
+    = text_field_tag :c_time, nil, class: 'input-mini'
+    %a{'data-original-title' => 'leave empty if you want no restriction regarding the number of visitors', rel: "tooltip"}
+      max. persons
+    = text_field_tag :c_max_attendees, nil, class: 'input-mini'
+    = render partial: 'application/only_when_signed_in_button', locals: {label: '<i class="icon-wrench"></i> Create'}
+
+

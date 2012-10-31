@@ -1,0 +1,7 @@
+- if user_signed_in?
+  .text-error{id: error_div_id, style: "display:none"}
+- else
+  .text-error{id: error_div_id}
+    %ul
+      %li
+        Please sign in...

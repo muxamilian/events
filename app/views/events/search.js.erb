@@ -1,0 +1,11 @@
+<% if @errors.length > 0 %>
+  $("#search-errors").html("<ul><% @errors.each do |msg| %><li><%= msg %></li><% end %></ul>");
+  $("#search-errors").show(300);
+  replaceHelper(<%=raw @events %>);
+<% else %>
+  $("#search-errors").hide(300);
+  replaceHelper(<%=raw @events %>);
+<% end %>
+window.history.pushState({"markers":<%=raw @events %>,"query":<%=raw @query %>},'Search','/<%=raw @query_string %>');
+
+

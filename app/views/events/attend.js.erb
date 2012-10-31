@@ -1,0 +1,8 @@
+<% if @success %>
+  close_infowindow();
+<% else %>
+  <% @errors.each do |msg| %>
+    bootstrap_alert.error('<%= msg %>');
+  <% end %>
+<% end %>
+
