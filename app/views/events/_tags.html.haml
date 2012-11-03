@@ -3,11 +3,13 @@
     %button.btn.btn-success.btn-mini.disabled
       no tags yet :/
   - else
+    - is_owner = current_user.events_users.find_by_event_id(event.id).owner
     - event.tags.each do |tag|
       %button.btn.btn-info.btn-mini{onclick: "remove_tag(#{event.id},'#{tag.name}');"}
         = tag.name 
-        %strong
-          ×
+        - if is_owner
+          %strong
+            ×
   - if user_signed_in?
     = form_tag '/events/add_tag', method: "post", class: 'form-inline', remote: true do
       = hidden_field_tag :t_event_id, event.id

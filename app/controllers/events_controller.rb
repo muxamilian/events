@@ -59,7 +59,7 @@ class EventsController < ApplicationController
     if tag_to_add.empty?
       @tag_is_blank = true
     else
-      @event.tag_list << tag_to_add
+      @event.tag_list.add tag_to_add
       @event.save
       @rendered_new_tags = 
         render_to_string partial: 'tags', 
@@ -73,8 +73,10 @@ class EventsController < ApplicationController
 
   def remove_tag
     @event = Event.find(params[:id])
-    @event.tag_list.remove(params[:tag_name])
-    @event.save
+    if current_user.events_users.find_by_event_id(@event.id).owner
+      @event.tag_list.remove params[:tag_name]
+      @event.save
+    end
     @rendered_new_tags = 
       render_to_string partial: 'tags', 
                        locals: {event: @event}
