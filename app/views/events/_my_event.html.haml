@@ -11,7 +11,7 @@
         %i.icon-arrow-right
     %strong #{truncate(event.description, length: 20)} at #{truncate(event.address, length: 20)}, #{format_datetime event.datetime}
   .right
-    %a.btn.btn-mini{:onclick => "replaceHelper(#{mapify event})"} Show
+    %a.btn.btn-mini{onclick: "replaceHelper(#{mapify event})"} Show
     = render partial: 'buttons_for_event', locals: {event: event, size: 'btn-mini'}
   %br
   %hr

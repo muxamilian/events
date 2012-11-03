@@ -1,7 +1,8 @@
-%li
-  %a{href: '#', onclick: "$('#maps-overlay').show(300);$('#index-tabbable a[href=#search-tab]').tab('show');"} Search
-%li
-  %a{href: '#', onclick: "$('#maps-overlay').show(300);$('#index-tabbable a[href=#create-tab]').tab('show');"} Create
+- if is_active? 'index'
+  %li
+    %a{href: '#', onclick: "$('#maps-overlay').show(300);$('#index-tabbable a[href=#search-tab]').tab('show');"} Search
+  %li
+    %a{href: '#', onclick: "$('#maps-overlay').show(300);$('#index-tabbable a[href=#create-tab]').tab('show');"} Create
 - if user_signed_in?
   %li
     %a{"data-toggle" => "modal", "data-remote" => "/events/my_events", href: '#my-events-modal'} My events
@@ -9,8 +10,8 @@
     = link_to('Logout', destroy_user_session_path, :method => :delete)
 - else
   %li
-    = link_to "Sign in with Facebook", user_omniauth_authorize_path(:facebook)
+    = link_to "Facebook", user_omniauth_authorize_path(:facebook)
   %li
-    = link_to "Sign in with Google", user_omniauth_authorize_path(:google_oauth2)
-  %li
-    = link_to 'Login', new_user_session_path
+    = link_to "Google", user_omniauth_authorize_path(:google_oauth2)
+  / %li
+  /   = link_to 'Sign in', new_user_session_path

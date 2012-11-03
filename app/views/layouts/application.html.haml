@@ -24,10 +24,9 @@
         .container
           %a.brand#main-brand(href="/")
             = render partial: 'events/title'
-          .container
-            %ul.nav
-              = render 'devise/menu/login_items'
-              = render 'devise/menu/registration_items'
+          %ul.nav
+            = render 'devise/menu/login_items'
+            = render 'devise/menu/registration_items'
     - if is_active? 'index'
       = yield
     - else
