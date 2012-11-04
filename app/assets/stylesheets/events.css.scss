@@ -10,6 +10,14 @@ html, body {
   min-width: 555px !important;
 }
 
+.search-div, .create-div {
+  padding: 6mm;
+}
+
+.search-div > form, .create-div > form {
+  margin: 0mm;
+}
+
 h1.h1-in-infowindow {
   margin-top: -5px;
   margin-bottom: 0;

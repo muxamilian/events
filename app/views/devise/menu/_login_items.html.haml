@@ -1,8 +1,8 @@
 - if is_active? 'index'
   %li
-    %a{href: '#', onclick: "$('#maps-overlay').show(300);$('#index-tabbable a[href=#search-tab]').tab('show');"} Search
+    %a{href: '#', onclick: "$('#maps-overlay').show(300);$('.create-div').hide(300);$('.search-div').show(300);"} Search
   %li
-    %a{href: '#', onclick: "$('#maps-overlay').show(300);$('#index-tabbable a[href=#create-tab]').tab('show');"} Create
+    %a{href: '#', onclick: "$('#maps-overlay').show(300);$('.search-div').hide(300);$('.create-div').show(300);"} Create
 - if user_signed_in?
   %li
     %a{"data-toggle" => "modal", "data-remote" => "/events/my_events", href: '#my-events-modal'} My events

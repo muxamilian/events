@@ -3,6 +3,7 @@
 # You can use CoffeeScript in this file: http://jashkenas.github.com/coffee-script/
 
 infowindow = null
+min_zoom = 14
 
 $ ->
   if google?
@@ -11,7 +12,7 @@ $ ->
       alert "Geolocation didn't work. Some features won't work now. Have fun anyway ;D"
 
     Gmaps.map.callback = ->
-      listenerify_markers()
+      listenerify_markers_and_ensure_min_zoom()
 
     Gmaps.map.geolocationSuccess = ->
       if Gmaps.map.markers.length == 0
@@ -148,11 +149,11 @@ window.bootstrap_alert = bootstrap_alert
 
 replaceHelper = (events) ->
   Gmaps.map.replaceMarkers events
-  listenerify_markers()
+  listenerify_markers_and_ensure_min_zoom()
 
 addHelper = (events) ->
   Gmaps.map.addMarkers events
-  listenerify_markers()
+  listenerify_markers_and_ensure_min_zoom()
 
 load_content = (marker) ->
   $.ajax
@@ -163,11 +164,12 @@ load_content = (marker) ->
       infowindow.open Gmaps.map.serviceObject, marker.serviceObject
       FB.XFBML.parse(document.getElementById('map'))
 
-listenerify_markers = ->
+listenerify_markers_and_ensure_min_zoom = ->
   for marker in Gmaps.map.markers
     ((marker) ->
       google.maps.event.addListener marker.serviceObject, "click", ->
         load_content marker) (marker)
+  ensure_min_zoom()
 
 set_search_form = (query) ->
   if !(query == '')
@@ -202,6 +204,10 @@ remove_tag = (e_id, tag_name) ->
     data:
       tag_name: tag_name
 
+ensure_min_zoom = ->
+  if Gmaps.map.markers.length == 1
+    Gmaps.map.serviceObject.setZoom min_zoom)
+
 
 
 window.delete_event = delete_event
@@ -220,9 +226,9 @@ window.show_perma_link = show_perma_link
 window.hide_perma_link = hide_perma_link
 window.replaceHelper = replaceHelper
 window.addHelper = addHelper
-window.listenerify_markers = listenerify_markers
+window.listenerify_markers_and_ensure_min_zoom = listenerify_markers_and_ensure_min_zoom
 window.set_search_form = set_search_form
 window.set_date_and_time = set_date_and_time
 window.load_local_events = load_local_events
 window.remove_tag = remove_tag
-
+window.ensure_min_zoom = ensure_min_zoom

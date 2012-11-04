@@ -49594,3 +49594,2968 @@ Processing by EventsController#create as JS
   [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
   Rendered events/create.js.erb (0.1ms)
 Completed 200 OK in 89ms (Views: 4.0ms | ActiveRecord: 7.6ms)
+
+
+Started POST "/events" for 127.0.0.1 at 2012-11-03 21:46:58 +0100
+Processing by EventsController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"EcqjH8p/JsWgQPWd6nObmRpR7sAreUD8rpFLB1lKTcg=", "c_description"=>"", "c_address"=>"", "c_date"=>"2012-11-3", "c_time"=>"21:37", "c_max_attendees"=>""}
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+You must provide an address
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  Rendered events/create.js.erb (0.9ms)
+Completed 200 OK in 10ms (Views: 4.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/events/search?utf8=%E2%9C%93&s_query=&s_date=2012-11-3&s_time=21%3A30&s_timeframe=12" for 127.0.0.1 at 2012-11-03 21:47:02 +0100
+Processing by EventsController#search as JS
+  Parameters: {"utf8"=>"✓", "s_query"=>"", "s_date"=>"2012-11-3", "s_time"=>"21:30", "s_timeframe"=>"12"}
+  [1m[36m (0.6ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT 1 AS count_column FROM "events" WHERE ("events"."datetime" BETWEEN '2012-11-03 08:30:00' AND '2012-11-04 08:30:00') LIMIT 100) subquery_for_count [0m
+  [1m[35mEvent Load (0.5ms)[0m  SELECT "events".* FROM "events" WHERE ("events"."datetime" BETWEEN '2012-11-03 08:30:00' AND '2012-11-04 08:30:00') LIMIT 100
+  Rendered events/search.js.erb (0.1ms)
+Completed 200 OK in 9ms (Views: 3.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/events/search?utf8=%E2%9C%93&s_query=&s_date=2012-11-3&s_time=21%3A30&s_timeframe=12" for 127.0.0.1 at 2012-11-03 21:47:03 +0100
+Processing by EventsController#search as JS
+  Parameters: {"utf8"=>"✓", "s_query"=>"", "s_date"=>"2012-11-3", "s_time"=>"21:30", "s_timeframe"=>"12"}
+  [1m[36m (0.5ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT 1 AS count_column FROM "events" WHERE ("events"."datetime" BETWEEN '2012-11-03 08:30:00' AND '2012-11-04 08:30:00') LIMIT 100) subquery_for_count [0m
+  [1m[35mEvent Load (0.5ms)[0m  SELECT "events".* FROM "events" WHERE ("events"."datetime" BETWEEN '2012-11-03 08:30:00' AND '2012-11-04 08:30:00') LIMIT 100
+  Rendered events/search.js.erb (0.1ms)
+Completed 200 OK in 9ms (Views: 3.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/events/search?utf8=%E2%9C%93&s_query=&s_date=2012-11-3&s_time=21%3A30&s_timeframe=12" for 127.0.0.1 at 2012-11-03 21:47:04 +0100
+Processing by EventsController#search as JS
+  Parameters: {"utf8"=>"✓", "s_query"=>"", "s_date"=>"2012-11-3", "s_time"=>"21:30", "s_timeframe"=>"12"}
+  [1m[36m (0.5ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT 1 AS count_column FROM "events" WHERE ("events"."datetime" BETWEEN '2012-11-03 08:30:00' AND '2012-11-04 08:30:00') LIMIT 100) subquery_for_count [0m
+  [1m[35mEvent Load (0.4ms)[0m  SELECT "events".* FROM "events" WHERE ("events"."datetime" BETWEEN '2012-11-03 08:30:00' AND '2012-11-04 08:30:00') LIMIT 100
+  Rendered events/search.js.erb (0.1ms)
+Completed 200 OK in 8ms (Views: 3.9ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/events" for 127.0.0.1 at 2012-11-03 21:47:06 +0100
+Processing by EventsController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"EcqjH8p/JsWgQPWd6nObmRpR7sAreUD8rpFLB1lKTcg=", "c_description"=>"", "c_address"=>"", "c_date"=>"2012-11-3", "c_time"=>"21:37", "c_max_attendees"=>""}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+You must provide an address
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  Rendered events/create.js.erb (0.9ms)
+Completed 200 OK in 10ms (Views: 5.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/events/search?utf8=%E2%9C%93&s_query=&s_date=2012-11-3&s_time=21%3A30&s_timeframe=12" for 127.0.0.1 at 2012-11-03 21:47:09 +0100
+Processing by EventsController#search as JS
+  Parameters: {"utf8"=>"✓", "s_query"=>"", "s_date"=>"2012-11-3", "s_time"=>"21:30", "s_timeframe"=>"12"}
+  [1m[35m (0.4ms)[0m  SELECT COUNT(count_column) FROM (SELECT 1 AS count_column FROM "events" WHERE ("events"."datetime" BETWEEN '2012-11-03 08:30:00' AND '2012-11-04 08:30:00') LIMIT 100) subquery_for_count 
+  [1m[36mEvent Load (0.3ms)[0m  [1mSELECT "events".* FROM "events" WHERE ("events"."datetime" BETWEEN '2012-11-03 08:30:00' AND '2012-11-04 08:30:00') LIMIT 100[0m
+  Rendered events/search.js.erb (0.1ms)
+Completed 200 OK in 8ms (Views: 4.0ms | ActiveRecord: 0.8ms)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2012-11-03 21:47:12 +0100
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"EcqjH8p/JsWgQPWd6nObmRpR7sAreUD8rpFLB1lKTcg="}
+  [1m[35mUser Load (0.5ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+Redirected to http://localhost:8080/
+Completed 302 Found in 5ms (ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-03 21:47:12 +0100
+Processing by EventsController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/gmaps4rails-1.5.6/app/views/gmaps4rails/_gmaps4rails.html.erb (0.9ms)
+  Rendered application/_flash.html.haml (0.2ms)
+  Rendered events/_search.html.haml (1.3ms)
+  Rendered events/_error_div.html.haml (0.4ms)
+  Rendered application/_only_when_signed_in_button.html.haml (0.3ms)
+  Rendered events/_create.html.haml (3.8ms)
+  Rendered events/index.html.haml within layouts/application (10.8ms)
+  Rendered events/_hidden_modals.html.haml (0.8ms)
+  Rendered events/_title.html.haml (0.2ms)
+  Rendered devise/menu/_login_items.html.haml (0.8ms)
+  Rendered devise/menu/_registration_items.html.haml (0.1ms)
+  Rendered application/_facebook_sdk.html.erb (0.1ms)
+  Rendered events/_index_script.html.erb (0.0ms)
+Completed 200 OK in 71ms (Views: 70.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-03 21:47:12 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2012-11-03 21:47:12 +0100
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2012-11-03 21:47:12 +0100
+Served asset /events.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-timepicker.css?body=1" for 127.0.0.1 at 2012-11-03 21:47:12 +0100
+Served asset /bootstrap-timepicker.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-datepicker.css?body=1" for 127.0.0.1 at 2012-11-03 21:47:12 +0100
+Served asset /bootstrap-datepicker.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps4rails.css?body=1" for 127.0.0.1 at 2012-11-03 21:47:12 +0100
+Served asset /gmaps4rails.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-03 21:47:12 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-03 21:47:12 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-11-03 21:47:12 +0100
+Served asset /bootstrap.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2012-11-03 21:47:12 +0100
+Served asset /events.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps4rails/gmaps4rails.base.js?body=1" for 127.0.0.1 at 2012-11-03 21:47:12 +0100
+Served asset /gmaps4rails/gmaps4rails.base.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps4rails/gmaps4rails.googlemaps.js?body=1" for 127.0.0.1 at 2012-11-03 21:47:12 +0100
+Served asset /gmaps4rails/gmaps4rails.googlemaps.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-11-03 21:47:12 +0100
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2012-11-03 21:47:12 +0100
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2012-11-03 21:47:12 +0100
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2012-11-03 21:47:12 +0100
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2012-11-03 21:47:12 +0100
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2012-11-03 21:47:12 +0100
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-11-03 21:47:12 +0100
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2012-11-03 21:47:12 +0100
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2012-11-03 21:47:12 +0100
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2012-11-03 21:47:12 +0100
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2012-11-03 21:47:12 +0100
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2012-11-03 21:47:12 +0100
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2012-11-03 21:47:12 +0100
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2012-11-03 21:47:12 +0100
+Served asset /twitter/bootstrap.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-datepicker/core.js?body=1" for 127.0.0.1 at 2012-11-03 21:47:12 +0100
+Served asset /bootstrap-datepicker/core.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/temporal.js?body=1" for 127.0.0.1 at 2012-11-03 21:47:12 +0100
+Served asset /temporal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-timepicker.js?body=1" for 127.0.0.1 at 2012-11-03 21:47:12 +0100
+Served asset /bootstrap-timepicker.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-03 21:47:12 +0100
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2012-11-03 21:47:12 +0100
+Served asset /logo.svg - 304 Not Modified (0ms)
+
+
+Started GET "/users/auth/facebook" for 127.0.0.1 at 2012-11-03 21:47:14 +0100
+
+
+Started GET "/users/auth/facebook/callback?state=819f06b4bac5287a438c05e102ed87adca94ace65fe347a0&code=AQAHqo9Zw2pzldkaJFXZK8F9uXTI8TWU-okO0lWdLSshKscPqz4RJVYzbJ4PP2Fi4NhHh2YukGNXW9pxLJVvjPJ8CqcH0YXbV2XTOlB7-jX2Ra2DCE8STg0RrlEKkTM1iX-ttOH0KBjctPcP82CgbiqTbnAaAOfNIbHTizBtj7PgQzG0ELyuxpYlAtwRNi0TgNrcbkMN4rJzkqQrh_iv3Jbb" for 127.0.0.1 at 2012-11-03 21:47:15 +0100
+Processing by Users::OmniauthCallbacksController#facebook as HTML
+  Parameters: {"state"=>"819f06b4bac5287a438c05e102ed87adca94ace65fe347a0", "code"=>"AQAHqo9Zw2pzldkaJFXZK8F9uXTI8TWU-okO0lWdLSshKscPqz4RJVYzbJ4PP2Fi4NhHh2YukGNXW9pxLJVvjPJ8CqcH0YXbV2XTOlB7-jX2Ra2DCE8STg0RrlEKkTM1iX-ttOH0KBjctPcP82CgbiqTbnAaAOfNIbHTizBtj7PgQzG0ELyuxpYlAtwRNi0TgNrcbkMN4rJzkqQrh_iv3Jbb"}
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'maximilian.bachl@gmail.com' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.4ms)[0m  [1mUPDATE "users" SET "last_sign_in_at" = '2012-11-03 19:57:04.605523', "current_sign_in_at" = '2012-11-03 20:47:16.740653', "sign_in_count" = 20, "updated_at" = '2012-11-03 20:47:16.741239' WHERE "users"."id" = 1[0m
+  [1m[35m (0.4ms)[0m  COMMIT
+Redirected to http://localhost:8080/
+Completed 302 Found in 8ms (ActiveRecord: 1.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-03 21:47:16 +0100
+Processing by EventsController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/gmaps4rails-1.5.6/app/views/gmaps4rails/_gmaps4rails.html.erb (1.3ms)
+  Rendered application/_flash.html.haml (0.3ms)
+  Rendered events/_search.html.haml (1.3ms)
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  Rendered events/_error_div.html.haml (1.9ms)
+  Rendered application/_only_when_signed_in_button.html.haml (0.1ms)
+  Rendered events/_create.html.haml (4.9ms)
+  Rendered events/index.html.haml within layouts/application (12.9ms)
+  Rendered events/_hidden_modals.html.haml (1.0ms)
+  Rendered events/_title.html.haml (0.3ms)
+  Rendered devise/menu/_login_items.html.haml (0.8ms)
+  Rendered devise/menu/_registration_items.html.haml (0.1ms)
+  Rendered application/_facebook_sdk.html.erb (0.0ms)
+  Rendered events/_index_script.html.erb (0.1ms)
+Completed 200 OK in 34ms (Views: 33.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-03 21:47:16 +0100
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2012-11-03 21:47:16 +0100
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-datepicker.css?body=1" for 127.0.0.1 at 2012-11-03 21:47:16 +0100
+Served asset /bootstrap-datepicker.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps4rails.css?body=1" for 127.0.0.1 at 2012-11-03 21:47:16 +0100
+Served asset /gmaps4rails.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-timepicker.css?body=1" for 127.0.0.1 at 2012-11-03 21:47:16 +0100
+Served asset /bootstrap-timepicker.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2012-11-03 21:47:16 +0100
+Served asset /events.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2012-11-03 21:47:16 +0100
+Served asset /logo.svg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-03 21:47:16 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-03 21:47:16 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-11-03 21:47:16 +0100
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2012-11-03 21:47:16 +0100
+Served asset /events.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps4rails/gmaps4rails.googlemaps.js?body=1" for 127.0.0.1 at 2012-11-03 21:47:17 +0100
+Served asset /gmaps4rails/gmaps4rails.googlemaps.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps4rails/gmaps4rails.base.js?body=1" for 127.0.0.1 at 2012-11-03 21:47:17 +0100
+Served asset /gmaps4rails/gmaps4rails.base.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2012-11-03 21:47:17 +0100
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-11-03 21:47:17 +0100
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2012-11-03 21:47:17 +0100
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2012-11-03 21:47:17 +0100
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2012-11-03 21:47:17 +0100
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-11-03 21:47:17 +0100
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2012-11-03 21:47:17 +0100
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2012-11-03 21:47:17 +0100
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2012-11-03 21:47:17 +0100
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2012-11-03 21:47:17 +0100
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2012-11-03 21:47:17 +0100
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2012-11-03 21:47:17 +0100
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-timepicker.js?body=1" for 127.0.0.1 at 2012-11-03 21:47:17 +0100
+Served asset /bootstrap-timepicker.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2012-11-03 21:47:17 +0100
+Served asset /twitter/bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-datepicker/core.js?body=1" for 127.0.0.1 at 2012-11-03 21:47:17 +0100
+Served asset /bootstrap-datepicker/core.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2012-11-03 21:47:17 +0100
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/temporal.js?body=1" for 127.0.0.1 at 2012-11-03 21:47:17 +0100
+Served asset /temporal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-03 21:47:17 +0100
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/events/local_events?lat=52.55127799608577&lng=13.389103918825072" for 127.0.0.1 at 2012-11-03 21:47:17 +0100
+Processing by EventsController#local_events as JSON
+  Parameters: {"lat"=>"52.55127799608577", "lng"=>"13.389103918825072"}
+  [1m[35mEvent Load (0.5ms)[0m  SELECT "events".* FROM "events" WHERE ("events"."lat" BETWEEN 52.30127799608577 AND 52.80127799608577) AND ("events"."lng" BETWEEN 13.139103918825072 AND 13.639103918825072) AND ("events"."datetime" BETWEEN '2012-11-03 20:17:17' AND '2012-11-04 20:47:17') LIMIT 100
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-04 01:03:14 +0100
+Processing by EventsController#index as HTML
+  Rendered events/index.html.haml within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 6ms
+
+ActionView::Template::Error (Illegal nesting: content can't be both given on the same line as %a and nested within it.):
+    6:       = render partial: 'flash', locals: {flash: flash}
+    7:     #maps-overlay
+    8:       %a#close-maps-overlay.close{onclick: '$("#maps-overlay").hide(300)'} ×
+    9:         .search-div{style: "display: none;"}
+    10:           = render partial: 'search'
+    11:         .create-div{style: "display: none;"}
+    12:           = render partial: 'create'
+  app/views/events/index.html.haml:9
+  app/controllers/events_controller.rb:23:in `index'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-04 01:03:33 +0100
+Processing by EventsController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/gmaps4rails-1.5.6/app/views/gmaps4rails/_gmaps4rails.html.erb (1.6ms)
+  Rendered application/_flash.html.haml (0.2ms)
+  Rendered events/_search.html.haml (2.3ms)
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  Rendered events/_error_div.html.haml (2.8ms)
+  Rendered application/_only_when_signed_in_button.html.haml (0.2ms)
+  Rendered events/_create.html.haml (7.6ms)
+  Rendered events/index.html.haml within layouts/application (24.5ms)
+  Rendered events/_hidden_modals.html.haml (2.1ms)
+  Rendered events/_title.html.haml (0.3ms)
+  Rendered devise/menu/_login_items.html.haml (4.1ms)
+  Rendered devise/menu/_registration_items.html.haml (0.2ms)
+  Rendered application/_facebook_sdk.html.erb (0.1ms)
+  Rendered events/_index_script.html.erb (0.1ms)
+Completed 200 OK in 119ms (Views: 118.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-04 01:03:33 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps4rails.css?body=1" for 127.0.0.1 at 2012-11-04 01:03:33 +0100
+Served asset /gmaps4rails.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2012-11-04 01:03:34 +0100
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-timepicker.css?body=1" for 127.0.0.1 at 2012-11-04 01:03:34 +0100
+Served asset /bootstrap-timepicker.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2012-11-04 01:03:34 +0100
+Served asset /events.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-datepicker.css?body=1" for 127.0.0.1 at 2012-11-04 01:03:34 +0100
+Served asset /bootstrap-datepicker.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-04 01:03:34 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-04 01:03:34 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-11-04 01:03:34 +0100
+Served asset /bootstrap.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2012-11-04 01:03:34 +0100
+Served asset /events.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps4rails/gmaps4rails.googlemaps.js?body=1" for 127.0.0.1 at 2012-11-04 01:03:34 +0100
+Served asset /gmaps4rails/gmaps4rails.googlemaps.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps4rails/gmaps4rails.base.js?body=1" for 127.0.0.1 at 2012-11-04 01:03:34 +0100
+Served asset /gmaps4rails/gmaps4rails.base.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2012-11-04 01:03:34 +0100
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2012-11-04 01:03:34 +0100
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2012-11-04 01:03:34 +0100
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-11-04 01:03:34 +0100
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2012-11-04 01:03:34 +0100
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2012-11-04 01:03:34 +0100
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2012-11-04 01:03:34 +0100
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2012-11-04 01:03:34 +0100
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-11-04 01:03:34 +0100
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2012-11-04 01:03:34 +0100
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2012-11-04 01:03:34 +0100
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2012-11-04 01:03:34 +0100
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2012-11-04 01:03:34 +0100
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2012-11-04 01:03:34 +0100
+Served asset /twitter/bootstrap.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-datepicker/core.js?body=1" for 127.0.0.1 at 2012-11-04 01:03:34 +0100
+Served asset /bootstrap-datepicker/core.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-timepicker.js?body=1" for 127.0.0.1 at 2012-11-04 01:03:34 +0100
+Served asset /bootstrap-timepicker.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/temporal.js?body=1" for 127.0.0.1 at 2012-11-04 01:03:34 +0100
+Served asset /temporal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2012-11-04 01:03:34 +0100
+Served asset /logo.svg - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-04 01:03:34 +0100
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/events/local_events?lat=52.55127799608577&lng=13.389103918825072" for 127.0.0.1 at 2012-11-04 01:03:34 +0100
+Processing by EventsController#local_events as JSON
+  Parameters: {"lat"=>"52.55127799608577", "lng"=>"13.389103918825072"}
+  [1m[35mEvent Load (0.6ms)[0m  SELECT "events".* FROM "events" WHERE ("events"."lat" BETWEEN 52.30127799608577 AND 52.80127799608577) AND ("events"."lng" BETWEEN 13.139103918825072 AND 13.639103918825072) AND ("events"."datetime" BETWEEN '2012-11-03 23:33:34' AND '2012-11-05 00:03:34') LIMIT 100
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-04 01:04:07 +0100
+Processing by EventsController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/gmaps4rails-1.5.6/app/views/gmaps4rails/_gmaps4rails.html.erb (1.9ms)
+  Rendered application/_flash.html.haml (0.1ms)
+  Rendered events/_search.html.haml (2.2ms)
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  Rendered events/_error_div.html.haml (2.2ms)
+  Rendered application/_only_when_signed_in_button.html.haml (0.3ms)
+  Rendered events/_create.html.haml (6.4ms)
+  Rendered events/index.html.haml within layouts/application (21.3ms)
+  Rendered events/_hidden_modals.html.haml (0.9ms)
+  Rendered events/_title.html.haml (0.2ms)
+  Rendered devise/menu/_login_items.html.haml (1.1ms)
+  Rendered devise/menu/_registration_items.html.haml (0.1ms)
+  Rendered application/_facebook_sdk.html.erb (0.1ms)
+  Rendered events/_index_script.html.erb (0.1ms)
+Completed 200 OK in 50ms (Views: 48.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-04 01:04:07 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2012-11-04 01:04:07 +0100
+Served asset /events.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps4rails.css?body=1" for 127.0.0.1 at 2012-11-04 01:04:07 +0100
+Served asset /gmaps4rails.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-datepicker.css?body=1" for 127.0.0.1 at 2012-11-04 01:04:07 +0100
+Served asset /bootstrap-datepicker.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2012-11-04 01:04:07 +0100
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-timepicker.css?body=1" for 127.0.0.1 at 2012-11-04 01:04:07 +0100
+Served asset /bootstrap-timepicker.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-04 01:04:07 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-04 01:04:07 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps4rails/gmaps4rails.base.js?body=1" for 127.0.0.1 at 2012-11-04 01:04:07 +0100
+Served asset /gmaps4rails/gmaps4rails.base.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-11-04 01:04:07 +0100
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2012-11-04 01:04:07 +0100
+Served asset /events.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2012-11-04 01:04:07 +0100
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-11-04 01:04:07 +0100
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2012-11-04 01:04:07 +0100
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps4rails/gmaps4rails.googlemaps.js?body=1" for 127.0.0.1 at 2012-11-04 01:04:07 +0100
+Served asset /gmaps4rails/gmaps4rails.googlemaps.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2012-11-04 01:04:07 +0100
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2012-11-04 01:04:08 +0100
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2012-11-04 01:04:08 +0100
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-11-04 01:04:08 +0100
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2012-11-04 01:04:08 +0100
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2012-11-04 01:04:08 +0100
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2012-11-04 01:04:08 +0100
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2012-11-04 01:04:08 +0100
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2012-11-04 01:04:08 +0100
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2012-11-04 01:04:08 +0100
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2012-11-04 01:04:08 +0100
+Served asset /twitter/bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-timepicker.js?body=1" for 127.0.0.1 at 2012-11-04 01:04:08 +0100
+Served asset /bootstrap-timepicker.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-datepicker/core.js?body=1" for 127.0.0.1 at 2012-11-04 01:04:08 +0100
+Served asset /bootstrap-datepicker/core.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/temporal.js?body=1" for 127.0.0.1 at 2012-11-04 01:04:08 +0100
+Served asset /temporal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-04 01:04:08 +0100
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2012-11-04 01:04:08 +0100
+Served asset /logo.svg - 304 Not Modified (0ms)
+
+
+Started GET "/events/local_events?lat=52.551317631747644&lng=13.389215380819792" for 127.0.0.1 at 2012-11-04 01:04:10 +0100
+Processing by EventsController#local_events as JSON
+  Parameters: {"lat"=>"52.551317631747644", "lng"=>"13.389215380819792"}
+  [1m[35mEvent Load (0.6ms)[0m  SELECT "events".* FROM "events" WHERE ("events"."lat" BETWEEN 52.301317631747644 AND 52.801317631747644) AND ("events"."lng" BETWEEN 13.139215380819792 AND 13.639215380819792) AND ("events"."datetime" BETWEEN '2012-11-03 23:34:10' AND '2012-11-05 00:04:10') LIMIT 100
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-04 01:05:14 +0100
+Processing by EventsController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/gmaps4rails-1.5.6/app/views/gmaps4rails/_gmaps4rails.html.erb (1.3ms)
+  Rendered application/_flash.html.haml (0.1ms)
+  Rendered events/_search.html.haml (2.0ms)
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  Rendered events/_error_div.html.haml (2.3ms)
+  Rendered application/_only_when_signed_in_button.html.haml (0.3ms)
+  Rendered events/_create.html.haml (7.0ms)
+  Rendered events/index.html.haml within layouts/application (17.6ms)
+Compiled events.css  (26ms)  (pid 15983)
+Compiled application.css  (6ms)  (pid 15983)
+  Rendered events/_hidden_modals.html.haml (0.8ms)
+  Rendered events/_title.html.haml (0.2ms)
+  Rendered devise/menu/_login_items.html.haml (0.6ms)
+  Rendered devise/menu/_registration_items.html.haml (0.1ms)
+  Rendered application/_facebook_sdk.html.erb (0.0ms)
+  Rendered events/_index_script.html.erb (0.0ms)
+Completed 200 OK in 144ms (Views: 143.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-04 01:05:15 +0100
+Served asset /application.css - 304 Not Modified (18ms)
+
+
+Started GET "/assets/gmaps4rails.css?body=1" for 127.0.0.1 at 2012-11-04 01:05:15 +0100
+Served asset /gmaps4rails.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2012-11-04 01:05:15 +0100
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-timepicker.css?body=1" for 127.0.0.1 at 2012-11-04 01:05:15 +0100
+Served asset /bootstrap-timepicker.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2012-11-04 01:05:15 +0100
+Served asset /events.css - 200 OK (4ms)
+
+
+Started GET "/assets/bootstrap-datepicker.css?body=1" for 127.0.0.1 at 2012-11-04 01:05:15 +0100
+Served asset /bootstrap-datepicker.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-04 01:05:15 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-04 01:05:15 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-11-04 01:05:15 +0100
+Served asset /bootstrap.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/gmaps4rails/gmaps4rails.base.js?body=1" for 127.0.0.1 at 2012-11-04 01:05:15 +0100
+Served asset /gmaps4rails/gmaps4rails.base.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2012-11-04 01:05:15 +0100
+Served asset /events.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps4rails/gmaps4rails.googlemaps.js?body=1" for 127.0.0.1 at 2012-11-04 01:05:15 +0100
+Served asset /gmaps4rails/gmaps4rails.googlemaps.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-11-04 01:05:15 +0100
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2012-11-04 01:05:15 +0100
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2012-11-04 01:05:15 +0100
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2012-11-04 01:05:15 +0100
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2012-11-04 01:05:15 +0100
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2012-11-04 01:05:15 +0100
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2012-11-04 01:05:15 +0100
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-11-04 01:05:15 +0100
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2012-11-04 01:05:15 +0100
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2012-11-04 01:05:15 +0100
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2012-11-04 01:05:15 +0100
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2012-11-04 01:05:15 +0100
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2012-11-04 01:05:15 +0100
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-datepicker/core.js?body=1" for 127.0.0.1 at 2012-11-04 01:05:15 +0100
+Served asset /bootstrap-datepicker/core.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2012-11-04 01:05:15 +0100
+Served asset /twitter/bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-timepicker.js?body=1" for 127.0.0.1 at 2012-11-04 01:05:15 +0100
+Served asset /bootstrap-timepicker.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/temporal.js?body=1" for 127.0.0.1 at 2012-11-04 01:05:15 +0100
+Served asset /temporal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-04 01:05:15 +0100
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2012-11-04 01:05:15 +0100
+Served asset /logo.svg - 304 Not Modified (0ms)
+
+
+Started GET "/events/local_events?lat=52.55130191295867&lng=13.38920225675281" for 127.0.0.1 at 2012-11-04 01:05:16 +0100
+Processing by EventsController#local_events as JSON
+  Parameters: {"lat"=>"52.55130191295867", "lng"=>"13.38920225675281"}
+  [1m[35mEvent Load (0.6ms)[0m  SELECT "events".* FROM "events" WHERE ("events"."lat" BETWEEN 52.30130191295867 AND 52.80130191295867) AND ("events"."lng" BETWEEN 13.13920225675281 AND 13.63920225675281) AND ("events"."datetime" BETWEEN '2012-11-03 23:35:16' AND '2012-11-05 00:05:16') LIMIT 100
+Completed 200 OK in 4ms (Views: 0.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/noise.png" for 127.0.0.1 at 2012-11-04 01:05:16 +0100
+Served asset /noise.png - 304 Not Modified (3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-04 01:05:22 +0100
+Processing by EventsController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/gmaps4rails-1.5.6/app/views/gmaps4rails/_gmaps4rails.html.erb (1.0ms)
+  Rendered application/_flash.html.haml (0.1ms)
+  Rendered events/_search.html.haml (2.1ms)
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  Rendered events/_error_div.html.haml (1.9ms)
+  Rendered application/_only_when_signed_in_button.html.haml (0.2ms)
+  Rendered events/_create.html.haml (6.0ms)
+  Rendered events/index.html.haml within layouts/application (14.7ms)
+Compiled events.css  (21ms)  (pid 15983)
+Compiled application.css  (46ms)  (pid 15983)
+  Rendered events/_hidden_modals.html.haml (0.9ms)
+  Rendered events/_title.html.haml (0.2ms)
+  Rendered devise/menu/_login_items.html.haml (0.9ms)
+  Rendered devise/menu/_registration_items.html.haml (0.1ms)
+  Rendered application/_facebook_sdk.html.erb (0.0ms)
+  Rendered events/_index_script.html.erb (0.0ms)
+Completed 200 OK in 129ms (Views: 127.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-04 01:05:23 +0100
+Served asset /application.css - 304 Not Modified (20ms)
+
+
+Started GET "/assets/gmaps4rails.css?body=1" for 127.0.0.1 at 2012-11-04 01:05:23 +0100
+Served asset /gmaps4rails.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2012-11-04 01:05:23 +0100
+Served asset /events.css - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap-timepicker.css?body=1" for 127.0.0.1 at 2012-11-04 01:05:23 +0100
+Served asset /bootstrap-timepicker.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2012-11-04 01:05:23 +0100
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-datepicker.css?body=1" for 127.0.0.1 at 2012-11-04 01:05:23 +0100
+Served asset /bootstrap-datepicker.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-04 01:05:23 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-04 01:05:23 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-11-04 01:05:23 +0100
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2012-11-04 01:05:23 +0100
+Served asset /events.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps4rails/gmaps4rails.base.js?body=1" for 127.0.0.1 at 2012-11-04 01:05:23 +0100
+Served asset /gmaps4rails/gmaps4rails.base.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps4rails/gmaps4rails.googlemaps.js?body=1" for 127.0.0.1 at 2012-11-04 01:05:23 +0100
+Served asset /gmaps4rails/gmaps4rails.googlemaps.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2012-11-04 01:05:23 +0100
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-11-04 01:05:23 +0100
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2012-11-04 01:05:23 +0100
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2012-11-04 01:05:23 +0100
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2012-11-04 01:05:23 +0100
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2012-11-04 01:05:23 +0100
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2012-11-04 01:05:23 +0100
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-11-04 01:05:23 +0100
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2012-11-04 01:05:23 +0100
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2012-11-04 01:05:23 +0100
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2012-11-04 01:05:23 +0100
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2012-11-04 01:05:23 +0100
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2012-11-04 01:05:23 +0100
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2012-11-04 01:05:23 +0100
+Served asset /twitter/bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-timepicker.js?body=1" for 127.0.0.1 at 2012-11-04 01:05:23 +0100
+Served asset /bootstrap-timepicker.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-datepicker/core.js?body=1" for 127.0.0.1 at 2012-11-04 01:05:23 +0100
+Served asset /bootstrap-datepicker/core.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/temporal.js?body=1" for 127.0.0.1 at 2012-11-04 01:05:23 +0100
+Served asset /temporal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-04 01:05:23 +0100
+Served asset /application.js - 304 Not Modified (38ms)
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2012-11-04 01:05:23 +0100
+Served asset /logo.svg - 304 Not Modified (0ms)
+
+
+Started GET "/events/local_events?lat=52.55130191295867&lng=13.38920225675281" for 127.0.0.1 at 2012-11-04 01:05:23 +0100
+Processing by EventsController#local_events as JSON
+  Parameters: {"lat"=>"52.55130191295867", "lng"=>"13.38920225675281"}
+  [1m[35mEvent Load (0.8ms)[0m  SELECT "events".* FROM "events" WHERE ("events"."lat" BETWEEN 52.30130191295867 AND 52.80130191295867) AND ("events"."lng" BETWEEN 13.13920225675281 AND 13.63920225675281) AND ("events"."datetime" BETWEEN '2012-11-03 23:35:23' AND '2012-11-05 00:05:23') LIMIT 100
+Completed 200 OK in 4ms (Views: 0.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/noise.png" for 127.0.0.1 at 2012-11-04 01:05:24 +0100
+Served asset /noise.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-04 01:05:48 +0100
+Processing by EventsController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/gmaps4rails-1.5.6/app/views/gmaps4rails/_gmaps4rails.html.erb (1.5ms)
+  Rendered application/_flash.html.haml (0.2ms)
+  Rendered events/_search.html.haml (1.5ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  Rendered events/_error_div.html.haml (2.1ms)
+  Rendered application/_only_when_signed_in_button.html.haml (0.4ms)
+  Rendered events/_create.html.haml (7.0ms)
+  Rendered events/index.html.haml within layouts/application (17.1ms)
+Compiled events.css  (23ms)  (pid 15983)
+Compiled application.css  (10ms)  (pid 15983)
+  Rendered events/_hidden_modals.html.haml (0.9ms)
+  Rendered events/_title.html.haml (0.2ms)
+  Rendered devise/menu/_login_items.html.haml (0.7ms)
+  Rendered devise/menu/_registration_items.html.haml (0.1ms)
+  Rendered application/_facebook_sdk.html.erb (0.0ms)
+  Rendered events/_index_script.html.erb (0.0ms)
+Completed 200 OK in 112ms (Views: 110.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-04 01:05:48 +0100
+Served asset /application.css - 304 Not Modified (52ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2012-11-04 01:05:48 +0100
+Served asset /events.css - 200 OK (1ms)
+
+
+Started GET "/assets/gmaps4rails.css?body=1" for 127.0.0.1 at 2012-11-04 01:05:48 +0100
+Served asset /gmaps4rails.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-datepicker.css?body=1" for 127.0.0.1 at 2012-11-04 01:05:48 +0100
+Served asset /bootstrap-datepicker.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-timepicker.css?body=1" for 127.0.0.1 at 2012-11-04 01:05:48 +0100
+Served asset /bootstrap-timepicker.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2012-11-04 01:05:48 +0100
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-04 01:05:48 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-04 01:05:48 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-11-04 01:05:48 +0100
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2012-11-04 01:05:48 +0100
+Served asset /events.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps4rails/gmaps4rails.base.js?body=1" for 127.0.0.1 at 2012-11-04 01:05:48 +0100
+Served asset /gmaps4rails/gmaps4rails.base.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps4rails/gmaps4rails.googlemaps.js?body=1" for 127.0.0.1 at 2012-11-04 01:05:48 +0100
+Served asset /gmaps4rails/gmaps4rails.googlemaps.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2012-11-04 01:05:48 +0100
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2012-11-04 01:05:48 +0100
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-11-04 01:05:48 +0100
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2012-11-04 01:05:48 +0100
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2012-11-04 01:05:48 +0100
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2012-11-04 01:05:48 +0100
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-11-04 01:05:48 +0100
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2012-11-04 01:05:48 +0100
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2012-11-04 01:05:48 +0100
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2012-11-04 01:05:48 +0100
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2012-11-04 01:05:48 +0100
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2012-11-04 01:05:48 +0100
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2012-11-04 01:05:48 +0100
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2012-11-04 01:05:48 +0100
+Served asset /twitter/bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-datepicker/core.js?body=1" for 127.0.0.1 at 2012-11-04 01:05:48 +0100
+Served asset /bootstrap-datepicker/core.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-timepicker.js?body=1" for 127.0.0.1 at 2012-11-04 01:05:48 +0100
+Served asset /bootstrap-timepicker.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/temporal.js?body=1" for 127.0.0.1 at 2012-11-04 01:05:48 +0100
+Served asset /temporal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-04 01:05:48 +0100
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2012-11-04 01:05:48 +0100
+Served asset /logo.svg - 304 Not Modified (0ms)
+
+
+Started GET "/events/local_events?lat=52.55130191295867&lng=13.38920225675281" for 127.0.0.1 at 2012-11-04 01:05:49 +0100
+Processing by EventsController#local_events as JSON
+  Parameters: {"lat"=>"52.55130191295867", "lng"=>"13.38920225675281"}
+  [1m[35mEvent Load (2.3ms)[0m  SELECT "events".* FROM "events" WHERE ("events"."lat" BETWEEN 52.30130191295867 AND 52.80130191295867) AND ("events"."lng" BETWEEN 13.13920225675281 AND 13.63920225675281) AND ("events"."datetime" BETWEEN '2012-11-03 23:35:49' AND '2012-11-05 00:05:49') LIMIT 100
+Completed 200 OK in 5ms (Views: 0.2ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/assets/noise.png" for 127.0.0.1 at 2012-11-04 01:05:49 +0100
+Served asset /noise.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-04 01:05:56 +0100
+Processing by EventsController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/gmaps4rails-1.5.6/app/views/gmaps4rails/_gmaps4rails.html.erb (1.7ms)
+  Rendered application/_flash.html.haml (0.1ms)
+  Rendered events/_search.html.haml (2.6ms)
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  Rendered events/_error_div.html.haml (2.4ms)
+  Rendered application/_only_when_signed_in_button.html.haml (0.3ms)
+  Rendered events/_create.html.haml (7.1ms)
+  Rendered events/index.html.haml within layouts/application (17.7ms)
+Compiled events.css  (21ms)  (pid 15983)
+Compiled application.css  (6ms)  (pid 15983)
+  Rendered events/_hidden_modals.html.haml (1.1ms)
+  Rendered events/_title.html.haml (0.5ms)
+  Rendered devise/menu/_login_items.html.haml (1.3ms)
+  Rendered devise/menu/_registration_items.html.haml (0.1ms)
+  Rendered application/_facebook_sdk.html.erb (0.0ms)
+  Rendered events/_index_script.html.erb (0.1ms)
+Completed 200 OK in 148ms (Views: 147.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-04 01:05:56 +0100
+Served asset /application.css - 304 Not Modified (18ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2012-11-04 01:05:56 +0100
+Served asset /events.css - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2012-11-04 01:05:56 +0100
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps4rails.css?body=1" for 127.0.0.1 at 2012-11-04 01:05:56 +0100
+Served asset /gmaps4rails.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-timepicker.css?body=1" for 127.0.0.1 at 2012-11-04 01:05:56 +0100
+Served asset /bootstrap-timepicker.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-datepicker.css?body=1" for 127.0.0.1 at 2012-11-04 01:05:56 +0100
+Served asset /bootstrap-datepicker.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-04 01:05:56 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-04 01:05:56 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-11-04 01:05:56 +0100
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2012-11-04 01:05:56 +0100
+Served asset /events.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps4rails/gmaps4rails.base.js?body=1" for 127.0.0.1 at 2012-11-04 01:05:56 +0100
+Served asset /gmaps4rails/gmaps4rails.base.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps4rails/gmaps4rails.googlemaps.js?body=1" for 127.0.0.1 at 2012-11-04 01:05:56 +0100
+Served asset /gmaps4rails/gmaps4rails.googlemaps.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2012-11-04 01:05:56 +0100
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2012-11-04 01:05:56 +0100
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-11-04 01:05:56 +0100
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2012-11-04 01:05:56 +0100
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2012-11-04 01:05:56 +0100
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2012-11-04 01:05:56 +0100
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-11-04 01:05:56 +0100
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2012-11-04 01:05:56 +0100
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2012-11-04 01:05:56 +0100
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2012-11-04 01:05:56 +0100
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2012-11-04 01:05:56 +0100
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2012-11-04 01:05:56 +0100
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2012-11-04 01:05:56 +0100
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2012-11-04 01:05:56 +0100
+Served asset /twitter/bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-datepicker/core.js?body=1" for 127.0.0.1 at 2012-11-04 01:05:56 +0100
+Served asset /bootstrap-datepicker/core.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-timepicker.js?body=1" for 127.0.0.1 at 2012-11-04 01:05:56 +0100
+Served asset /bootstrap-timepicker.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/temporal.js?body=1" for 127.0.0.1 at 2012-11-04 01:05:56 +0100
+Served asset /temporal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-04 01:05:56 +0100
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2012-11-04 01:05:56 +0100
+Served asset /logo.svg - 304 Not Modified (0ms)
+
+
+Started GET "/events/local_events?lat=52.55130191295867&lng=13.38920225675281" for 127.0.0.1 at 2012-11-04 01:05:57 +0100
+Processing by EventsController#local_events as JSON
+  Parameters: {"lat"=>"52.55130191295867", "lng"=>"13.38920225675281"}
+  [1m[35mEvent Load (0.7ms)[0m  SELECT "events".* FROM "events" WHERE ("events"."lat" BETWEEN 52.30130191295867 AND 52.80130191295867) AND ("events"."lng" BETWEEN 13.13920225675281 AND 13.63920225675281) AND ("events"."datetime" BETWEEN '2012-11-03 23:35:57' AND '2012-11-05 00:05:57') LIMIT 100
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/noise.png" for 127.0.0.1 at 2012-11-04 01:05:57 +0100
+Served asset /noise.png - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-04 01:27:50 +0100
+Processing by EventsController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/gmaps4rails-1.5.6/app/views/gmaps4rails/_gmaps4rails.html.erb (1.0ms)
+  Rendered application/_flash.html.haml (0.2ms)
+  Rendered events/_search.html.haml (1.6ms)
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  Rendered events/_error_div.html.haml (2.2ms)
+  Rendered application/_only_when_signed_in_button.html.haml (0.3ms)
+  Rendered events/_create.html.haml (7.1ms)
+  Rendered events/index.html.haml within layouts/application (15.2ms)
+  Rendered events/_hidden_modals.html.haml (1.6ms)
+  Rendered events/_title.html.haml (0.4ms)
+  Rendered devise/menu/_login_items.html.haml (1.6ms)
+  Rendered devise/menu/_registration_items.html.haml (0.1ms)
+Compiled events.js  (106ms)  (pid 15983)
+Compiled application.js  (12ms)  (pid 15983)
+  Rendered application/_facebook_sdk.html.erb (0.0ms)
+  Rendered events/_index_script.html.erb (0.0ms)
+Completed 200 OK in 314ms (Views: 313.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-04 01:27:51 +0100
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2012-11-04 01:27:51 +0100
+Served asset /events.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-datepicker.css?body=1" for 127.0.0.1 at 2012-11-04 01:27:51 +0100
+Served asset /bootstrap-datepicker.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps4rails.css?body=1" for 127.0.0.1 at 2012-11-04 01:27:51 +0100
+Served asset /gmaps4rails.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2012-11-04 01:27:51 +0100
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-timepicker.css?body=1" for 127.0.0.1 at 2012-11-04 01:27:51 +0100
+Served asset /bootstrap-timepicker.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-04 01:27:51 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-04 01:27:51 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-11-04 01:27:51 +0100
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps4rails/gmaps4rails.base.js?body=1" for 127.0.0.1 at 2012-11-04 01:27:51 +0100
+Served asset /gmaps4rails/gmaps4rails.base.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps4rails/gmaps4rails.googlemaps.js?body=1" for 127.0.0.1 at 2012-11-04 01:27:51 +0100
+Served asset /gmaps4rails/gmaps4rails.googlemaps.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2012-11-04 01:27:51 +0100
+Served asset /events.js - 200 OK (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-11-04 01:27:51 +0100
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2012-11-04 01:27:51 +0100
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2012-11-04 01:27:51 +0100
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2012-11-04 01:27:51 +0100
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2012-11-04 01:27:51 +0100
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2012-11-04 01:27:51 +0100
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-11-04 01:27:51 +0100
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2012-11-04 01:27:51 +0100
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2012-11-04 01:27:51 +0100
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2012-11-04 01:27:51 +0100
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2012-11-04 01:27:51 +0100
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2012-11-04 01:27:51 +0100
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2012-11-04 01:27:51 +0100
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2012-11-04 01:27:51 +0100
+Served asset /twitter/bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-datepicker/core.js?body=1" for 127.0.0.1 at 2012-11-04 01:27:51 +0100
+Served asset /bootstrap-datepicker/core.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-timepicker.js?body=1" for 127.0.0.1 at 2012-11-04 01:27:51 +0100
+Served asset /bootstrap-timepicker.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/temporal.js?body=1" for 127.0.0.1 at 2012-11-04 01:27:51 +0100
+Served asset /temporal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-04 01:27:51 +0100
+Served asset /application.js - 304 Not Modified (21ms)
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2012-11-04 01:27:51 +0100
+Served asset /logo.svg - 304 Not Modified (0ms)
+
+
+Started GET "/events/local_events?lat=52.55130191295867&lng=13.38920225675281" for 127.0.0.1 at 2012-11-04 01:27:52 +0100
+Processing by EventsController#local_events as JSON
+  Parameters: {"lat"=>"52.55130191295867", "lng"=>"13.38920225675281"}
+  [1m[35mEvent Load (0.7ms)[0m  SELECT "events".* FROM "events" WHERE ("events"."lat" BETWEEN 52.30130191295867 AND 52.80130191295867) AND ("events"."lng" BETWEEN 13.13920225675281 AND 13.63920225675281) AND ("events"."datetime" BETWEEN '2012-11-03 23:57:52' AND '2012-11-05 00:27:52') LIMIT 100
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/events/search?utf8=%E2%9C%93&s_query=&s_date=2012-11-4&s_time=01%3A15&s_timeframe=12" for 127.0.0.1 at 2012-11-04 01:27:54 +0100
+Processing by EventsController#search as JS
+  Parameters: {"utf8"=>"✓", "s_query"=>"", "s_date"=>"2012-11-4", "s_time"=>"01:15", "s_timeframe"=>"12"}
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT 1 AS count_column FROM "events" WHERE ("events"."datetime" BETWEEN '2012-11-03 12:15:00' AND '2012-11-04 12:15:00') LIMIT 100) subquery_for_count [0m
+  [1m[35mEvent Load (0.3ms)[0m  SELECT "events".* FROM "events" WHERE ("events"."datetime" BETWEEN '2012-11-03 12:15:00' AND '2012-11-04 12:15:00') LIMIT 100
+  Rendered events/search.js.erb (0.1ms)
+Completed 200 OK in 8ms (Views: 4.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/events/search?utf8=%E2%9C%93&s_query=&s_date=2012-11-4&s_time=01%3A15&s_timeframe=12" for 127.0.0.1 at 2012-11-04 01:28:13 +0100
+Processing by EventsController#search as JS
+  Parameters: {"utf8"=>"✓", "s_query"=>"", "s_date"=>"2012-11-4", "s_time"=>"01:15", "s_timeframe"=>"12"}
+  [1m[36m (0.5ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT 1 AS count_column FROM "events" WHERE ("events"."datetime" BETWEEN '2012-11-03 12:15:00' AND '2012-11-04 12:15:00') LIMIT 100) subquery_for_count [0m
+  [1m[35mEvent Load (0.5ms)[0m  SELECT "events".* FROM "events" WHERE ("events"."datetime" BETWEEN '2012-11-03 12:15:00' AND '2012-11-04 12:15:00') LIMIT 100
+  Rendered events/search.js.erb (0.1ms)
+Completed 200 OK in 8ms (Views: 3.8ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/?s_date=2012-11-4&s_query=&s_time=01%3A15&s_timeframe=12&todo=search&utf8=%E2%9C%93" for 127.0.0.1 at 2012-11-04 01:29:13 +0100
+Processing by EventsController#index as HTML
+  Parameters: {"s_date"=>"2012-11-4", "s_query"=>"", "s_time"=>"01:15", "s_timeframe"=>"12", "todo"=>"search", "utf8"=>"✓"}
+  [1m[36mEvent Load (0.7ms)[0m  [1mSELECT "events".* FROM "events" WHERE ("events"."datetime" BETWEEN '2012-11-03 12:15:00' AND '2012-11-04 12:15:00') LIMIT 100[0m
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/gmaps4rails-1.5.6/app/views/gmaps4rails/_gmaps4rails.html.erb (1.5ms)
+  Rendered application/_flash.html.haml (0.2ms)
+  Rendered events/_search.html.haml (2.8ms)
+  [1m[35mUser Load (0.6ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  Rendered events/_error_div.html.haml (2.6ms)
+  Rendered application/_only_when_signed_in_button.html.haml (0.2ms)
+  Rendered events/_create.html.haml (6.7ms)
+  Rendered events/index.html.haml within layouts/application (19.8ms)
+Compiled events.css  (34ms)  (pid 15983)
+Compiled application.css  (6ms)  (pid 15983)
+  Rendered events/_hidden_modals.html.haml (1.6ms)
+  Rendered events/_title.html.haml (0.4ms)
+  Rendered devise/menu/_login_items.html.haml (0.9ms)
+  Rendered devise/menu/_registration_items.html.haml (0.1ms)
+  Rendered application/_facebook_sdk.html.erb (0.0ms)
+  Rendered events/_index_script.html.erb (0.1ms)
+Completed 200 OK in 183ms (Views: 176.0ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-04 01:29:14 +0100
+Served asset /application.css - 304 Not Modified (18ms)
+
+
+Started GET "/assets/bootstrap-datepicker.css?body=1" for 127.0.0.1 at 2012-11-04 01:29:14 +0100
+Served asset /bootstrap-datepicker.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps4rails.css?body=1" for 127.0.0.1 at 2012-11-04 01:29:14 +0100
+Served asset /gmaps4rails.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2012-11-04 01:29:14 +0100
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2012-11-04 01:29:14 +0100
+Served asset /events.css - 200 OK (5ms)
+
+
+Started GET "/assets/bootstrap-timepicker.css?body=1" for 127.0.0.1 at 2012-11-04 01:29:14 +0100
+Served asset /bootstrap-timepicker.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-04 01:29:14 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps4rails/gmaps4rails.base.js?body=1" for 127.0.0.1 at 2012-11-04 01:29:14 +0100
+Served asset /gmaps4rails/gmaps4rails.base.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-11-04 01:29:14 +0100
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2012-11-04 01:29:14 +0100
+Served asset /events.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-04 01:29:14 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps4rails/gmaps4rails.googlemaps.js?body=1" for 127.0.0.1 at 2012-11-04 01:29:14 +0100
+Served asset /gmaps4rails/gmaps4rails.googlemaps.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2012-11-04 01:29:14 +0100
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-11-04 01:29:14 +0100
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2012-11-04 01:29:14 +0100
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2012-11-04 01:29:14 +0100
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2012-11-04 01:29:14 +0100
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2012-11-04 01:29:14 +0100
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-11-04 01:29:14 +0100
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2012-11-04 01:29:14 +0100
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2012-11-04 01:29:14 +0100
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2012-11-04 01:29:14 +0100
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2012-11-04 01:29:14 +0100
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2012-11-04 01:29:14 +0100
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2012-11-04 01:29:14 +0100
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2012-11-04 01:29:14 +0100
+Served asset /twitter/bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-datepicker/core.js?body=1" for 127.0.0.1 at 2012-11-04 01:29:14 +0100
+Served asset /bootstrap-datepicker/core.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-timepicker.js?body=1" for 127.0.0.1 at 2012-11-04 01:29:14 +0100
+Served asset /bootstrap-timepicker.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/temporal.js?body=1" for 127.0.0.1 at 2012-11-04 01:29:14 +0100
+Served asset /temporal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-04 01:29:14 +0100
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2012-11-04 01:29:14 +0100
+Served asset /logo.svg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/noise.png" for 127.0.0.1 at 2012-11-04 01:29:15 +0100
+Served asset /noise.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-04 01:29:23 +0100
+Processing by EventsController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/gmaps4rails-1.5.6/app/views/gmaps4rails/_gmaps4rails.html.erb (1.3ms)
+  Rendered application/_flash.html.haml (0.2ms)
+  Rendered events/_search.html.haml (2.0ms)
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  Rendered events/_error_div.html.haml (1.9ms)
+  Rendered application/_only_when_signed_in_button.html.haml (0.2ms)
+  Rendered events/_create.html.haml (5.9ms)
+  Rendered events/index.html.haml within layouts/application (16.4ms)
+  Rendered events/_hidden_modals.html.haml (1.6ms)
+  Rendered events/_title.html.haml (0.4ms)
+  Rendered devise/menu/_login_items.html.haml (1.0ms)
+  Rendered devise/menu/_registration_items.html.haml (0.1ms)
+  Rendered application/_facebook_sdk.html.erb (0.0ms)
+  Rendered events/_index_script.html.erb (0.0ms)
+Completed 200 OK in 42ms (Views: 41.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2012-11-04 01:29:23 +0100
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-datepicker.css?body=1" for 127.0.0.1 at 2012-11-04 01:29:23 +0100
+Served asset /bootstrap-datepicker.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2012-11-04 01:29:23 +0100
+Served asset /events.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-04 01:29:23 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps4rails.css?body=1" for 127.0.0.1 at 2012-11-04 01:29:23 +0100
+Served asset /gmaps4rails.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-timepicker.css?body=1" for 127.0.0.1 at 2012-11-04 01:29:23 +0100
+Served asset /bootstrap-timepicker.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2012-11-04 01:29:23 +0100
+Served asset /logo.svg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-04 01:29:23 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-04 01:29:23 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-11-04 01:29:23 +0100
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2012-11-04 01:29:23 +0100
+Served asset /events.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps4rails/gmaps4rails.googlemaps.js?body=1" for 127.0.0.1 at 2012-11-04 01:29:23 +0100
+Served asset /gmaps4rails/gmaps4rails.googlemaps.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2012-11-04 01:29:23 +0100
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2012-11-04 01:29:23 +0100
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps4rails/gmaps4rails.base.js?body=1" for 127.0.0.1 at 2012-11-04 01:29:23 +0100
+Served asset /gmaps4rails/gmaps4rails.base.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-11-04 01:29:23 +0100
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2012-11-04 01:29:23 +0100
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2012-11-04 01:29:23 +0100
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2012-11-04 01:29:23 +0100
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-11-04 01:29:23 +0100
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2012-11-04 01:29:23 +0100
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2012-11-04 01:29:23 +0100
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2012-11-04 01:29:23 +0100
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2012-11-04 01:29:23 +0100
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2012-11-04 01:29:23 +0100
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2012-11-04 01:29:23 +0100
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2012-11-04 01:29:23 +0100
+Served asset /twitter/bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-datepicker/core.js?body=1" for 127.0.0.1 at 2012-11-04 01:29:23 +0100
+Served asset /bootstrap-datepicker/core.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-timepicker.js?body=1" for 127.0.0.1 at 2012-11-04 01:29:23 +0100
+Served asset /bootstrap-timepicker.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/temporal.js?body=1" for 127.0.0.1 at 2012-11-04 01:29:23 +0100
+Served asset /temporal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-04 01:29:23 +0100
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/events/local_events?lat=52.55127037892502&lng=13.389150609807189" for 127.0.0.1 at 2012-11-04 01:29:24 +0100
+Processing by EventsController#local_events as JSON
+  Parameters: {"lat"=>"52.55127037892502", "lng"=>"13.389150609807189"}
+  [1m[35mEvent Load (0.5ms)[0m  SELECT "events".* FROM "events" WHERE ("events"."lat" BETWEEN 52.30127037892502 AND 52.80127037892502) AND ("events"."lng" BETWEEN 13.139150609807189 AND 13.639150609807189) AND ("events"."datetime" BETWEEN '2012-11-03 23:59:24' AND '2012-11-05 00:29:24') LIMIT 100
+Completed 200 OK in 3ms (Views: 0.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-04 01:29:26 +0100
+Processing by EventsController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/gmaps4rails-1.5.6/app/views/gmaps4rails/_gmaps4rails.html.erb (1.3ms)
+  Rendered application/_flash.html.haml (0.2ms)
+  Rendered events/_search.html.haml (2.1ms)
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  Rendered events/_error_div.html.haml (1.9ms)
+  Rendered application/_only_when_signed_in_button.html.haml (0.2ms)
+  Rendered events/_create.html.haml (5.2ms)
+  Rendered events/index.html.haml within layouts/application (15.5ms)
+  Rendered events/_hidden_modals.html.haml (27.1ms)
+  Rendered events/_title.html.haml (0.2ms)
+  Rendered devise/menu/_login_items.html.haml (0.7ms)
+  Rendered devise/menu/_registration_items.html.haml (0.1ms)
+  Rendered application/_facebook_sdk.html.erb (0.0ms)
+  Rendered events/_index_script.html.erb (0.0ms)
+Completed 200 OK in 64ms (Views: 63.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2012-11-04 01:29:26 +0100
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps4rails.css?body=1" for 127.0.0.1 at 2012-11-04 01:29:26 +0100
+Served asset /gmaps4rails.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2012-11-04 01:29:26 +0100
+Served asset /events.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-datepicker.css?body=1" for 127.0.0.1 at 2012-11-04 01:29:26 +0100
+Served asset /bootstrap-datepicker.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-timepicker.css?body=1" for 127.0.0.1 at 2012-11-04 01:29:26 +0100
+Served asset /bootstrap-timepicker.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-04 01:29:26 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2012-11-04 01:29:26 +0100
+Served asset /logo.svg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-04 01:29:26 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-04 01:29:26 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-11-04 01:29:26 +0100
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2012-11-04 01:29:26 +0100
+Served asset /events.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps4rails/gmaps4rails.base.js?body=1" for 127.0.0.1 at 2012-11-04 01:29:26 +0100
+Served asset /gmaps4rails/gmaps4rails.base.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps4rails/gmaps4rails.googlemaps.js?body=1" for 127.0.0.1 at 2012-11-04 01:29:26 +0100
+Served asset /gmaps4rails/gmaps4rails.googlemaps.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2012-11-04 01:29:26 +0100
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2012-11-04 01:29:26 +0100
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2012-11-04 01:29:26 +0100
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-11-04 01:29:26 +0100
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2012-11-04 01:29:26 +0100
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2012-11-04 01:29:26 +0100
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2012-11-04 01:29:26 +0100
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-11-04 01:29:26 +0100
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2012-11-04 01:29:26 +0100
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2012-11-04 01:29:26 +0100
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2012-11-04 01:29:26 +0100
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2012-11-04 01:29:26 +0100
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2012-11-04 01:29:26 +0100
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2012-11-04 01:29:26 +0100
+Served asset /twitter/bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-timepicker.js?body=1" for 127.0.0.1 at 2012-11-04 01:29:26 +0100
+Served asset /bootstrap-timepicker.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/temporal.js?body=1" for 127.0.0.1 at 2012-11-04 01:29:26 +0100
+Served asset /temporal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-datepicker/core.js?body=1" for 127.0.0.1 at 2012-11-04 01:29:26 +0100
+Served asset /bootstrap-datepicker/core.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-04 01:29:26 +0100
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/events/local_events?lat=52.55127037892502&lng=13.389150609807189" for 127.0.0.1 at 2012-11-04 01:29:27 +0100
+Processing by EventsController#local_events as JSON
+  Parameters: {"lat"=>"52.55127037892502", "lng"=>"13.389150609807189"}
+  [1m[35mEvent Load (0.8ms)[0m  SELECT "events".* FROM "events" WHERE ("events"."lat" BETWEEN 52.30127037892502 AND 52.80127037892502) AND ("events"."lng" BETWEEN 13.139150609807189 AND 13.639150609807189) AND ("events"."datetime" BETWEEN '2012-11-03 23:59:27' AND '2012-11-05 00:29:27') LIMIT 100
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/events/search?utf8=%E2%9C%93&s_query=&s_date=2012-11-4&s_time=01%3A15&s_timeframe=12" for 127.0.0.1 at 2012-11-04 01:29:29 +0100
+Processing by EventsController#search as JS
+  Parameters: {"utf8"=>"✓", "s_query"=>"", "s_date"=>"2012-11-4", "s_time"=>"01:15", "s_timeframe"=>"12"}
+  [1m[36m (0.5ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT 1 AS count_column FROM "events" WHERE ("events"."datetime" BETWEEN '2012-11-03 12:15:00' AND '2012-11-04 12:15:00') LIMIT 100) subquery_for_count [0m
+  [1m[35mEvent Load (0.7ms)[0m  SELECT "events".* FROM "events" WHERE ("events"."datetime" BETWEEN '2012-11-03 12:15:00' AND '2012-11-04 12:15:00') LIMIT 100
+  Rendered events/search.js.erb (0.1ms)
+Completed 200 OK in 8ms (Views: 4.0ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/events/33/infowindow" for 127.0.0.1 at 2012-11-04 01:29:31 +0100
+Processing by EventsController#infowindow as */*
+  Parameters: {"id"=>"33"}
+  [1m[36mEvent Load (0.3ms)[0m  [1mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT 1[0m  [["id", "33"]]
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 33 AND "taggings"."taggable_type" = 'Event' AND (taggings.context = 'tags')
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mEventsUser Load (0.4ms)[0m  SELECT "events_users".* FROM "events_users" WHERE "events_users"."user_id" = 1 AND "events_users"."event_id" = 33 LIMIT 1
+  [1m[36mActsAsTaggableOn::Tag Load (0.5ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 33 AND "taggings"."taggable_type" = 'Event' AND (taggings.context = 'tags')[0m
+  Rendered events/_tags.html.haml (16.3ms)
+  [1m[35mUser Load (0.5ms)[0m  SELECT "users".* FROM "users" INNER JOIN "events_users" ON "users"."id" = "events_users"."user_id" WHERE "events_users"."event_id" = 33
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "events_users".* FROM "events_users" WHERE "events_users"."user_id" = 1 AND "events_users"."event_id" = 33 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "events_users".* FROM "events_users" WHERE "events_users"."user_id" = 1 AND "events_users"."event_id" = 33 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "events_users".* FROM "events_users" WHERE "events_users"."user_id" = 1 AND "events_users"."event_id" = 33 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "events_users".* FROM "events_users" WHERE "events_users"."user_id" = 1 AND "events_users"."event_id" = 33 LIMIT 1
+  Rendered events/_infowindow_info.html.haml (4.2ms)
+  [1m[36mEvent Exists (0.5ms)[0m  [1mSELECT 1 AS one FROM "events" INNER JOIN "events_users" ON "events"."id" = "events_users"."event_id" WHERE "events_users"."user_id" = 1 AND "events"."id" = 33 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "events_users".* FROM "events_users" WHERE "events_users"."user_id" = 1 AND "events_users"."event_id" = 33 LIMIT 1
+  Rendered events/_buttons_for_event.html.haml (3.3ms)
+  Rendered events/infowindow.html.haml (32.6ms)
+Completed 200 OK in 37ms (Views: 29.5ms | ActiveRecord: 5.4ms)
+
+
+Started DELETE "/events/33" for 127.0.0.1 at 2012-11-04 01:29:33 +0100
+Processing by EventsController#destroy as JS
+  Parameters: {"id"=>"33"}
+  [1m[36mEvent Load (0.4ms)[0m  [1mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT 1[0m  [["id", "33"]]
+  [1m[35mUser Load (0.5ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mEvent Exists (0.6ms)[0m  [1mSELECT 1 AS one FROM "events" INNER JOIN "events_users" ON "events"."id" = "events_users"."event_id" WHERE "events_users"."user_id" = 1 AND "events"."id" = 33 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mActsAsTaggableOn::Tagging Load (0.5ms)[0m  [1mSELECT "taggings".* FROM "taggings" WHERE "taggings"."taggable_id" = 33 AND "taggings"."taggable_type" = 'Event'[0m
+  [1m[35mActsAsTaggableOn::Tag Load (0.5ms)[0m  SELECT "tags".* FROM "tags" WHERE "tags"."id" IN (3, 2, 1, 5)
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "taggings" WHERE "taggings"."id" = $1[0m  [["id", 60]]
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "taggings" WHERE "taggings"."id" = $1  [["id", 65]]
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "taggings" WHERE "taggings"."id" = $1[0m  [["id", 66]]
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "taggings" WHERE "taggings"."id" = $1  [["id", 67]]
+  [1m[36mActsAsTaggableOn::Tagging Load (0.4ms)[0m  [1mSELECT "taggings".* FROM "taggings" WHERE "taggings"."taggable_id" = 33 AND "taggings"."taggable_type" = 'Event' AND (taggings.context = 'tags')[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "events" WHERE "events"."id" = $1  [["id", 33]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  Rendered events/destroy.js.erb (0.1ms)
+Completed 200 OK in 26ms (Views: 5.1ms | ActiveRecord: 4.8ms)
+
+
+Started GET "/events/search?utf8=%E2%9C%93&s_query=&s_date=2012-11-4&s_time=01%3A15&s_timeframe=12" for 127.0.0.1 at 2012-11-04 01:29:34 +0100
+Processing by EventsController#search as JS
+  Parameters: {"utf8"=>"✓", "s_query"=>"", "s_date"=>"2012-11-4", "s_time"=>"01:15", "s_timeframe"=>"12"}
+  [1m[35m (0.6ms)[0m  SELECT COUNT(count_column) FROM (SELECT 1 AS count_column FROM "events" WHERE ("events"."datetime" BETWEEN '2012-11-03 12:15:00' AND '2012-11-04 12:15:00') LIMIT 100) subquery_for_count 
+  [1m[36mEvent Load (0.4ms)[0m  [1mSELECT "events".* FROM "events" WHERE ("events"."datetime" BETWEEN '2012-11-03 12:15:00' AND '2012-11-04 12:15:00') LIMIT 100[0m
+  Rendered events/search.js.erb (0.1ms)
+Completed 200 OK in 8ms (Views: 4.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-04 01:29:44 +0100
+Processing by EventsController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/gmaps4rails-1.5.6/app/views/gmaps4rails/_gmaps4rails.html.erb (1.8ms)
+  Rendered application/_flash.html.haml (0.2ms)
+  Rendered events/_search.html.haml (2.2ms)
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  Rendered events/_error_div.html.haml (1.9ms)
+  Rendered application/_only_when_signed_in_button.html.haml (0.2ms)
+  Rendered events/_create.html.haml (5.1ms)
+  Rendered events/index.html.haml within layouts/application (16.1ms)
+  Rendered events/_hidden_modals.html.haml (1.3ms)
+  Rendered events/_title.html.haml (0.3ms)
+  Rendered devise/menu/_login_items.html.haml (1.0ms)
+  Rendered devise/menu/_registration_items.html.haml (0.1ms)
+  Rendered application/_facebook_sdk.html.erb (0.0ms)
+  Rendered events/_index_script.html.erb (0.0ms)
+Completed 200 OK in 41ms (Views: 40.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2012-11-04 01:29:44 +0100
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-timepicker.css?body=1" for 127.0.0.1 at 2012-11-04 01:29:44 +0100
+Served asset /bootstrap-timepicker.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps4rails.css?body=1" for 127.0.0.1 at 2012-11-04 01:29:44 +0100
+Served asset /gmaps4rails.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-datepicker.css?body=1" for 127.0.0.1 at 2012-11-04 01:29:44 +0100
+Served asset /bootstrap-datepicker.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2012-11-04 01:29:44 +0100
+Served asset /events.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-04 01:29:44 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2012-11-04 01:29:44 +0100
+Served asset /logo.svg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-04 01:29:44 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-04 01:29:44 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-11-04 01:29:44 +0100
+Served asset /bootstrap.js - 304 Not Modified (35ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2012-11-04 01:29:44 +0100
+Served asset /events.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps4rails/gmaps4rails.googlemaps.js?body=1" for 127.0.0.1 at 2012-11-04 01:29:44 +0100
+Served asset /gmaps4rails/gmaps4rails.googlemaps.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps4rails/gmaps4rails.base.js?body=1" for 127.0.0.1 at 2012-11-04 01:29:44 +0100
+Served asset /gmaps4rails/gmaps4rails.base.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-11-04 01:29:44 +0100
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2012-11-04 01:29:44 +0100
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2012-11-04 01:29:44 +0100
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2012-11-04 01:29:44 +0100
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2012-11-04 01:29:44 +0100
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2012-11-04 01:29:44 +0100
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-11-04 01:29:44 +0100
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2012-11-04 01:29:44 +0100
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2012-11-04 01:29:44 +0100
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2012-11-04 01:29:44 +0100
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2012-11-04 01:29:44 +0100
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2012-11-04 01:29:44 +0100
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2012-11-04 01:29:44 +0100
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2012-11-04 01:29:44 +0100
+Served asset /twitter/bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-timepicker.js?body=1" for 127.0.0.1 at 2012-11-04 01:29:44 +0100
+Served asset /bootstrap-timepicker.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-datepicker/core.js?body=1" for 127.0.0.1 at 2012-11-04 01:29:44 +0100
+Served asset /bootstrap-datepicker/core.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-04 01:29:44 +0100
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/temporal.js?body=1" for 127.0.0.1 at 2012-11-04 01:29:44 +0100
+Served asset /temporal.js - 304 Not Modified (0ms)
+
+
+Started GET "/events/local_events?lat=52.55127037892502&lng=13.389150609807189" for 127.0.0.1 at 2012-11-04 01:29:45 +0100
+Processing by EventsController#local_events as JSON
+  Parameters: {"lat"=>"52.55127037892502", "lng"=>"13.389150609807189"}
+  [1m[36mEvent Load (0.6ms)[0m  [1mSELECT "events".* FROM "events" WHERE ("events"."lat" BETWEEN 52.30127037892502 AND 52.80127037892502) AND ("events"."lng" BETWEEN 13.139150609807189 AND 13.639150609807189) AND ("events"."datetime" BETWEEN '2012-11-03 23:59:45' AND '2012-11-05 00:29:45') LIMIT 100[0m
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/events/search?utf8=%E2%9C%93&s_query=&s_date=2012-11-4&s_time=01%3A15&s_timeframe=12" for 127.0.0.1 at 2012-11-04 01:37:19 +0100
+Processing by EventsController#search as JS
+  Parameters: {"utf8"=>"✓", "s_query"=>"", "s_date"=>"2012-11-4", "s_time"=>"01:15", "s_timeframe"=>"12"}
+  [1m[35m (0.5ms)[0m  SELECT COUNT(count_column) FROM (SELECT 1 AS count_column FROM "events" WHERE ("events"."datetime" BETWEEN '2012-11-03 12:15:00' AND '2012-11-04 12:15:00') LIMIT 100) subquery_for_count 
+  [1m[36mEvent Load (0.4ms)[0m  [1mSELECT "events".* FROM "events" WHERE ("events"."datetime" BETWEEN '2012-11-03 12:15:00' AND '2012-11-04 12:15:00') LIMIT 100[0m
+  Rendered events/search.js.erb (0.1ms)
+Completed 200 OK in 14ms (Views: 10.0ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/events/search?utf8=%E2%9C%93&s_query=&s_date=2012-11-4&s_time=01%3A15&s_timeframe=12" for 127.0.0.1 at 2012-11-04 01:37:23 +0100
+Processing by EventsController#search as JS
+  Parameters: {"utf8"=>"✓", "s_query"=>"", "s_date"=>"2012-11-4", "s_time"=>"01:15", "s_timeframe"=>"12"}
+  [1m[35m (0.4ms)[0m  SELECT COUNT(count_column) FROM (SELECT 1 AS count_column FROM "events" WHERE ("events"."datetime" BETWEEN '2012-11-03 12:15:00' AND '2012-11-04 12:15:00') LIMIT 100) subquery_for_count 
+  [1m[36mEvent Load (0.4ms)[0m  [1mSELECT "events".* FROM "events" WHERE ("events"."datetime" BETWEEN '2012-11-03 12:15:00' AND '2012-11-04 12:15:00') LIMIT 100[0m
+  Rendered events/search.js.erb (0.1ms)
+Completed 200 OK in 8ms (Views: 4.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/events/search?utf8=%E2%9C%93&s_query=&s_date=2012-11-4&s_time=01%3A15&s_timeframe=12" for 127.0.0.1 at 2012-11-04 01:37:39 +0100
+Processing by EventsController#search as JS
+  Parameters: {"utf8"=>"✓", "s_query"=>"", "s_date"=>"2012-11-4", "s_time"=>"01:15", "s_timeframe"=>"12"}
+  [1m[35m (0.5ms)[0m  SELECT COUNT(count_column) FROM (SELECT 1 AS count_column FROM "events" WHERE ("events"."datetime" BETWEEN '2012-11-03 12:15:00' AND '2012-11-04 12:15:00') LIMIT 100) subquery_for_count 
+  [1m[36mEvent Load (0.4ms)[0m  [1mSELECT "events".* FROM "events" WHERE ("events"."datetime" BETWEEN '2012-11-03 12:15:00' AND '2012-11-04 12:15:00') LIMIT 100[0m
+  Rendered events/search.js.erb (0.1ms)
+Completed 200 OK in 8ms (Views: 4.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/events/search?utf8=%E2%9C%93&s_query=&s_date=2012-11-4&s_time=01%3A15&s_timeframe=12" for 127.0.0.1 at 2012-11-04 01:37:41 +0100
+Processing by EventsController#search as JS
+  Parameters: {"utf8"=>"✓", "s_query"=>"", "s_date"=>"2012-11-4", "s_time"=>"01:15", "s_timeframe"=>"12"}
+  [1m[35m (0.5ms)[0m  SELECT COUNT(count_column) FROM (SELECT 1 AS count_column FROM "events" WHERE ("events"."datetime" BETWEEN '2012-11-03 12:15:00' AND '2012-11-04 12:15:00') LIMIT 100) subquery_for_count 
+  [1m[36mEvent Load (0.4ms)[0m  [1mSELECT "events".* FROM "events" WHERE ("events"."datetime" BETWEEN '2012-11-03 12:15:00' AND '2012-11-04 12:15:00') LIMIT 100[0m
+  Rendered events/search.js.erb (0.1ms)
+Completed 200 OK in 8ms (Views: 4.0ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/events/search?utf8=%E2%9C%93&s_query=&s_date=2012-11-4&s_time=01%3A15&s_timeframe=12" for 127.0.0.1 at 2012-11-04 01:39:05 +0100
+Processing by EventsController#search as JS
+  Parameters: {"utf8"=>"✓", "s_query"=>"", "s_date"=>"2012-11-4", "s_time"=>"01:15", "s_timeframe"=>"12"}
+  [1m[35m (0.4ms)[0m  SELECT COUNT(count_column) FROM (SELECT 1 AS count_column FROM "events" WHERE ("events"."datetime" BETWEEN '2012-11-03 12:15:00' AND '2012-11-04 12:15:00') LIMIT 100) subquery_for_count 
+  [1m[36mEvent Load (0.4ms)[0m  [1mSELECT "events".* FROM "events" WHERE ("events"."datetime" BETWEEN '2012-11-03 12:15:00' AND '2012-11-04 12:15:00') LIMIT 100[0m
+  Rendered events/search.js.erb (0.1ms)
+Completed 200 OK in 8ms (Views: 4.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/?s_date=2012-11-4&s_query=&s_time=01%3A15&s_timeframe=12&todo=search&utf8=%E2%9C%93" for 127.0.0.1 at 2012-11-04 01:39:06 +0100
+Processing by EventsController#index as HTML
+  Parameters: {"s_date"=>"2012-11-4", "s_query"=>"", "s_time"=>"01:15", "s_timeframe"=>"12", "todo"=>"search", "utf8"=>"✓"}
+  [1m[35mEvent Load (0.5ms)[0m  SELECT "events".* FROM "events" WHERE ("events"."datetime" BETWEEN '2012-11-03 12:15:00' AND '2012-11-04 12:15:00') LIMIT 100
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/gmaps4rails-1.5.6/app/views/gmaps4rails/_gmaps4rails.html.erb (1.1ms)
+  Rendered application/_flash.html.haml (0.3ms)
+  Rendered events/_search.html.haml (1.7ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  Rendered events/_error_div.html.haml (1.7ms)
+  Rendered application/_only_when_signed_in_button.html.haml (0.2ms)
+  Rendered events/_create.html.haml (5.8ms)
+  Rendered events/index.html.haml within layouts/application (17.1ms)
+  Rendered events/_hidden_modals.html.haml (1.6ms)
+  Rendered events/_title.html.haml (0.3ms)
+  Rendered devise/menu/_login_items.html.haml (1.1ms)
+  Rendered devise/menu/_registration_items.html.haml (0.2ms)
+Compiled events.js  (57ms)  (pid 15983)
+Compiled application.js  (12ms)  (pid 15983)
+  Rendered application/_facebook_sdk.html.erb (0.1ms)
+  Rendered events/_index_script.html.erb (0.1ms)
+Completed 200 OK in 219ms (Views: 213.8ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-04 01:39:07 +0100
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2012-11-04 01:39:07 +0100
+Served asset /events.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2012-11-04 01:39:07 +0100
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-datepicker.css?body=1" for 127.0.0.1 at 2012-11-04 01:39:07 +0100
+Served asset /bootstrap-datepicker.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-timepicker.css?body=1" for 127.0.0.1 at 2012-11-04 01:39:07 +0100
+Served asset /bootstrap-timepicker.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps4rails.css?body=1" for 127.0.0.1 at 2012-11-04 01:39:07 +0100
+Served asset /gmaps4rails.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-04 01:39:07 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-11-04 01:39:07 +0100
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2012-11-04 01:39:07 +0100
+Served asset /events.js - 200 OK (6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-04 01:39:07 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps4rails/gmaps4rails.base.js?body=1" for 127.0.0.1 at 2012-11-04 01:39:07 +0100
+Served asset /gmaps4rails/gmaps4rails.base.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps4rails/gmaps4rails.googlemaps.js?body=1" for 127.0.0.1 at 2012-11-04 01:39:07 +0100
+Served asset /gmaps4rails/gmaps4rails.googlemaps.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-11-04 01:39:07 +0100
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2012-11-04 01:39:07 +0100
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2012-11-04 01:39:07 +0100
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2012-11-04 01:39:07 +0100
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2012-11-04 01:39:07 +0100
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2012-11-04 01:39:07 +0100
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-11-04 01:39:07 +0100
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2012-11-04 01:39:07 +0100
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2012-11-04 01:39:07 +0100
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2012-11-04 01:39:07 +0100
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2012-11-04 01:39:07 +0100
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2012-11-04 01:39:07 +0100
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2012-11-04 01:39:07 +0100
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-datepicker/core.js?body=1" for 127.0.0.1 at 2012-11-04 01:39:07 +0100
+Served asset /bootstrap-datepicker/core.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2012-11-04 01:39:07 +0100
+Served asset /twitter/bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-timepicker.js?body=1" for 127.0.0.1 at 2012-11-04 01:39:07 +0100
+Served asset /bootstrap-timepicker.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/temporal.js?body=1" for 127.0.0.1 at 2012-11-04 01:39:07 +0100
+Served asset /temporal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-04 01:39:07 +0100
+Served asset /application.js - 304 Not Modified (71ms)
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2012-11-04 01:39:07 +0100
+Served asset /logo.svg - 304 Not Modified (2ms)
+
+
+Started GET "/assets/markers/brown_Marker.png" for 127.0.0.1 at 2012-11-04 01:39:10 +0100
+Served asset /markers/brown_Marker.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/markers/brown_Marker.png" for 127.0.0.1 at 2012-11-04 01:39:10 +0100
+Served asset /markers/brown_Marker.png - 304 Not Modified (0ms)
+
+
+Started GET "/?s_date=2012-11-4&s_query=&s_time=01%3A15&s_timeframe=12&todo=search&utf8=%E2%9C%93" for 127.0.0.1 at 2012-11-04 01:39:26 +0100
+Processing by EventsController#index as HTML
+  Parameters: {"s_date"=>"2012-11-4", "s_query"=>"", "s_time"=>"01:15", "s_timeframe"=>"12", "todo"=>"search", "utf8"=>"✓"}
+  [1m[35mEvent Load (0.7ms)[0m  SELECT "events".* FROM "events" WHERE ("events"."datetime" BETWEEN '2012-11-03 12:15:00' AND '2012-11-04 12:15:00') LIMIT 100
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/gmaps4rails-1.5.6/app/views/gmaps4rails/_gmaps4rails.html.erb (1.1ms)
+  Rendered application/_flash.html.haml (0.1ms)
+  Rendered events/_search.html.haml (1.4ms)
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  Rendered events/_error_div.html.haml (1.8ms)
+  Rendered application/_only_when_signed_in_button.html.haml (0.3ms)
+  Rendered events/_create.html.haml (5.7ms)
+  Rendered events/index.html.haml within layouts/application (13.7ms)
+  Rendered events/_hidden_modals.html.haml (0.9ms)
+  Rendered events/_title.html.haml (0.2ms)
+  Rendered devise/menu/_login_items.html.haml (0.6ms)
+  Rendered devise/menu/_registration_items.html.haml (0.1ms)
+Compiled events.js  (21ms)  (pid 15983)
+Compiled application.js  (12ms)  (pid 15983)
+  Rendered application/_facebook_sdk.html.erb (0.0ms)
+  Rendered events/_index_script.html.erb (0.0ms)
+Completed 200 OK in 155ms (Views: 150.1ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-04 01:39:27 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2012-11-04 01:39:27 +0100
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-datepicker.css?body=1" for 127.0.0.1 at 2012-11-04 01:39:27 +0100
+Served asset /bootstrap-datepicker.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-timepicker.css?body=1" for 127.0.0.1 at 2012-11-04 01:39:27 +0100
+Served asset /bootstrap-timepicker.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2012-11-04 01:39:27 +0100
+Served asset /events.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps4rails.css?body=1" for 127.0.0.1 at 2012-11-04 01:39:27 +0100
+Served asset /gmaps4rails.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-04 01:39:27 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-11-04 01:39:27 +0100
+Served asset /bootstrap.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-04 01:39:27 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2012-11-04 01:39:27 +0100
+Served asset /events.js - 200 OK (6ms)
+
+
+Started GET "/assets/gmaps4rails/gmaps4rails.base.js?body=1" for 127.0.0.1 at 2012-11-04 01:39:27 +0100
+Served asset /gmaps4rails/gmaps4rails.base.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-11-04 01:39:27 +0100
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps4rails/gmaps4rails.googlemaps.js?body=1" for 127.0.0.1 at 2012-11-04 01:39:27 +0100
+Served asset /gmaps4rails/gmaps4rails.googlemaps.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2012-11-04 01:39:27 +0100
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2012-11-04 01:39:27 +0100
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2012-11-04 01:39:27 +0100
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2012-11-04 01:39:27 +0100
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-11-04 01:39:27 +0100
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2012-11-04 01:39:27 +0100
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2012-11-04 01:39:27 +0100
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2012-11-04 01:39:27 +0100
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2012-11-04 01:39:27 +0100
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2012-11-04 01:39:27 +0100
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2012-11-04 01:39:27 +0100
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2012-11-04 01:39:27 +0100
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2012-11-04 01:39:27 +0100
+Served asset /twitter/bootstrap.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-datepicker/core.js?body=1" for 127.0.0.1 at 2012-11-04 01:39:27 +0100
+Served asset /bootstrap-datepicker/core.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-timepicker.js?body=1" for 127.0.0.1 at 2012-11-04 01:39:27 +0100
+Served asset /bootstrap-timepicker.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/temporal.js?body=1" for 127.0.0.1 at 2012-11-04 01:39:27 +0100
+Served asset /temporal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-04 01:39:27 +0100
+Served asset /application.js - 304 Not Modified (33ms)
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2012-11-04 01:39:27 +0100
+Served asset /logo.svg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/markers/brown_Marker.png" for 127.0.0.1 at 2012-11-04 01:39:30 +0100
+Served asset /markers/brown_Marker.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/markers/brown_Marker.png" for 127.0.0.1 at 2012-11-04 01:39:30 +0100
+Served asset /markers/brown_Marker.png - 304 Not Modified (0ms)
+
+
+Started GET "/events/search?utf8=%E2%9C%93&s_query=&s_date=2012-11-4&s_time=01%3A30&s_timeframe=12" for 127.0.0.1 at 2012-11-04 01:39:34 +0100
+Processing by EventsController#search as JS
+  Parameters: {"utf8"=>"✓", "s_query"=>"", "s_date"=>"2012-11-4", "s_time"=>"01:30", "s_timeframe"=>"12"}
+  [1m[35m (0.5ms)[0m  SELECT COUNT(count_column) FROM (SELECT 1 AS count_column FROM "events" WHERE ("events"."datetime" BETWEEN '2012-11-03 12:30:00' AND '2012-11-04 12:30:00') LIMIT 100) subquery_for_count 
+  [1m[36mEvent Load (0.4ms)[0m  [1mSELECT "events".* FROM "events" WHERE ("events"."datetime" BETWEEN '2012-11-03 12:30:00' AND '2012-11-04 12:30:00') LIMIT 100[0m
+  Rendered events/search.js.erb (0.1ms)
+Completed 200 OK in 8ms (Views: 4.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/markers/brown_Marker.png" for 127.0.0.1 at 2012-11-04 01:39:34 +0100
+Served asset /markers/brown_Marker.png - 304 Not Modified (0ms)
+
+
+Started GET "/?s_date=2012-11-4&s_query=&s_time=01%3A30&s_timeframe=12&todo=search&utf8=%E2%9C%93" for 127.0.0.1 at 2012-11-04 01:39:40 +0100
+Processing by EventsController#index as HTML
+  Parameters: {"s_date"=>"2012-11-4", "s_query"=>"", "s_time"=>"01:30", "s_timeframe"=>"12", "todo"=>"search", "utf8"=>"✓"}
+  [1m[35mEvent Load (0.5ms)[0m  SELECT "events".* FROM "events" WHERE ("events"."datetime" BETWEEN '2012-11-03 12:30:00' AND '2012-11-04 12:30:00') LIMIT 100
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/gmaps4rails-1.5.6/app/views/gmaps4rails/_gmaps4rails.html.erb (1.8ms)
+  Rendered application/_flash.html.haml (0.2ms)
+  Rendered events/_search.html.haml (2.6ms)
+  [1m[36mUser Load (1.9ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  Rendered events/_error_div.html.haml (3.9ms)
+  Rendered application/_only_when_signed_in_button.html.haml (0.3ms)
+  Rendered events/_create.html.haml (9.1ms)
+  Rendered events/index.html.haml within layouts/application (30.2ms)
+  Rendered events/_hidden_modals.html.haml (1.5ms)
+  Rendered events/_title.html.haml (0.4ms)
+  Rendered devise/menu/_login_items.html.haml (0.8ms)
+  Rendered devise/menu/_registration_items.html.haml (0.2ms)
+Compiled events.js  (34ms)  (pid 15983)
+Compiled application.js  (22ms)  (pid 15983)
+  Rendered application/_facebook_sdk.html.erb (0.0ms)
+  Rendered events/_index_script.html.erb (0.1ms)
+Completed 200 OK in 220ms (Views: 214.6ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-04 01:39:41 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps4rails.css?body=1" for 127.0.0.1 at 2012-11-04 01:39:41 +0100
+Served asset /gmaps4rails.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/bootstrap-datepicker.css?body=1" for 127.0.0.1 at 2012-11-04 01:39:41 +0100
+Served asset /bootstrap-datepicker.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2012-11-04 01:39:41 +0100
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2012-11-04 01:39:41 +0100
+Served asset /events.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-timepicker.css?body=1" for 127.0.0.1 at 2012-11-04 01:39:41 +0100
+Served asset /bootstrap-timepicker.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-04 01:39:41 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps4rails/gmaps4rails.googlemaps.js?body=1" for 127.0.0.1 at 2012-11-04 01:39:41 +0100
+Served asset /gmaps4rails/gmaps4rails.googlemaps.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-04 01:39:41 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps4rails/gmaps4rails.base.js?body=1" for 127.0.0.1 at 2012-11-04 01:39:41 +0100
+Served asset /gmaps4rails/gmaps4rails.base.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-11-04 01:39:41 +0100
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2012-11-04 01:39:41 +0100
+Served asset /events.js - 200 OK (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-11-04 01:39:41 +0100
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2012-11-04 01:39:41 +0100
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2012-11-04 01:39:41 +0100
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2012-11-04 01:39:41 +0100
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2012-11-04 01:39:41 +0100
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2012-11-04 01:39:41 +0100
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-11-04 01:39:41 +0100
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2012-11-04 01:39:41 +0100
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2012-11-04 01:39:41 +0100
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2012-11-04 01:39:41 +0100
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2012-11-04 01:39:41 +0100
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2012-11-04 01:39:41 +0100
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2012-11-04 01:39:41 +0100
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2012-11-04 01:39:41 +0100
+Served asset /twitter/bootstrap.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-datepicker/core.js?body=1" for 127.0.0.1 at 2012-11-04 01:39:41 +0100
+Served asset /bootstrap-datepicker/core.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/temporal.js?body=1" for 127.0.0.1 at 2012-11-04 01:39:41 +0100
+Served asset /temporal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-timepicker.js?body=1" for 127.0.0.1 at 2012-11-04 01:39:41 +0100
+Served asset /bootstrap-timepicker.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2012-11-04 01:39:41 +0100
+Served asset /logo.svg - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-04 01:39:41 +0100
+Served asset /application.js - 304 Not Modified (37ms)
+
+
+Started GET "/assets/markers/brown_Marker.png" for 127.0.0.1 at 2012-11-04 01:39:44 +0100
+Served asset /markers/brown_Marker.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/markers/brown_Marker.png" for 127.0.0.1 at 2012-11-04 01:39:45 +0100
+Served asset /markers/brown_Marker.png - 304 Not Modified (0ms)
+
+
+Started GET "/events/search?utf8=%E2%9C%93&s_query=&s_date=2012-11-4&s_time=01%3A30&s_timeframe=12" for 127.0.0.1 at 2012-11-04 01:39:48 +0100
+Processing by EventsController#search as JS
+  Parameters: {"utf8"=>"✓", "s_query"=>"", "s_date"=>"2012-11-4", "s_time"=>"01:30", "s_timeframe"=>"12"}
+  [1m[35m (0.5ms)[0m  SELECT COUNT(count_column) FROM (SELECT 1 AS count_column FROM "events" WHERE ("events"."datetime" BETWEEN '2012-11-03 12:30:00' AND '2012-11-04 12:30:00') LIMIT 100) subquery_for_count 
+  [1m[36mEvent Load (0.4ms)[0m  [1mSELECT "events".* FROM "events" WHERE ("events"."datetime" BETWEEN '2012-11-03 12:30:00' AND '2012-11-04 12:30:00') LIMIT 100[0m
+  Rendered events/search.js.erb (0.1ms)
+Completed 200 OK in 8ms (Views: 3.7ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/markers/brown_Marker.png" for 127.0.0.1 at 2012-11-04 01:39:48 +0100
+Served asset /markers/brown_Marker.png - 304 Not Modified (0ms)
+
+
+Started GET "/?s_date=2012-11-4&s_query=&s_time=01%3A30&s_timeframe=12&todo=search&utf8=%E2%9C%93" for 127.0.0.1 at 2012-11-04 01:40:15 +0100
+Processing by EventsController#index as HTML
+  Parameters: {"s_date"=>"2012-11-4", "s_query"=>"", "s_time"=>"01:30", "s_timeframe"=>"12", "todo"=>"search", "utf8"=>"✓"}
+  [1m[35mEvent Load (0.5ms)[0m  SELECT "events".* FROM "events" WHERE ("events"."datetime" BETWEEN '2012-11-03 12:30:00' AND '2012-11-04 12:30:00') LIMIT 100
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/gmaps4rails-1.5.6/app/views/gmaps4rails/_gmaps4rails.html.erb (1.5ms)
+  Rendered application/_flash.html.haml (0.2ms)
+  Rendered events/_search.html.haml (2.1ms)
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  Rendered events/_error_div.html.haml (2.8ms)
+  Rendered application/_only_when_signed_in_button.html.haml (0.2ms)
+  Rendered events/_create.html.haml (6.8ms)
+  Rendered events/index.html.haml within layouts/application (19.2ms)
+  Rendered events/_hidden_modals.html.haml (1.0ms)
+  Rendered events/_title.html.haml (0.2ms)
+  Rendered devise/menu/_login_items.html.haml (0.8ms)
+  Rendered devise/menu/_registration_items.html.haml (0.2ms)
+Compiled events.js  (29ms)  (pid 15983)
+Compiled application.js  (14ms)  (pid 15983)
+  Rendered application/_facebook_sdk.html.erb (0.0ms)
+  Rendered events/_index_script.html.erb (0.1ms)
+Completed 200 OK in 220ms (Views: 215.2ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-04 01:40:15 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-datepicker.css?body=1" for 127.0.0.1 at 2012-11-04 01:40:15 +0100
+Served asset /bootstrap-datepicker.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-timepicker.css?body=1" for 127.0.0.1 at 2012-11-04 01:40:15 +0100
+Served asset /bootstrap-timepicker.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2012-11-04 01:40:15 +0100
+Served asset /events.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps4rails.css?body=1" for 127.0.0.1 at 2012-11-04 01:40:15 +0100
+Served asset /gmaps4rails.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2012-11-04 01:40:15 +0100
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-04 01:40:16 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2012-11-04 01:40:16 +0100
+Served asset /events.js - 200 OK (7ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-04 01:40:16 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps4rails/gmaps4rails.googlemaps.js?body=1" for 127.0.0.1 at 2012-11-04 01:40:16 +0100
+Served asset /gmaps4rails/gmaps4rails.googlemaps.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/gmaps4rails/gmaps4rails.base.js?body=1" for 127.0.0.1 at 2012-11-04 01:40:16 +0100
+Served asset /gmaps4rails/gmaps4rails.base.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-11-04 01:40:16 +0100
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-11-04 01:40:16 +0100
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2012-11-04 01:40:16 +0100
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2012-11-04 01:40:16 +0100
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2012-11-04 01:40:16 +0100
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2012-11-04 01:40:16 +0100
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2012-11-04 01:40:16 +0100
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-11-04 01:40:16 +0100
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2012-11-04 01:40:16 +0100
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2012-11-04 01:40:16 +0100
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2012-11-04 01:40:16 +0100
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2012-11-04 01:40:16 +0100
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2012-11-04 01:40:16 +0100
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-datepicker/core.js?body=1" for 127.0.0.1 at 2012-11-04 01:40:16 +0100
+Served asset /bootstrap-datepicker/core.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2012-11-04 01:40:16 +0100
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-timepicker.js?body=1" for 127.0.0.1 at 2012-11-04 01:40:16 +0100
+Served asset /bootstrap-timepicker.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2012-11-04 01:40:16 +0100
+Served asset /twitter/bootstrap.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/temporal.js?body=1" for 127.0.0.1 at 2012-11-04 01:40:16 +0100
+Served asset /temporal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2012-11-04 01:40:16 +0100
+Served asset /logo.svg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-04 01:40:16 +0100
+Served asset /application.js - 304 Not Modified (30ms)
+
+
+Started GET "/assets/markers/brown_Marker.png" for 127.0.0.1 at 2012-11-04 01:40:18 +0100
+Served asset /markers/brown_Marker.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/markers/brown_Marker.png" for 127.0.0.1 at 2012-11-04 01:40:18 +0100
+Served asset /markers/brown_Marker.png - 304 Not Modified (0ms)
+
+
+Started GET "/events/34/infowindow" for 127.0.0.1 at 2012-11-04 01:40:55 +0100
+Processing by EventsController#infowindow as */*
+  Parameters: {"id"=>"34"}
+  [1m[35mEvent Load (0.3ms)[0m  SELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT 1  [["id", "34"]]
+  [1m[36m (0.7ms)[0m  [1mSELECT COUNT(*) FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 34 AND "taggings"."taggable_type" = 'Event' AND (taggings.context = 'tags')[0m
+  [1m[35mUser Load (0.5ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  Rendered events/_tags.html.haml (5.8ms)
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users" INNER JOIN "events_users" ON "users"."id" = "events_users"."user_id" WHERE "events_users"."event_id" = 34[0m
+  [1m[35mEventsUser Load (0.5ms)[0m  SELECT "events_users".* FROM "events_users" WHERE "events_users"."user_id" = 1 AND "events_users"."event_id" = 34 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "events_users".* FROM "events_users" WHERE "events_users"."user_id" = 1 AND "events_users"."event_id" = 34 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "events_users".* FROM "events_users" WHERE "events_users"."user_id" = 1 AND "events_users"."event_id" = 34 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "events_users".* FROM "events_users" WHERE "events_users"."user_id" = 1 AND "events_users"."event_id" = 34 LIMIT 1[0m
+  Rendered events/_infowindow_info.html.haml (5.1ms)
+  [1m[35mEvent Exists (0.5ms)[0m  SELECT 1 AS one FROM "events" INNER JOIN "events_users" ON "events"."id" = "events_users"."event_id" WHERE "events_users"."user_id" = 1 AND "events"."id" = 34 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "events_users".* FROM "events_users" WHERE "events_users"."user_id" = 1 AND "events_users"."event_id" = 34 LIMIT 1[0m
+  Rendered events/_buttons_for_event.html.haml (3.0ms)
+  Rendered events/infowindow.html.haml (21.0ms)
+Completed 200 OK in 25ms (Views: 20.8ms | ActiveRecord: 3.1ms)
+
+
+Started DELETE "/events/34" for 127.0.0.1 at 2012-11-04 01:40:57 +0100
+Processing by EventsController#destroy as JS
+  Parameters: {"id"=>"34"}
+  [1m[35mEvent Load (0.4ms)[0m  SELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT 1  [["id", "34"]]
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mEvent Exists (0.6ms)[0m  SELECT 1 AS one FROM "events" INNER JOIN "events_users" ON "events"."id" = "events_users"."event_id" WHERE "events_users"."user_id" = 1 AND "events"."id" = 34 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mActsAsTaggableOn::Tagging Load (0.5ms)[0m  SELECT "taggings".* FROM "taggings" WHERE "taggings"."taggable_id" = 34 AND "taggings"."taggable_type" = 'Event'
+  [1m[36mActsAsTaggableOn::Tagging Load (0.5ms)[0m  [1mSELECT "taggings".* FROM "taggings" WHERE "taggings"."taggable_id" = 34 AND "taggings"."taggable_type" = 'Event' AND (taggings.context = 'tags')[0m
+  [1m[35mSQL (0.4ms)[0m  DELETE FROM "events" WHERE "events"."id" = $1  [["id", 34]]
+  [1m[36m (1.5ms)[0m  [1mCOMMIT[0m
+  Rendered events/destroy.js.erb (0.1ms)
+Completed 200 OK in 20ms (Views: 7.5ms | ActiveRecord: 4.6ms)
+
+
+Started POST "/events" for 127.0.0.1 at 2012-11-04 01:41:15 +0100
+Processing by EventsController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ZTfXG5Tp9sUlx/yiWNod4FbcmSgc0NvxvjflvAsmkVI=", "c_description"=>"spam", "c_address"=>"Zingster Straße 12, 13357 Berlin, Germany", "c_date"=>"2012-11-4", "c_time"=>"1:41", "c_max_attendees"=>""}
+  [1m[35mUser Load (0.5ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (3.2ms)[0m  INSERT INTO "events" ("address", "created_at", "datetime", "description", "gmaps", "lat", "lng", "max_attendees", "normalized_address", "number_of_attendees", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"  [["address", "Zingster Straße 12, 13357 Berlin, Germany"], ["created_at", Sun, 04 Nov 2012 01:41:16 CET +01:00], ["datetime", Sun, 04 Nov 2012 01:41:00 CET +01:00], ["description", "spam"], ["gmaps", nil], ["lat", 52.5512932], ["lng", 13.3890369], ["max_attendees", 2147483647], ["normalized_address", "Zingster Straße 12, 13357 Berlin, Germany"], ["number_of_attendees", 0], ["updated_at", Sun, 04 Nov 2012 01:41:16 CET +01:00]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "events_users" ("event_id", "owner", "user_id") VALUES ($1, $2, $3) RETURNING "id"[0m  [["event_id", 35], ["owner", false], ["user_id", 1]]
+  [1m[35m (0.6ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.4ms)[0m  UPDATE "events" SET "number_of_attendees" = 1, "updated_at" = '2012-11-04 00:41:16.058869' WHERE "events"."id" = 35
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35mEventsUser Load (0.4ms)[0m  SELECT "events_users".* FROM "events_users" WHERE "events_users"."user_id" = 1 AND "events_users"."event_id" = 35 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  UPDATE "events_users" SET "owner" = 't' WHERE "events_users"."id" = 40
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  Rendered events/create.js.erb (0.1ms)
+Completed 200 OK in 457ms (Views: 5.2ms | ActiveRecord: 7.7ms)
+
+
+Started GET "/events/search?utf8=%E2%9C%93&s_query=&s_date=2012-11-4&s_time=01%3A30&s_timeframe=12" for 127.0.0.1 at 2012-11-04 01:41:21 +0100
+Processing by EventsController#search as JS
+  Parameters: {"utf8"=>"✓", "s_query"=>"", "s_date"=>"2012-11-4", "s_time"=>"01:30", "s_timeframe"=>"12"}
+  [1m[35m (0.6ms)[0m  SELECT COUNT(count_column) FROM (SELECT 1 AS count_column FROM "events" WHERE ("events"."datetime" BETWEEN '2012-11-03 12:30:00' AND '2012-11-04 12:30:00') LIMIT 100) subquery_for_count 
+  [1m[36mEvent Load (0.5ms)[0m  [1mSELECT "events".* FROM "events" WHERE ("events"."datetime" BETWEEN '2012-11-03 12:30:00' AND '2012-11-04 12:30:00') LIMIT 100[0m
+  Rendered events/search.js.erb (0.1ms)
+Completed 200 OK in 8ms (Views: 4.0ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/events/search?utf8=%E2%9C%93&s_query=&s_date=2012-11-4&s_time=01%3A30&s_timeframe=12" for 127.0.0.1 at 2012-11-04 01:41:26 +0100
+Processing by EventsController#search as JS
+  Parameters: {"utf8"=>"✓", "s_query"=>"", "s_date"=>"2012-11-4", "s_time"=>"01:30", "s_timeframe"=>"12"}
+  [1m[35m (0.5ms)[0m  SELECT COUNT(count_column) FROM (SELECT 1 AS count_column FROM "events" WHERE ("events"."datetime" BETWEEN '2012-11-03 12:30:00' AND '2012-11-04 12:30:00') LIMIT 100) subquery_for_count 
+  [1m[36mEvent Load (0.4ms)[0m  [1mSELECT "events".* FROM "events" WHERE ("events"."datetime" BETWEEN '2012-11-03 12:30:00' AND '2012-11-04 12:30:00') LIMIT 100[0m
+  Rendered events/search.js.erb (0.1ms)
+Completed 200 OK in 31ms (Views: 26.8ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/events/search?utf8=%E2%9C%93&s_query=&s_date=2012-11-4&s_time=01%3A30&s_timeframe=12" for 127.0.0.1 at 2012-11-04 01:41:29 +0100
+Processing by EventsController#search as JS
+  Parameters: {"utf8"=>"✓", "s_query"=>"", "s_date"=>"2012-11-4", "s_time"=>"01:30", "s_timeframe"=>"12"}
+  [1m[35m (0.5ms)[0m  SELECT COUNT(count_column) FROM (SELECT 1 AS count_column FROM "events" WHERE ("events"."datetime" BETWEEN '2012-11-03 12:30:00' AND '2012-11-04 12:30:00') LIMIT 100) subquery_for_count 
+  [1m[36mEvent Load (0.3ms)[0m  [1mSELECT "events".* FROM "events" WHERE ("events"."datetime" BETWEEN '2012-11-03 12:30:00' AND '2012-11-04 12:30:00') LIMIT 100[0m
+  Rendered events/search.js.erb (0.1ms)
+Completed 200 OK in 8ms (Views: 4.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/events/search?utf8=%E2%9C%93&s_query=&s_date=2012-11-4&s_time=01%3A30&s_timeframe=12" for 127.0.0.1 at 2012-11-04 01:41:31 +0100
+Processing by EventsController#search as JS
+  Parameters: {"utf8"=>"✓", "s_query"=>"", "s_date"=>"2012-11-4", "s_time"=>"01:30", "s_timeframe"=>"12"}
+  [1m[35m (0.5ms)[0m  SELECT COUNT(count_column) FROM (SELECT 1 AS count_column FROM "events" WHERE ("events"."datetime" BETWEEN '2012-11-03 12:30:00' AND '2012-11-04 12:30:00') LIMIT 100) subquery_for_count 
+  [1m[36mEvent Load (0.4ms)[0m  [1mSELECT "events".* FROM "events" WHERE ("events"."datetime" BETWEEN '2012-11-03 12:30:00' AND '2012-11-04 12:30:00') LIMIT 100[0m
+  Rendered events/search.js.erb (0.1ms)
+Completed 200 OK in 8ms (Views: 3.9ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/events/search?utf8=%E2%9C%93&s_query=&s_date=2012-11-4&s_time=01%3A30&s_timeframe=12" for 127.0.0.1 at 2012-11-04 01:41:33 +0100
+Processing by EventsController#search as JS
+  Parameters: {"utf8"=>"✓", "s_query"=>"", "s_date"=>"2012-11-4", "s_time"=>"01:30", "s_timeframe"=>"12"}
+  [1m[35m (0.6ms)[0m  SELECT COUNT(count_column) FROM (SELECT 1 AS count_column FROM "events" WHERE ("events"."datetime" BETWEEN '2012-11-03 12:30:00' AND '2012-11-04 12:30:00') LIMIT 100) subquery_for_count 
+  [1m[36mEvent Load (0.3ms)[0m  [1mSELECT "events".* FROM "events" WHERE ("events"."datetime" BETWEEN '2012-11-03 12:30:00' AND '2012-11-04 12:30:00') LIMIT 100[0m
+  Rendered events/search.js.erb (0.1ms)
+Completed 200 OK in 9ms (Views: 4.7ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/events/search?utf8=%E2%9C%93&s_query=&s_date=2012-11-4&s_time=01%3A30&s_timeframe=12" for 127.0.0.1 at 2012-11-04 01:41:42 +0100
+Processing by EventsController#search as JS
+  Parameters: {"utf8"=>"✓", "s_query"=>"", "s_date"=>"2012-11-4", "s_time"=>"01:30", "s_timeframe"=>"12"}
+  [1m[35m (0.5ms)[0m  SELECT COUNT(count_column) FROM (SELECT 1 AS count_column FROM "events" WHERE ("events"."datetime" BETWEEN '2012-11-03 12:30:00' AND '2012-11-04 12:30:00') LIMIT 100) subquery_for_count 
+  [1m[36mEvent Load (0.3ms)[0m  [1mSELECT "events".* FROM "events" WHERE ("events"."datetime" BETWEEN '2012-11-03 12:30:00' AND '2012-11-04 12:30:00') LIMIT 100[0m
+  Rendered events/search.js.erb (0.1ms)
+Completed 200 OK in 8ms (Views: 4.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/events/search?utf8=%E2%9C%93&s_query=&s_date=2012-11-4&s_time=01%3A30&s_timeframe=12" for 127.0.0.1 at 2012-11-04 01:41:44 +0100
+Processing by EventsController#search as JS
+  Parameters: {"utf8"=>"✓", "s_query"=>"", "s_date"=>"2012-11-4", "s_time"=>"01:30", "s_timeframe"=>"12"}
+  [1m[35m (0.5ms)[0m  SELECT COUNT(count_column) FROM (SELECT 1 AS count_column FROM "events" WHERE ("events"."datetime" BETWEEN '2012-11-03 12:30:00' AND '2012-11-04 12:30:00') LIMIT 100) subquery_for_count 
+  [1m[36mEvent Load (0.3ms)[0m  [1mSELECT "events".* FROM "events" WHERE ("events"."datetime" BETWEEN '2012-11-03 12:30:00' AND '2012-11-04 12:30:00') LIMIT 100[0m
+  Rendered events/search.js.erb (0.1ms)
+Completed 200 OK in 8ms (Views: 4.3ms | ActiveRecord: 0.9ms)

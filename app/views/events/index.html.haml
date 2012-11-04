@@ -6,15 +6,7 @@
       = render partial: 'flash', locals: {flash: flash}
     #maps-overlay
       %a#close-maps-overlay.close{onclick: '$("#maps-overlay").hide(300)'} ×
-      .tabbable#index-tabbable
-        %ul.nav.nav-tabs
-          %li.active
-            %a{"data-toggle" => "tab", href: "#search-tab"} Search
-          %li
-            %a{"data-toggle" => "tab", href: "#create-tab"} Create
-        .tab-content
-          .tab-pane.active#search-tab
-            = render partial: 'search'
-          .tab-pane#create-tab
-            = render partial: 'create'
-
+      .search-div
+        = render partial: 'search'
+      .create-div{style: "display: none;"}
+        = render partial: 'create'
