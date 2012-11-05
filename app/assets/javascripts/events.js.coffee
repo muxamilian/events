@@ -206,7 +206,7 @@ remove_tag = (e_id, tag_name) ->
 
 ensure_min_zoom = ->
   if Gmaps.map.markers.length == 1
-    Gmaps.map.serviceObject.setZoom min_zoom)
+    Gmaps.map.serviceObject.setZoom min_zoom
 
 
 
