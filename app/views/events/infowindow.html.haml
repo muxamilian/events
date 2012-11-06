@@ -30,7 +30,8 @@
     = render partial: 'buttons_for_event', locals: {event: event, size: 'btn-small'}
   .right
     .perma-link-div{style: 'vertical-align: bottom;'}
-      %button.btn.btn-small.perma-link-button{onmouseover: "show_perma_link();", onclick: "show_perma_link();"}
+      %button.btn.btn-mini.perma-link-button{onmouseover: "show_perma_link();", onclick: "show_perma_link();"}
         %i{class: 'icon-envelope'}
+        link
       %input.perma-link-text{type: 'text', value: @perma_link, style: 'display:none; width:150px', onmouseout: "hide_perma_link();", onclick: "hide_perma_link();", onfocus: '$(this).select();', placeholder: 'nothing to see'}
 .fb-comments{"data-href" => @perma_link, "data-num-posts" => "3", "data-width" => "500"}

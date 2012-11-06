@@ -11,11 +11,11 @@ html, body {
 }
 
 .search-div, .create-div {
-  padding: 6mm;
+  padding: 13px;
 }
 
 .search-div > form, .create-div > form {
-  margin: 0mm;
+  margin: 0;
 }
 
 h1.h1-in-infowindow {
@@ -62,11 +62,12 @@ h1.h1-in-infowindow {
 
 #maps-overlay {
   position: absolute;
-  background: #f4f4f4;
+  background: #fff;
   border-radius: 5px;
   width: 100%;
   max-width: 855px;
   width: 50%;
+  box-shadow: 20px 15px 15px #777;
 }
 
 #overlay-alert-container {

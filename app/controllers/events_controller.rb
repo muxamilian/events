@@ -1,4 +1,5 @@
 class EventsController < ApplicationController
+  include ApplicationHelper
   include EventsHelper
   # to escape javascript properly
   include ActionView::Helpers::JavaScriptHelper
@@ -53,14 +54,12 @@ class EventsController < ApplicationController
   end
 
   def add_tag
-    @tag_is_blank = false
     tag_to_add = params[:t_tag]
     @event = Event.find(Integer params[:t_event_id])
-    if tag_to_add.empty?
-      @tag_is_blank = true
-    else
-      @event.tag_list.add tag_to_add
-      @event.save
+    if !tag_to_add.empty? && user_signed_in?
+      tags_of_current_user = @event.tags_from(current_user)
+      tags_of_current_user.add(tag_to_add)
+      current_user.tag(@event, on: :tags, with: tags_of_current_user)
       @rendered_new_tags = 
         render_to_string partial: 'tags', 
                          locals: {event: @event}
@@ -72,9 +71,11 @@ class EventsController < ApplicationController
   end
 
   def remove_tag
+    tag_to_remove = params[:tag_name]
     @event = Event.find(params[:id])
-    if current_user.events_users.find_by_event_id(@event.id).owner
-      @event.tag_list.remove params[:tag_name]
+    if user_signed_in?
+      show_in_log @event.tags
+      @event.tags_from(current_user).delete tag_to_remove
       @event.save
     end
     @rendered_new_tags = 

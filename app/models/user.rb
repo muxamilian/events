@@ -1,4 +1,8 @@
 class User < ActiveRecord::Base
+
+  # Is able to tag events.
+  acts_as_tagger
+
   # Include default devise modules. Others available are:
   # :token_authenticatable, :confirmable,
   # :lockable, :timeoutable and :omniauthable

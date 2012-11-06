@@ -23,7 +23,7 @@ class Event < ActiveRecord::Base
   has_many :events_users
   has_many :users, through: :events_users
 
-  acts_as_taggable
+  acts_as_taggable_on :tags
 
   # Returns if the address should be translated to Latitude and Longitude (lat and lng)
   def geocode?

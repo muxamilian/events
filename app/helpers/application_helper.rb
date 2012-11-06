@@ -12,4 +12,10 @@ module ApplicationHelper
   def is_active?(page_name)
      params[:action] == page_name
   end
+
+  # printf "debugging" for the win
+  def show_in_log thing
+    puts "\n\n\n\n\n"+thing.inspect+"\n\n\n\n\n"
+  end
+
 end

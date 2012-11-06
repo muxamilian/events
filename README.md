@@ -1,8 +1,7 @@
 # Readme
 ## TODO
-* Minzoom: Hat minzoom einen Effekt? Wär geil.
-* Tabs bei Create und Search wegmachen, die sind sinnlos.
+
+Warum sind die Tags nicht in der Tag-List? :o
+
 * Die History bei den Show funktionen auch updates.
-* Größe im CSS von px nach mm ändern (weger Retina-Display und so)
-* Farbe des create dings dunkler machen.
-* zumindest eingeloggt um tags machen zu können.
+* Größe im CSS von px nach % ändern (weger Retina-Display und so) ist aber nicht ganz leicht.
