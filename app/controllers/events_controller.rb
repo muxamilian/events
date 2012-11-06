@@ -74,7 +74,6 @@ class EventsController < ApplicationController
     tag_to_remove = params[:tag_name]
     @event = Event.find(params[:id])
     if user_signed_in?
-      show_in_log @event.tags
       @event.tags_from(current_user).delete tag_to_remove
       @event.save
     end

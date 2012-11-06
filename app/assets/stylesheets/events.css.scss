@@ -67,7 +67,11 @@ h1.h1-in-infowindow {
   width: 100%;
   max-width: 855px;
   width: 50%;
-  box-shadow: 20px 15px 15px #777;
+  box-shadow: 20px 15px 40px #000;  
+}
+
+.alert {
+  box-shadow: 20px 15px 40px #000;  
 }
 
 #overlay-alert-container {
