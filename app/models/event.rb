@@ -14,7 +14,7 @@ class Event < ActiveRecord::Base
   
   attr_accessible :description, :datetime, :address, :normalized_address, :max_attendees
   
-  # Says how gmaps handles events
+  # Tell gmaps4rails how to handle locations
   acts_as_gmappable :lat => :lat, :lng => :lng, :process_geocoding => true, :validation => true,
                     :address => :address, :normalized_address => :normalized_address,
                     :check_process => false,

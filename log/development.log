@@ -1,0 +1,1098 @@
+
+
+Started GET "/assets/favicon.png" for 127.0.0.1 at 2012-11-06 20:27:45 +0100
+Served asset /favicon.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/favicon.png" for 127.0.0.1 at 2012-11-06 20:27:45 +0100
+Served asset /favicon.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/favicon.png" for 127.0.0.1 at 2012-11-07 16:07:25 +0100
+Served asset /favicon.png - 304 Not Modified (24ms)
+
+
+Started GET "/assets/favicon.png" for 127.0.0.1 at 2012-11-07 18:26:08 +0100
+Served asset /favicon.png - 304 Not Modified (25ms)
+
+
+Started GET "/assets/favicon.png" for 127.0.0.1 at 2012-11-07 18:26:08 +0100
+Served asset /favicon.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/favicon.png" for 127.0.0.1 at 2012-11-07 18:26:09 +0100
+Served asset /favicon.png - 304 Not Modified (3ms)
+
+
+Started GET "/assets/favicon.png" for 127.0.0.1 at 2012-11-07 18:26:09 +0100
+Served asset /favicon.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/favicon.png" for 127.0.0.1 at 2012-11-07 18:26:11 +0100
+Served asset /favicon.png - 304 Not Modified (632ms)
+
+
+Started GET "/assets/favicon.png" for 127.0.0.1 at 2012-11-07 18:26:11 +0100
+Served asset /favicon.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/favicon.png" for 127.0.0.1 at 2012-11-07 18:26:12 +0100
+Served asset /favicon.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/favicon.png" for 127.0.0.1 at 2012-11-07 18:26:12 +0100
+Served asset /favicon.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/favicon.png" for 127.0.0.1 at 2012-11-07 18:26:13 +0100
+Served asset /favicon.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/favicon.png" for 127.0.0.1 at 2012-11-07 18:26:16 +0100
+Served asset /favicon.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/favicon.png" for 127.0.0.1 at 2012-11-07 18:26:16 +0100
+Served asset /favicon.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/favicon.png" for 127.0.0.1 at 2012-11-07 18:26:21 +0100
+Served asset /favicon.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-07 20:01:10 +0100
+Processing by EventsController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/gmaps4rails-1.5.6/app/views/gmaps4rails/_gmaps4rails.html.erb (5.5ms)
+  Rendered application/_flash.html.haml (0.5ms)
+  Rendered events/_search.html.haml (3.1ms)
+  [1m[35mUser Load (22.4ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  Rendered events/_error_div.html.haml (25.9ms)
+  Rendered application/_only_when_signed_in_button.html.haml (0.2ms)
+  Rendered events/_create.html.haml (31.3ms)
+  Rendered events/index.html.haml within layouts/application (51.8ms)
+  Rendered events/_hidden_modals.html.haml (0.9ms)
+  Rendered events/_title.html.haml (0.4ms)
+  Rendered devise/menu/_login_items.html.haml (2.5ms)
+  Rendered devise/menu/_registration_items.html.haml (0.1ms)
+  Rendered application/_facebook_sdk.html.erb (0.1ms)
+  Rendered events/_index_script.html.erb (0.1ms)
+Completed 200 OK in 96ms (Views: 71.9ms | ActiveRecord: 22.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-07 20:01:11 +0100
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2012-11-07 20:01:11 +0100
+Served asset /events.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-timepicker.css?body=1" for 127.0.0.1 at 2012-11-07 20:01:11 +0100
+Served asset /bootstrap-timepicker.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps4rails.css?body=1" for 127.0.0.1 at 2012-11-07 20:01:11 +0100
+Served asset /gmaps4rails.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-07 20:01:11 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2012-11-07 20:01:11 +0100
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-datepicker.css?body=1" for 127.0.0.1 at 2012-11-07 20:01:11 +0100
+Served asset /bootstrap-datepicker.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-07 20:01:11 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-11-07 20:01:11 +0100
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2012-11-07 20:01:11 +0100
+Served asset /events.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/gmaps4rails/gmaps4rails.base.js?body=1" for 127.0.0.1 at 2012-11-07 20:01:11 +0100
+Served asset /gmaps4rails/gmaps4rails.base.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-11-07 20:01:11 +0100
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps4rails/gmaps4rails.googlemaps.js?body=1" for 127.0.0.1 at 2012-11-07 20:01:11 +0100
+Served asset /gmaps4rails/gmaps4rails.googlemaps.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2012-11-07 20:01:11 +0100
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2012-11-07 20:01:11 +0100
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2012-11-07 20:01:11 +0100
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2012-11-07 20:01:11 +0100
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-11-07 20:01:11 +0100
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2012-11-07 20:01:11 +0100
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2012-11-07 20:01:11 +0100
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2012-11-07 20:01:11 +0100
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2012-11-07 20:01:11 +0100
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2012-11-07 20:01:11 +0100
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2012-11-07 20:01:11 +0100
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2012-11-07 20:01:11 +0100
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2012-11-07 20:01:11 +0100
+Served asset /twitter/bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-datepicker/core.js?body=1" for 127.0.0.1 at 2012-11-07 20:01:11 +0100
+Served asset /bootstrap-datepicker/core.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/temporal.js?body=1" for 127.0.0.1 at 2012-11-07 20:01:11 +0100
+Served asset /temporal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-timepicker.js?body=1" for 127.0.0.1 at 2012-11-07 20:01:11 +0100
+Served asset /bootstrap-timepicker.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-07 20:01:11 +0100
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2012-11-07 20:01:11 +0100
+Served asset /logo.svg - 304 Not Modified (2ms)
+
+
+Started GET "/events/local_events?lat=52.5512785737068&lng=13.389214590198094" for 127.0.0.1 at 2012-11-07 20:01:12 +0100
+Processing by EventsController#local_events as JSON
+  Parameters: {"lat"=>"52.5512785737068", "lng"=>"13.389214590198094"}
+  [1m[36mEvent Load (8.3ms)[0m  [1mSELECT "events".* FROM "events" WHERE ("events"."lat" BETWEEN 52.3012785737068 AND 52.8012785737068) AND ("events"."lng" BETWEEN 13.139214590198094 AND 13.639214590198094) AND ("events"."datetime" BETWEEN '2012-11-07 18:31:12' AND '2012-11-08 19:01:12') LIMIT 100[0m
+Completed 200 OK in 14ms (Views: 0.2ms | ActiveRecord: 8.3ms)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2012-11-07 20:01:12 +0100
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"SdVHUN3ZD7hhkGaGhbU8OT99wRpwNiC2nVbdC6m/9PA="}
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36m (0.7ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  COMMIT
+Redirected to http://localhost:8080/
+Completed 302 Found in 7ms (ActiveRecord: 1.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-07 20:01:12 +0100
+Processing by EventsController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/gmaps4rails-1.5.6/app/views/gmaps4rails/_gmaps4rails.html.erb (1.0ms)
+  Rendered application/_flash.html.haml (0.3ms)
+  Rendered events/_search.html.haml (1.4ms)
+  Rendered events/_error_div.html.haml (1.1ms)
+  Rendered application/_only_when_signed_in_button.html.haml (0.2ms)
+  Rendered events/_create.html.haml (3.9ms)
+  Rendered events/index.html.haml within layouts/application (11.2ms)
+  Rendered events/_hidden_modals.html.haml (0.8ms)
+  Rendered events/_title.html.haml (0.2ms)
+  Rendered devise/menu/_login_items.html.haml (1.1ms)
+  Rendered devise/menu/_registration_items.html.haml (0.1ms)
+  Rendered application/_facebook_sdk.html.erb (0.0ms)
+  Rendered events/_index_script.html.erb (0.1ms)
+Completed 200 OK in 33ms (Views: 32.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-07 20:01:13 +0100
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2012-11-07 20:01:13 +0100
+Served asset /events.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2012-11-07 20:01:13 +0100
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-timepicker.css?body=1" for 127.0.0.1 at 2012-11-07 20:01:13 +0100
+Served asset /bootstrap-timepicker.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-datepicker.css?body=1" for 127.0.0.1 at 2012-11-07 20:01:13 +0100
+Served asset /bootstrap-datepicker.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps4rails.css?body=1" for 127.0.0.1 at 2012-11-07 20:01:13 +0100
+Served asset /gmaps4rails.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2012-11-07 20:01:13 +0100
+Served asset /logo.svg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-07 20:01:13 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-11-07 20:01:13 +0100
+Served asset /bootstrap.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-07 20:01:13 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps4rails/gmaps4rails.base.js?body=1" for 127.0.0.1 at 2012-11-07 20:01:13 +0100
+Served asset /gmaps4rails/gmaps4rails.base.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2012-11-07 20:01:13 +0100
+Served asset /events.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/gmaps4rails/gmaps4rails.googlemaps.js?body=1" for 127.0.0.1 at 2012-11-07 20:01:13 +0100
+Served asset /gmaps4rails/gmaps4rails.googlemaps.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-11-07 20:01:13 +0100
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2012-11-07 20:01:13 +0100
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2012-11-07 20:01:13 +0100
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-11-07 20:01:13 +0100
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2012-11-07 20:01:13 +0100
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2012-11-07 20:01:13 +0100
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2012-11-07 20:01:13 +0100
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2012-11-07 20:01:13 +0100
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2012-11-07 20:01:13 +0100
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2012-11-07 20:01:13 +0100
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2012-11-07 20:01:13 +0100
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2012-11-07 20:01:13 +0100
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2012-11-07 20:01:13 +0100
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2012-11-07 20:01:13 +0100
+Served asset /twitter/bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-datepicker/core.js?body=1" for 127.0.0.1 at 2012-11-07 20:01:13 +0100
+Served asset /bootstrap-datepicker/core.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-timepicker.js?body=1" for 127.0.0.1 at 2012-11-07 20:01:13 +0100
+Served asset /bootstrap-timepicker.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/temporal.js?body=1" for 127.0.0.1 at 2012-11-07 20:01:13 +0100
+Served asset /temporal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-07 20:01:13 +0100
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/users/auth/facebook" for 127.0.0.1 at 2012-11-07 20:01:14 +0100
+
+
+Started GET "/users/auth/facebook/callback?state=16be6e2936e98043335933be30dffeec5482ce940fdf26ac&code=AQArKQ543PI-J-kIF6jEhhW0xHCZCH_aTe8chYTWtOxlT-cbGaF6M3b7ToKVaYUElr-tEqK17KdCC1zXMEFtUhyRaHJlHXzMkHXYi94eChfgrl8Pp2GR_m4ilTPozdorql63vWh4KLskuA8TPHNyZ-P__D7re3OqsnTeLr4oSmECk-UIVvjZVNV_-dSXsjpoavJ3haEOZE9F5yQ9kDw1wM5a" for 127.0.0.1 at 2012-11-07 20:01:15 +0100
+Processing by Users::OmniauthCallbacksController#facebook as HTML
+  Parameters: {"state"=>"16be6e2936e98043335933be30dffeec5482ce940fdf26ac", "code"=>"AQArKQ543PI-J-kIF6jEhhW0xHCZCH_aTe8chYTWtOxlT-cbGaF6M3b7ToKVaYUElr-tEqK17KdCC1zXMEFtUhyRaHJlHXzMkHXYi94eChfgrl8Pp2GR_m4ilTPozdorql63vWh4KLskuA8TPHNyZ-P__D7re3OqsnTeLr4oSmECk-UIVvjZVNV_-dSXsjpoavJ3haEOZE9F5yQ9kDw1wM5a"}
+  [1m[36mUser Load (2.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'maximilian.bachl@gmail.com' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (3.1ms)[0m  [1mUPDATE "users" SET "last_sign_in_at" = '2012-11-06 17:36:10.519462', "current_sign_in_at" = '2012-11-07 19:01:17.766953', "sign_in_count" = 26, "updated_at" = '2012-11-07 19:01:17.767521' WHERE "users"."id" = 1[0m
+  [1m[35m (1.6ms)[0m  COMMIT
+Redirected to http://localhost:8080/
+Completed 302 Found in 14ms (ActiveRecord: 7.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-07 20:01:17 +0100
+Processing by EventsController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/gmaps4rails-1.5.6/app/views/gmaps4rails/_gmaps4rails.html.erb (0.9ms)
+  Rendered application/_flash.html.haml (0.3ms)
+  Rendered events/_search.html.haml (1.5ms)
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  Rendered events/_error_div.html.haml (2.4ms)
+  Rendered application/_only_when_signed_in_button.html.haml (0.2ms)
+  Rendered events/_create.html.haml (5.3ms)
+  Rendered events/index.html.haml within layouts/application (12.4ms)
+  Rendered events/_hidden_modals.html.haml (0.8ms)
+  Rendered events/_title.html.haml (0.2ms)
+  Rendered devise/menu/_login_items.html.haml (0.7ms)
+  Rendered devise/menu/_registration_items.html.haml (0.1ms)
+  Rendered application/_facebook_sdk.html.erb (0.0ms)
+  Rendered events/_index_script.html.erb (0.0ms)
+Completed 200 OK in 33ms (Views: 31.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/gmaps4rails.css?body=1" for 127.0.0.1 at 2012-11-07 20:01:17 +0100
+Served asset /gmaps4rails.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-07 20:01:17 +0100
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2012-11-07 20:01:17 +0100
+Served asset /events.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-timepicker.css?body=1" for 127.0.0.1 at 2012-11-07 20:01:17 +0100
+Served asset /bootstrap-timepicker.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2012-11-07 20:01:17 +0100
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-datepicker.css?body=1" for 127.0.0.1 at 2012-11-07 20:01:17 +0100
+Served asset /bootstrap-datepicker.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2012-11-07 20:01:17 +0100
+Served asset /logo.svg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-07 20:01:17 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-07 20:01:17 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-11-07 20:01:17 +0100
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2012-11-07 20:01:17 +0100
+Served asset /events.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps4rails/gmaps4rails.base.js?body=1" for 127.0.0.1 at 2012-11-07 20:01:18 +0100
+Served asset /gmaps4rails/gmaps4rails.base.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps4rails/gmaps4rails.googlemaps.js?body=1" for 127.0.0.1 at 2012-11-07 20:01:18 +0100
+Served asset /gmaps4rails/gmaps4rails.googlemaps.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-11-07 20:01:18 +0100
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2012-11-07 20:01:18 +0100
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2012-11-07 20:01:18 +0100
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2012-11-07 20:01:18 +0100
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2012-11-07 20:01:18 +0100
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2012-11-07 20:01:18 +0100
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-11-07 20:01:18 +0100
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2012-11-07 20:01:18 +0100
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2012-11-07 20:01:18 +0100
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2012-11-07 20:01:18 +0100
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2012-11-07 20:01:18 +0100
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2012-11-07 20:01:18 +0100
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-datepicker/core.js?body=1" for 127.0.0.1 at 2012-11-07 20:01:18 +0100
+Served asset /bootstrap-datepicker/core.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2012-11-07 20:01:18 +0100
+Served asset /twitter/bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2012-11-07 20:01:18 +0100
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-timepicker.js?body=1" for 127.0.0.1 at 2012-11-07 20:01:18 +0100
+Served asset /bootstrap-timepicker.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/temporal.js?body=1" for 127.0.0.1 at 2012-11-07 20:01:18 +0100
+Served asset /temporal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-07 20:01:18 +0100
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/events/local_events?lat=52.55137656885516&lng=13.389089486792955" for 127.0.0.1 at 2012-11-07 20:01:18 +0100
+Processing by EventsController#local_events as JSON
+  Parameters: {"lat"=>"52.55137656885516", "lng"=>"13.389089486792955"}
+  [1m[35mEvent Load (0.6ms)[0m  SELECT "events".* FROM "events" WHERE ("events"."lat" BETWEEN 52.30137656885516 AND 52.80137656885516) AND ("events"."lng" BETWEEN 13.139089486792955 AND 13.639089486792955) AND ("events"."datetime" BETWEEN '2012-11-07 18:31:18' AND '2012-11-08 19:01:18') LIMIT 100
+Completed 200 OK in 3ms (Views: 0.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/events/search?utf8=%E2%9C%93&s_query=spam&s_date=2012-11-7&s_time=20%3A00&s_timeframe=12" for 127.0.0.1 at 2012-11-07 20:01:28 +0100
+Processing by EventsController#search as JS
+  Parameters: {"utf8"=>"✓", "s_query"=>"spam", "s_date"=>"2012-11-7", "s_time"=>"20:00", "s_timeframe"=>"12"}
+  [1m[36m (51.9ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT 1 AS count_column FROM "events" LEFT OUTER JOIN (SELECT "events"."id" AS id, string_agg("tags"."name"::text, ' ') AS pg_search_93f916f001b6b057ee2922 FROM "events" INNER JOIN "taggings" ON "taggings"."taggable_id" = "events"."id" AND taggings.context = 'tags' AND "taggings"."taggable_type" = 'Event' INNER JOIN "tags" ON "tags"."id" = "taggings"."tag_id" GROUP BY "events"."id") pg_search_b229fd995799cea4ca76c4 ON pg_search_b229fd995799cea4ca76c4.id = "events"."id" WHERE ("events"."datetime" BETWEEN '2012-11-07 07:00:00' AND '2012-11-08 07:00:00') AND (((setweight(to_tsvector('simple', coalesce("events"."description"::text, '')), 'A') || setweight(to_tsvector('simple', coalesce("events"."address"::text, '')), 'B') || setweight(to_tsvector('simple', coalesce("events"."normalized_address"::text, '')), 'B') || to_tsvector('simple', coalesce(pg_search_b229fd995799cea4ca76c4.pg_search_93f916f001b6b057ee2922::text, ''))) @@ (to_tsquery('simple', ''' ' || 'spam' || ' ''')))) LIMIT 100) subquery_for_count [0m
+  [1m[35mEvent Load (3.9ms)[0m  SELECT "events".*, (ts_rank((setweight(to_tsvector('simple', coalesce("events"."description"::text, '')), 'A') || setweight(to_tsvector('simple', coalesce("events"."address"::text, '')), 'B') || setweight(to_tsvector('simple', coalesce("events"."normalized_address"::text, '')), 'B') || to_tsvector('simple', coalesce(pg_search_b229fd995799cea4ca76c4.pg_search_93f916f001b6b057ee2922::text, ''))), (to_tsquery('simple', ''' ' || 'spam' || ' ''')), 0)) AS pg_search_rank FROM "events" LEFT OUTER JOIN (SELECT "events"."id" AS id, string_agg("tags"."name"::text, ' ') AS pg_search_93f916f001b6b057ee2922 FROM "events" INNER JOIN "taggings" ON "taggings"."taggable_id" = "events"."id" AND taggings.context = 'tags' AND "taggings"."taggable_type" = 'Event' INNER JOIN "tags" ON "tags"."id" = "taggings"."tag_id" GROUP BY "events"."id") pg_search_b229fd995799cea4ca76c4 ON pg_search_b229fd995799cea4ca76c4.id = "events"."id" WHERE ("events"."datetime" BETWEEN '2012-11-07 07:00:00' AND '2012-11-08 07:00:00') AND (((setweight(to_tsvector('simple', coalesce("events"."description"::text, '')), 'A') || setweight(to_tsvector('simple', coalesce("events"."address"::text, '')), 'B') || setweight(to_tsvector('simple', coalesce("events"."normalized_address"::text, '')), 'B') || to_tsvector('simple', coalesce(pg_search_b229fd995799cea4ca76c4.pg_search_93f916f001b6b057ee2922::text, ''))) @@ (to_tsquery('simple', ''' ' || 'spam' || ' ''')))) ORDER BY pg_search_rank DESC, "events"."id" ASC LIMIT 100
+  Rendered events/search.js.erb (0.1ms)
+Completed 200 OK in 257ms (Views: 4.6ms | ActiveRecord: 55.7ms)
+
+
+Started GET "/events/search?utf8=%E2%9C%93&s_query=spam&s_date=2012-11-7&s_time=20%3A00&s_timeframe=12" for 127.0.0.1 at 2012-11-07 20:01:29 +0100
+Processing by EventsController#search as JS
+  Parameters: {"utf8"=>"✓", "s_query"=>"spam", "s_date"=>"2012-11-7", "s_time"=>"20:00", "s_timeframe"=>"12"}
+  [1m[36m (1.1ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT 1 AS count_column FROM "events" LEFT OUTER JOIN (SELECT "events"."id" AS id, string_agg("tags"."name"::text, ' ') AS pg_search_93f916f001b6b057ee2922 FROM "events" INNER JOIN "taggings" ON "taggings"."taggable_id" = "events"."id" AND taggings.context = 'tags' AND "taggings"."taggable_type" = 'Event' INNER JOIN "tags" ON "tags"."id" = "taggings"."tag_id" GROUP BY "events"."id") pg_search_b229fd995799cea4ca76c4 ON pg_search_b229fd995799cea4ca76c4.id = "events"."id" WHERE ("events"."datetime" BETWEEN '2012-11-07 07:00:00' AND '2012-11-08 07:00:00') AND (((setweight(to_tsvector('simple', coalesce("events"."description"::text, '')), 'A') || setweight(to_tsvector('simple', coalesce("events"."address"::text, '')), 'B') || setweight(to_tsvector('simple', coalesce("events"."normalized_address"::text, '')), 'B') || to_tsvector('simple', coalesce(pg_search_b229fd995799cea4ca76c4.pg_search_93f916f001b6b057ee2922::text, ''))) @@ (to_tsquery('simple', ''' ' || 'spam' || ' ''')))) LIMIT 100) subquery_for_count [0m
+  [1m[35mEvent Load (1.2ms)[0m  SELECT "events".*, (ts_rank((setweight(to_tsvector('simple', coalesce("events"."description"::text, '')), 'A') || setweight(to_tsvector('simple', coalesce("events"."address"::text, '')), 'B') || setweight(to_tsvector('simple', coalesce("events"."normalized_address"::text, '')), 'B') || to_tsvector('simple', coalesce(pg_search_b229fd995799cea4ca76c4.pg_search_93f916f001b6b057ee2922::text, ''))), (to_tsquery('simple', ''' ' || 'spam' || ' ''')), 0)) AS pg_search_rank FROM "events" LEFT OUTER JOIN (SELECT "events"."id" AS id, string_agg("tags"."name"::text, ' ') AS pg_search_93f916f001b6b057ee2922 FROM "events" INNER JOIN "taggings" ON "taggings"."taggable_id" = "events"."id" AND taggings.context = 'tags' AND "taggings"."taggable_type" = 'Event' INNER JOIN "tags" ON "tags"."id" = "taggings"."tag_id" GROUP BY "events"."id") pg_search_b229fd995799cea4ca76c4 ON pg_search_b229fd995799cea4ca76c4.id = "events"."id" WHERE ("events"."datetime" BETWEEN '2012-11-07 07:00:00' AND '2012-11-08 07:00:00') AND (((setweight(to_tsvector('simple', coalesce("events"."description"::text, '')), 'A') || setweight(to_tsvector('simple', coalesce("events"."address"::text, '')), 'B') || setweight(to_tsvector('simple', coalesce("events"."normalized_address"::text, '')), 'B') || to_tsvector('simple', coalesce(pg_search_b229fd995799cea4ca76c4.pg_search_93f916f001b6b057ee2922::text, ''))) @@ (to_tsquery('simple', ''' ' || 'spam' || ' ''')))) ORDER BY pg_search_rank DESC, "events"."id" ASC LIMIT 100
+  Rendered events/search.js.erb (0.1ms)
+Completed 200 OK in 10ms (Views: 3.6ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/events/search?utf8=%E2%9C%93&s_query=spam&s_date=2012-11-7&s_time=20%3A00&s_timeframe=12" for 127.0.0.1 at 2012-11-07 20:01:29 +0100
+Processing by EventsController#search as JS
+  Parameters: {"utf8"=>"✓", "s_query"=>"spam", "s_date"=>"2012-11-7", "s_time"=>"20:00", "s_timeframe"=>"12"}
+  [1m[36m (1.0ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT 1 AS count_column FROM "events" LEFT OUTER JOIN (SELECT "events"."id" AS id, string_agg("tags"."name"::text, ' ') AS pg_search_93f916f001b6b057ee2922 FROM "events" INNER JOIN "taggings" ON "taggings"."taggable_id" = "events"."id" AND taggings.context = 'tags' AND "taggings"."taggable_type" = 'Event' INNER JOIN "tags" ON "tags"."id" = "taggings"."tag_id" GROUP BY "events"."id") pg_search_b229fd995799cea4ca76c4 ON pg_search_b229fd995799cea4ca76c4.id = "events"."id" WHERE ("events"."datetime" BETWEEN '2012-11-07 07:00:00' AND '2012-11-08 07:00:00') AND (((setweight(to_tsvector('simple', coalesce("events"."description"::text, '')), 'A') || setweight(to_tsvector('simple', coalesce("events"."address"::text, '')), 'B') || setweight(to_tsvector('simple', coalesce("events"."normalized_address"::text, '')), 'B') || to_tsvector('simple', coalesce(pg_search_b229fd995799cea4ca76c4.pg_search_93f916f001b6b057ee2922::text, ''))) @@ (to_tsquery('simple', ''' ' || 'spam' || ' ''')))) LIMIT 100) subquery_for_count [0m
+  [1m[35mEvent Load (1.0ms)[0m  SELECT "events".*, (ts_rank((setweight(to_tsvector('simple', coalesce("events"."description"::text, '')), 'A') || setweight(to_tsvector('simple', coalesce("events"."address"::text, '')), 'B') || setweight(to_tsvector('simple', coalesce("events"."normalized_address"::text, '')), 'B') || to_tsvector('simple', coalesce(pg_search_b229fd995799cea4ca76c4.pg_search_93f916f001b6b057ee2922::text, ''))), (to_tsquery('simple', ''' ' || 'spam' || ' ''')), 0)) AS pg_search_rank FROM "events" LEFT OUTER JOIN (SELECT "events"."id" AS id, string_agg("tags"."name"::text, ' ') AS pg_search_93f916f001b6b057ee2922 FROM "events" INNER JOIN "taggings" ON "taggings"."taggable_id" = "events"."id" AND taggings.context = 'tags' AND "taggings"."taggable_type" = 'Event' INNER JOIN "tags" ON "tags"."id" = "taggings"."tag_id" GROUP BY "events"."id") pg_search_b229fd995799cea4ca76c4 ON pg_search_b229fd995799cea4ca76c4.id = "events"."id" WHERE ("events"."datetime" BETWEEN '2012-11-07 07:00:00' AND '2012-11-08 07:00:00') AND (((setweight(to_tsvector('simple', coalesce("events"."description"::text, '')), 'A') || setweight(to_tsvector('simple', coalesce("events"."address"::text, '')), 'B') || setweight(to_tsvector('simple', coalesce("events"."normalized_address"::text, '')), 'B') || to_tsvector('simple', coalesce(pg_search_b229fd995799cea4ca76c4.pg_search_93f916f001b6b057ee2922::text, ''))) @@ (to_tsquery('simple', ''' ' || 'spam' || ' ''')))) ORDER BY pg_search_rank DESC, "events"."id" ASC LIMIT 100
+  Rendered events/search.js.erb (0.1ms)
+Completed 200 OK in 8ms (Views: 3.4ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/events/search?utf8=%E2%9C%93&s_query=spam&s_date=2012-11-7&s_time=20%3A00&s_timeframe=12" for 127.0.0.1 at 2012-11-07 20:01:30 +0100
+Processing by EventsController#search as JS
+  Parameters: {"utf8"=>"✓", "s_query"=>"spam", "s_date"=>"2012-11-7", "s_time"=>"20:00", "s_timeframe"=>"12"}
+  [1m[36m (1.0ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT 1 AS count_column FROM "events" LEFT OUTER JOIN (SELECT "events"."id" AS id, string_agg("tags"."name"::text, ' ') AS pg_search_93f916f001b6b057ee2922 FROM "events" INNER JOIN "taggings" ON "taggings"."taggable_id" = "events"."id" AND taggings.context = 'tags' AND "taggings"."taggable_type" = 'Event' INNER JOIN "tags" ON "tags"."id" = "taggings"."tag_id" GROUP BY "events"."id") pg_search_b229fd995799cea4ca76c4 ON pg_search_b229fd995799cea4ca76c4.id = "events"."id" WHERE ("events"."datetime" BETWEEN '2012-11-07 07:00:00' AND '2012-11-08 07:00:00') AND (((setweight(to_tsvector('simple', coalesce("events"."description"::text, '')), 'A') || setweight(to_tsvector('simple', coalesce("events"."address"::text, '')), 'B') || setweight(to_tsvector('simple', coalesce("events"."normalized_address"::text, '')), 'B') || to_tsvector('simple', coalesce(pg_search_b229fd995799cea4ca76c4.pg_search_93f916f001b6b057ee2922::text, ''))) @@ (to_tsquery('simple', ''' ' || 'spam' || ' ''')))) LIMIT 100) subquery_for_count [0m
+  [1m[35mEvent Load (1.5ms)[0m  SELECT "events".*, (ts_rank((setweight(to_tsvector('simple', coalesce("events"."description"::text, '')), 'A') || setweight(to_tsvector('simple', coalesce("events"."address"::text, '')), 'B') || setweight(to_tsvector('simple', coalesce("events"."normalized_address"::text, '')), 'B') || to_tsvector('simple', coalesce(pg_search_b229fd995799cea4ca76c4.pg_search_93f916f001b6b057ee2922::text, ''))), (to_tsquery('simple', ''' ' || 'spam' || ' ''')), 0)) AS pg_search_rank FROM "events" LEFT OUTER JOIN (SELECT "events"."id" AS id, string_agg("tags"."name"::text, ' ') AS pg_search_93f916f001b6b057ee2922 FROM "events" INNER JOIN "taggings" ON "taggings"."taggable_id" = "events"."id" AND taggings.context = 'tags' AND "taggings"."taggable_type" = 'Event' INNER JOIN "tags" ON "tags"."id" = "taggings"."tag_id" GROUP BY "events"."id") pg_search_b229fd995799cea4ca76c4 ON pg_search_b229fd995799cea4ca76c4.id = "events"."id" WHERE ("events"."datetime" BETWEEN '2012-11-07 07:00:00' AND '2012-11-08 07:00:00') AND (((setweight(to_tsvector('simple', coalesce("events"."description"::text, '')), 'A') || setweight(to_tsvector('simple', coalesce("events"."address"::text, '')), 'B') || setweight(to_tsvector('simple', coalesce("events"."normalized_address"::text, '')), 'B') || to_tsvector('simple', coalesce(pg_search_b229fd995799cea4ca76c4.pg_search_93f916f001b6b057ee2922::text, ''))) @@ (to_tsquery('simple', ''' ' || 'spam' || ' ''')))) ORDER BY pg_search_rank DESC, "events"."id" ASC LIMIT 100
+  Rendered events/search.js.erb (0.1ms)
+Completed 200 OK in 10ms (Views: 4.3ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/events/search?utf8=%E2%9C%93&s_query=spam&s_date=2012-11-7&s_time=20%3A00&s_timeframe=12" for 127.0.0.1 at 2012-11-07 20:01:30 +0100
+Processing by EventsController#search as JS
+  Parameters: {"utf8"=>"✓", "s_query"=>"spam", "s_date"=>"2012-11-7", "s_time"=>"20:00", "s_timeframe"=>"12"}
+  [1m[36m (1.5ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT 1 AS count_column FROM "events" LEFT OUTER JOIN (SELECT "events"."id" AS id, string_agg("tags"."name"::text, ' ') AS pg_search_93f916f001b6b057ee2922 FROM "events" INNER JOIN "taggings" ON "taggings"."taggable_id" = "events"."id" AND taggings.context = 'tags' AND "taggings"."taggable_type" = 'Event' INNER JOIN "tags" ON "tags"."id" = "taggings"."tag_id" GROUP BY "events"."id") pg_search_b229fd995799cea4ca76c4 ON pg_search_b229fd995799cea4ca76c4.id = "events"."id" WHERE ("events"."datetime" BETWEEN '2012-11-07 07:00:00' AND '2012-11-08 07:00:00') AND (((setweight(to_tsvector('simple', coalesce("events"."description"::text, '')), 'A') || setweight(to_tsvector('simple', coalesce("events"."address"::text, '')), 'B') || setweight(to_tsvector('simple', coalesce("events"."normalized_address"::text, '')), 'B') || to_tsvector('simple', coalesce(pg_search_b229fd995799cea4ca76c4.pg_search_93f916f001b6b057ee2922::text, ''))) @@ (to_tsquery('simple', ''' ' || 'spam' || ' ''')))) LIMIT 100) subquery_for_count [0m
+  [1m[35mEvent Load (1.7ms)[0m  SELECT "events".*, (ts_rank((setweight(to_tsvector('simple', coalesce("events"."description"::text, '')), 'A') || setweight(to_tsvector('simple', coalesce("events"."address"::text, '')), 'B') || setweight(to_tsvector('simple', coalesce("events"."normalized_address"::text, '')), 'B') || to_tsvector('simple', coalesce(pg_search_b229fd995799cea4ca76c4.pg_search_93f916f001b6b057ee2922::text, ''))), (to_tsquery('simple', ''' ' || 'spam' || ' ''')), 0)) AS pg_search_rank FROM "events" LEFT OUTER JOIN (SELECT "events"."id" AS id, string_agg("tags"."name"::text, ' ') AS pg_search_93f916f001b6b057ee2922 FROM "events" INNER JOIN "taggings" ON "taggings"."taggable_id" = "events"."id" AND taggings.context = 'tags' AND "taggings"."taggable_type" = 'Event' INNER JOIN "tags" ON "tags"."id" = "taggings"."tag_id" GROUP BY "events"."id") pg_search_b229fd995799cea4ca76c4 ON pg_search_b229fd995799cea4ca76c4.id = "events"."id" WHERE ("events"."datetime" BETWEEN '2012-11-07 07:00:00' AND '2012-11-08 07:00:00') AND (((setweight(to_tsvector('simple', coalesce("events"."description"::text, '')), 'A') || setweight(to_tsvector('simple', coalesce("events"."address"::text, '')), 'B') || setweight(to_tsvector('simple', coalesce("events"."normalized_address"::text, '')), 'B') || to_tsvector('simple', coalesce(pg_search_b229fd995799cea4ca76c4.pg_search_93f916f001b6b057ee2922::text, ''))) @@ (to_tsquery('simple', ''' ' || 'spam' || ' ''')))) ORDER BY pg_search_rank DESC, "events"."id" ASC LIMIT 100
+  Rendered events/search.js.erb (0.1ms)
+Completed 200 OK in 12ms (Views: 4.7ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/events/search?utf8=%E2%9C%93&s_query=spam&s_date=2012-11-7&s_time=20%3A00&s_timeframe=12" for 127.0.0.1 at 2012-11-07 20:01:30 +0100
+Processing by EventsController#search as JS
+  Parameters: {"utf8"=>"✓", "s_query"=>"spam", "s_date"=>"2012-11-7", "s_time"=>"20:00", "s_timeframe"=>"12"}
+  [1m[36m (1.2ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT 1 AS count_column FROM "events" LEFT OUTER JOIN (SELECT "events"."id" AS id, string_agg("tags"."name"::text, ' ') AS pg_search_93f916f001b6b057ee2922 FROM "events" INNER JOIN "taggings" ON "taggings"."taggable_id" = "events"."id" AND taggings.context = 'tags' AND "taggings"."taggable_type" = 'Event' INNER JOIN "tags" ON "tags"."id" = "taggings"."tag_id" GROUP BY "events"."id") pg_search_b229fd995799cea4ca76c4 ON pg_search_b229fd995799cea4ca76c4.id = "events"."id" WHERE ("events"."datetime" BETWEEN '2012-11-07 07:00:00' AND '2012-11-08 07:00:00') AND (((setweight(to_tsvector('simple', coalesce("events"."description"::text, '')), 'A') || setweight(to_tsvector('simple', coalesce("events"."address"::text, '')), 'B') || setweight(to_tsvector('simple', coalesce("events"."normalized_address"::text, '')), 'B') || to_tsvector('simple', coalesce(pg_search_b229fd995799cea4ca76c4.pg_search_93f916f001b6b057ee2922::text, ''))) @@ (to_tsquery('simple', ''' ' || 'spam' || ' ''')))) LIMIT 100) subquery_for_count [0m
+  [1m[35mEvent Load (0.9ms)[0m  SELECT "events".*, (ts_rank((setweight(to_tsvector('simple', coalesce("events"."description"::text, '')), 'A') || setweight(to_tsvector('simple', coalesce("events"."address"::text, '')), 'B') || setweight(to_tsvector('simple', coalesce("events"."normalized_address"::text, '')), 'B') || to_tsvector('simple', coalesce(pg_search_b229fd995799cea4ca76c4.pg_search_93f916f001b6b057ee2922::text, ''))), (to_tsquery('simple', ''' ' || 'spam' || ' ''')), 0)) AS pg_search_rank FROM "events" LEFT OUTER JOIN (SELECT "events"."id" AS id, string_agg("tags"."name"::text, ' ') AS pg_search_93f916f001b6b057ee2922 FROM "events" INNER JOIN "taggings" ON "taggings"."taggable_id" = "events"."id" AND taggings.context = 'tags' AND "taggings"."taggable_type" = 'Event' INNER JOIN "tags" ON "tags"."id" = "taggings"."tag_id" GROUP BY "events"."id") pg_search_b229fd995799cea4ca76c4 ON pg_search_b229fd995799cea4ca76c4.id = "events"."id" WHERE ("events"."datetime" BETWEEN '2012-11-07 07:00:00' AND '2012-11-08 07:00:00') AND (((setweight(to_tsvector('simple', coalesce("events"."description"::text, '')), 'A') || setweight(to_tsvector('simple', coalesce("events"."address"::text, '')), 'B') || setweight(to_tsvector('simple', coalesce("events"."normalized_address"::text, '')), 'B') || to_tsvector('simple', coalesce(pg_search_b229fd995799cea4ca76c4.pg_search_93f916f001b6b057ee2922::text, ''))) @@ (to_tsquery('simple', ''' ' || 'spam' || ' ''')))) ORDER BY pg_search_rank DESC, "events"."id" ASC LIMIT 100
+  Rendered events/search.js.erb (0.1ms)
+Completed 200 OK in 10ms (Views: 3.5ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/events/search?utf8=%E2%9C%93&s_query=spam&s_date=2012-11-7&s_time=20%3A00&s_timeframe=12" for 127.0.0.1 at 2012-11-07 20:01:30 +0100
+Processing by EventsController#search as JS
+  Parameters: {"utf8"=>"✓", "s_query"=>"spam", "s_date"=>"2012-11-7", "s_time"=>"20:00", "s_timeframe"=>"12"}
+  [1m[36m (1.0ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT 1 AS count_column FROM "events" LEFT OUTER JOIN (SELECT "events"."id" AS id, string_agg("tags"."name"::text, ' ') AS pg_search_93f916f001b6b057ee2922 FROM "events" INNER JOIN "taggings" ON "taggings"."taggable_id" = "events"."id" AND taggings.context = 'tags' AND "taggings"."taggable_type" = 'Event' INNER JOIN "tags" ON "tags"."id" = "taggings"."tag_id" GROUP BY "events"."id") pg_search_b229fd995799cea4ca76c4 ON pg_search_b229fd995799cea4ca76c4.id = "events"."id" WHERE ("events"."datetime" BETWEEN '2012-11-07 07:00:00' AND '2012-11-08 07:00:00') AND (((setweight(to_tsvector('simple', coalesce("events"."description"::text, '')), 'A') || setweight(to_tsvector('simple', coalesce("events"."address"::text, '')), 'B') || setweight(to_tsvector('simple', coalesce("events"."normalized_address"::text, '')), 'B') || to_tsvector('simple', coalesce(pg_search_b229fd995799cea4ca76c4.pg_search_93f916f001b6b057ee2922::text, ''))) @@ (to_tsquery('simple', ''' ' || 'spam' || ' ''')))) LIMIT 100) subquery_for_count [0m
+  [1m[35mEvent Load (0.9ms)[0m  SELECT "events".*, (ts_rank((setweight(to_tsvector('simple', coalesce("events"."description"::text, '')), 'A') || setweight(to_tsvector('simple', coalesce("events"."address"::text, '')), 'B') || setweight(to_tsvector('simple', coalesce("events"."normalized_address"::text, '')), 'B') || to_tsvector('simple', coalesce(pg_search_b229fd995799cea4ca76c4.pg_search_93f916f001b6b057ee2922::text, ''))), (to_tsquery('simple', ''' ' || 'spam' || ' ''')), 0)) AS pg_search_rank FROM "events" LEFT OUTER JOIN (SELECT "events"."id" AS id, string_agg("tags"."name"::text, ' ') AS pg_search_93f916f001b6b057ee2922 FROM "events" INNER JOIN "taggings" ON "taggings"."taggable_id" = "events"."id" AND taggings.context = 'tags' AND "taggings"."taggable_type" = 'Event' INNER JOIN "tags" ON "tags"."id" = "taggings"."tag_id" GROUP BY "events"."id") pg_search_b229fd995799cea4ca76c4 ON pg_search_b229fd995799cea4ca76c4.id = "events"."id" WHERE ("events"."datetime" BETWEEN '2012-11-07 07:00:00' AND '2012-11-08 07:00:00') AND (((setweight(to_tsvector('simple', coalesce("events"."description"::text, '')), 'A') || setweight(to_tsvector('simple', coalesce("events"."address"::text, '')), 'B') || setweight(to_tsvector('simple', coalesce("events"."normalized_address"::text, '')), 'B') || to_tsvector('simple', coalesce(pg_search_b229fd995799cea4ca76c4.pg_search_93f916f001b6b057ee2922::text, ''))) @@ (to_tsquery('simple', ''' ' || 'spam' || ' ''')))) ORDER BY pg_search_rank DESC, "events"."id" ASC LIMIT 100
+  Rendered events/search.js.erb (0.1ms)
+Completed 200 OK in 9ms (Views: 3.8ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/events/search?utf8=%E2%9C%93&s_query=spam&s_date=2012-11-7&s_time=20%3A00&s_timeframe=12" for 127.0.0.1 at 2012-11-07 20:01:30 +0100
+Processing by EventsController#search as JS
+  Parameters: {"utf8"=>"✓", "s_query"=>"spam", "s_date"=>"2012-11-7", "s_time"=>"20:00", "s_timeframe"=>"12"}
+  [1m[36m (1.1ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT 1 AS count_column FROM "events" LEFT OUTER JOIN (SELECT "events"."id" AS id, string_agg("tags"."name"::text, ' ') AS pg_search_93f916f001b6b057ee2922 FROM "events" INNER JOIN "taggings" ON "taggings"."taggable_id" = "events"."id" AND taggings.context = 'tags' AND "taggings"."taggable_type" = 'Event' INNER JOIN "tags" ON "tags"."id" = "taggings"."tag_id" GROUP BY "events"."id") pg_search_b229fd995799cea4ca76c4 ON pg_search_b229fd995799cea4ca76c4.id = "events"."id" WHERE ("events"."datetime" BETWEEN '2012-11-07 07:00:00' AND '2012-11-08 07:00:00') AND (((setweight(to_tsvector('simple', coalesce("events"."description"::text, '')), 'A') || setweight(to_tsvector('simple', coalesce("events"."address"::text, '')), 'B') || setweight(to_tsvector('simple', coalesce("events"."normalized_address"::text, '')), 'B') || to_tsvector('simple', coalesce(pg_search_b229fd995799cea4ca76c4.pg_search_93f916f001b6b057ee2922::text, ''))) @@ (to_tsquery('simple', ''' ' || 'spam' || ' ''')))) LIMIT 100) subquery_for_count [0m
+  [1m[35mEvent Load (1.0ms)[0m  SELECT "events".*, (ts_rank((setweight(to_tsvector('simple', coalesce("events"."description"::text, '')), 'A') || setweight(to_tsvector('simple', coalesce("events"."address"::text, '')), 'B') || setweight(to_tsvector('simple', coalesce("events"."normalized_address"::text, '')), 'B') || to_tsvector('simple', coalesce(pg_search_b229fd995799cea4ca76c4.pg_search_93f916f001b6b057ee2922::text, ''))), (to_tsquery('simple', ''' ' || 'spam' || ' ''')), 0)) AS pg_search_rank FROM "events" LEFT OUTER JOIN (SELECT "events"."id" AS id, string_agg("tags"."name"::text, ' ') AS pg_search_93f916f001b6b057ee2922 FROM "events" INNER JOIN "taggings" ON "taggings"."taggable_id" = "events"."id" AND taggings.context = 'tags' AND "taggings"."taggable_type" = 'Event' INNER JOIN "tags" ON "tags"."id" = "taggings"."tag_id" GROUP BY "events"."id") pg_search_b229fd995799cea4ca76c4 ON pg_search_b229fd995799cea4ca76c4.id = "events"."id" WHERE ("events"."datetime" BETWEEN '2012-11-07 07:00:00' AND '2012-11-08 07:00:00') AND (((setweight(to_tsvector('simple', coalesce("events"."description"::text, '')), 'A') || setweight(to_tsvector('simple', coalesce("events"."address"::text, '')), 'B') || setweight(to_tsvector('simple', coalesce("events"."normalized_address"::text, '')), 'B') || to_tsvector('simple', coalesce(pg_search_b229fd995799cea4ca76c4.pg_search_93f916f001b6b057ee2922::text, ''))) @@ (to_tsquery('simple', ''' ' || 'spam' || ' ''')))) ORDER BY pg_search_rank DESC, "events"."id" ASC LIMIT 100
+  Rendered events/search.js.erb (0.1ms)
+Completed 200 OK in 9ms (Views: 3.7ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/events/search?utf8=%E2%9C%93&s_query=spam&s_date=2012-11-7&s_time=20%3A00&s_timeframe=12" for 127.0.0.1 at 2012-11-07 20:01:30 +0100
+Processing by EventsController#search as JS
+  Parameters: {"utf8"=>"✓", "s_query"=>"spam", "s_date"=>"2012-11-7", "s_time"=>"20:00", "s_timeframe"=>"12"}
+  [1m[36m (1.3ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT 1 AS count_column FROM "events" LEFT OUTER JOIN (SELECT "events"."id" AS id, string_agg("tags"."name"::text, ' ') AS pg_search_93f916f001b6b057ee2922 FROM "events" INNER JOIN "taggings" ON "taggings"."taggable_id" = "events"."id" AND taggings.context = 'tags' AND "taggings"."taggable_type" = 'Event' INNER JOIN "tags" ON "tags"."id" = "taggings"."tag_id" GROUP BY "events"."id") pg_search_b229fd995799cea4ca76c4 ON pg_search_b229fd995799cea4ca76c4.id = "events"."id" WHERE ("events"."datetime" BETWEEN '2012-11-07 07:00:00' AND '2012-11-08 07:00:00') AND (((setweight(to_tsvector('simple', coalesce("events"."description"::text, '')), 'A') || setweight(to_tsvector('simple', coalesce("events"."address"::text, '')), 'B') || setweight(to_tsvector('simple', coalesce("events"."normalized_address"::text, '')), 'B') || to_tsvector('simple', coalesce(pg_search_b229fd995799cea4ca76c4.pg_search_93f916f001b6b057ee2922::text, ''))) @@ (to_tsquery('simple', ''' ' || 'spam' || ' ''')))) LIMIT 100) subquery_for_count [0m
+  [1m[35mEvent Load (1.2ms)[0m  SELECT "events".*, (ts_rank((setweight(to_tsvector('simple', coalesce("events"."description"::text, '')), 'A') || setweight(to_tsvector('simple', coalesce("events"."address"::text, '')), 'B') || setweight(to_tsvector('simple', coalesce("events"."normalized_address"::text, '')), 'B') || to_tsvector('simple', coalesce(pg_search_b229fd995799cea4ca76c4.pg_search_93f916f001b6b057ee2922::text, ''))), (to_tsquery('simple', ''' ' || 'spam' || ' ''')), 0)) AS pg_search_rank FROM "events" LEFT OUTER JOIN (SELECT "events"."id" AS id, string_agg("tags"."name"::text, ' ') AS pg_search_93f916f001b6b057ee2922 FROM "events" INNER JOIN "taggings" ON "taggings"."taggable_id" = "events"."id" AND taggings.context = 'tags' AND "taggings"."taggable_type" = 'Event' INNER JOIN "tags" ON "tags"."id" = "taggings"."tag_id" GROUP BY "events"."id") pg_search_b229fd995799cea4ca76c4 ON pg_search_b229fd995799cea4ca76c4.id = "events"."id" WHERE ("events"."datetime" BETWEEN '2012-11-07 07:00:00' AND '2012-11-08 07:00:00') AND (((setweight(to_tsvector('simple', coalesce("events"."description"::text, '')), 'A') || setweight(to_tsvector('simple', coalesce("events"."address"::text, '')), 'B') || setweight(to_tsvector('simple', coalesce("events"."normalized_address"::text, '')), 'B') || to_tsvector('simple', coalesce(pg_search_b229fd995799cea4ca76c4.pg_search_93f916f001b6b057ee2922::text, ''))) @@ (to_tsquery('simple', ''' ' || 'spam' || ' ''')))) ORDER BY pg_search_rank DESC, "events"."id" ASC LIMIT 100
+  Rendered events/search.js.erb (0.1ms)
+Completed 200 OK in 9ms (Views: 3.4ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/events/search?utf8=%E2%9C%93&s_query=spam&s_date=2012-11-7&s_time=20%3A00&s_timeframe=12" for 127.0.0.1 at 2012-11-07 20:01:31 +0100
+Processing by EventsController#search as JS
+  Parameters: {"utf8"=>"✓", "s_query"=>"spam", "s_date"=>"2012-11-7", "s_time"=>"20:00", "s_timeframe"=>"12"}
+  [1m[36m (1.4ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT 1 AS count_column FROM "events" LEFT OUTER JOIN (SELECT "events"."id" AS id, string_agg("tags"."name"::text, ' ') AS pg_search_93f916f001b6b057ee2922 FROM "events" INNER JOIN "taggings" ON "taggings"."taggable_id" = "events"."id" AND taggings.context = 'tags' AND "taggings"."taggable_type" = 'Event' INNER JOIN "tags" ON "tags"."id" = "taggings"."tag_id" GROUP BY "events"."id") pg_search_b229fd995799cea4ca76c4 ON pg_search_b229fd995799cea4ca76c4.id = "events"."id" WHERE ("events"."datetime" BETWEEN '2012-11-07 07:00:00' AND '2012-11-08 07:00:00') AND (((setweight(to_tsvector('simple', coalesce("events"."description"::text, '')), 'A') || setweight(to_tsvector('simple', coalesce("events"."address"::text, '')), 'B') || setweight(to_tsvector('simple', coalesce("events"."normalized_address"::text, '')), 'B') || to_tsvector('simple', coalesce(pg_search_b229fd995799cea4ca76c4.pg_search_93f916f001b6b057ee2922::text, ''))) @@ (to_tsquery('simple', ''' ' || 'spam' || ' ''')))) LIMIT 100) subquery_for_count [0m
+  [1m[35mEvent Load (1.5ms)[0m  SELECT "events".*, (ts_rank((setweight(to_tsvector('simple', coalesce("events"."description"::text, '')), 'A') || setweight(to_tsvector('simple', coalesce("events"."address"::text, '')), 'B') || setweight(to_tsvector('simple', coalesce("events"."normalized_address"::text, '')), 'B') || to_tsvector('simple', coalesce(pg_search_b229fd995799cea4ca76c4.pg_search_93f916f001b6b057ee2922::text, ''))), (to_tsquery('simple', ''' ' || 'spam' || ' ''')), 0)) AS pg_search_rank FROM "events" LEFT OUTER JOIN (SELECT "events"."id" AS id, string_agg("tags"."name"::text, ' ') AS pg_search_93f916f001b6b057ee2922 FROM "events" INNER JOIN "taggings" ON "taggings"."taggable_id" = "events"."id" AND taggings.context = 'tags' AND "taggings"."taggable_type" = 'Event' INNER JOIN "tags" ON "tags"."id" = "taggings"."tag_id" GROUP BY "events"."id") pg_search_b229fd995799cea4ca76c4 ON pg_search_b229fd995799cea4ca76c4.id = "events"."id" WHERE ("events"."datetime" BETWEEN '2012-11-07 07:00:00' AND '2012-11-08 07:00:00') AND (((setweight(to_tsvector('simple', coalesce("events"."description"::text, '')), 'A') || setweight(to_tsvector('simple', coalesce("events"."address"::text, '')), 'B') || setweight(to_tsvector('simple', coalesce("events"."normalized_address"::text, '')), 'B') || to_tsvector('simple', coalesce(pg_search_b229fd995799cea4ca76c4.pg_search_93f916f001b6b057ee2922::text, ''))) @@ (to_tsquery('simple', ''' ' || 'spam' || ' ''')))) ORDER BY pg_search_rank DESC, "events"."id" ASC LIMIT 100
+  Rendered events/search.js.erb (0.1ms)
+Completed 200 OK in 10ms (Views: 3.6ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/events/search?utf8=%E2%9C%93&s_query=spam&s_date=2012-11-7&s_time=20%3A00&s_timeframe=12" for 127.0.0.1 at 2012-11-07 20:01:31 +0100
+Processing by EventsController#search as JS
+  Parameters: {"utf8"=>"✓", "s_query"=>"spam", "s_date"=>"2012-11-7", "s_time"=>"20:00", "s_timeframe"=>"12"}
+  [1m[36m (1.1ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT 1 AS count_column FROM "events" LEFT OUTER JOIN (SELECT "events"."id" AS id, string_agg("tags"."name"::text, ' ') AS pg_search_93f916f001b6b057ee2922 FROM "events" INNER JOIN "taggings" ON "taggings"."taggable_id" = "events"."id" AND taggings.context = 'tags' AND "taggings"."taggable_type" = 'Event' INNER JOIN "tags" ON "tags"."id" = "taggings"."tag_id" GROUP BY "events"."id") pg_search_b229fd995799cea4ca76c4 ON pg_search_b229fd995799cea4ca76c4.id = "events"."id" WHERE ("events"."datetime" BETWEEN '2012-11-07 07:00:00' AND '2012-11-08 07:00:00') AND (((setweight(to_tsvector('simple', coalesce("events"."description"::text, '')), 'A') || setweight(to_tsvector('simple', coalesce("events"."address"::text, '')), 'B') || setweight(to_tsvector('simple', coalesce("events"."normalized_address"::text, '')), 'B') || to_tsvector('simple', coalesce(pg_search_b229fd995799cea4ca76c4.pg_search_93f916f001b6b057ee2922::text, ''))) @@ (to_tsquery('simple', ''' ' || 'spam' || ' ''')))) LIMIT 100) subquery_for_count [0m
+  [1m[35mEvent Load (1.2ms)[0m  SELECT "events".*, (ts_rank((setweight(to_tsvector('simple', coalesce("events"."description"::text, '')), 'A') || setweight(to_tsvector('simple', coalesce("events"."address"::text, '')), 'B') || setweight(to_tsvector('simple', coalesce("events"."normalized_address"::text, '')), 'B') || to_tsvector('simple', coalesce(pg_search_b229fd995799cea4ca76c4.pg_search_93f916f001b6b057ee2922::text, ''))), (to_tsquery('simple', ''' ' || 'spam' || ' ''')), 0)) AS pg_search_rank FROM "events" LEFT OUTER JOIN (SELECT "events"."id" AS id, string_agg("tags"."name"::text, ' ') AS pg_search_93f916f001b6b057ee2922 FROM "events" INNER JOIN "taggings" ON "taggings"."taggable_id" = "events"."id" AND taggings.context = 'tags' AND "taggings"."taggable_type" = 'Event' INNER JOIN "tags" ON "tags"."id" = "taggings"."tag_id" GROUP BY "events"."id") pg_search_b229fd995799cea4ca76c4 ON pg_search_b229fd995799cea4ca76c4.id = "events"."id" WHERE ("events"."datetime" BETWEEN '2012-11-07 07:00:00' AND '2012-11-08 07:00:00') AND (((setweight(to_tsvector('simple', coalesce("events"."description"::text, '')), 'A') || setweight(to_tsvector('simple', coalesce("events"."address"::text, '')), 'B') || setweight(to_tsvector('simple', coalesce("events"."normalized_address"::text, '')), 'B') || to_tsvector('simple', coalesce(pg_search_b229fd995799cea4ca76c4.pg_search_93f916f001b6b057ee2922::text, ''))) @@ (to_tsquery('simple', ''' ' || 'spam' || ' ''')))) ORDER BY pg_search_rank DESC, "events"."id" ASC LIMIT 100
+  Rendered events/search.js.erb (0.1ms)
+Completed 200 OK in 10ms (Views: 3.8ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/events/search?utf8=%E2%9C%93&s_query=spam&s_date=2012-11-7&s_time=20%3A00&s_timeframe=12" for 127.0.0.1 at 2012-11-07 20:01:31 +0100
+Processing by EventsController#search as JS
+  Parameters: {"utf8"=>"✓", "s_query"=>"spam", "s_date"=>"2012-11-7", "s_time"=>"20:00", "s_timeframe"=>"12"}
+  [1m[36m (1.0ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT 1 AS count_column FROM "events" LEFT OUTER JOIN (SELECT "events"."id" AS id, string_agg("tags"."name"::text, ' ') AS pg_search_93f916f001b6b057ee2922 FROM "events" INNER JOIN "taggings" ON "taggings"."taggable_id" = "events"."id" AND taggings.context = 'tags' AND "taggings"."taggable_type" = 'Event' INNER JOIN "tags" ON "tags"."id" = "taggings"."tag_id" GROUP BY "events"."id") pg_search_b229fd995799cea4ca76c4 ON pg_search_b229fd995799cea4ca76c4.id = "events"."id" WHERE ("events"."datetime" BETWEEN '2012-11-07 07:00:00' AND '2012-11-08 07:00:00') AND (((setweight(to_tsvector('simple', coalesce("events"."description"::text, '')), 'A') || setweight(to_tsvector('simple', coalesce("events"."address"::text, '')), 'B') || setweight(to_tsvector('simple', coalesce("events"."normalized_address"::text, '')), 'B') || to_tsvector('simple', coalesce(pg_search_b229fd995799cea4ca76c4.pg_search_93f916f001b6b057ee2922::text, ''))) @@ (to_tsquery('simple', ''' ' || 'spam' || ' ''')))) LIMIT 100) subquery_for_count [0m
+  [1m[35mEvent Load (1.0ms)[0m  SELECT "events".*, (ts_rank((setweight(to_tsvector('simple', coalesce("events"."description"::text, '')), 'A') || setweight(to_tsvector('simple', coalesce("events"."address"::text, '')), 'B') || setweight(to_tsvector('simple', coalesce("events"."normalized_address"::text, '')), 'B') || to_tsvector('simple', coalesce(pg_search_b229fd995799cea4ca76c4.pg_search_93f916f001b6b057ee2922::text, ''))), (to_tsquery('simple', ''' ' || 'spam' || ' ''')), 0)) AS pg_search_rank FROM "events" LEFT OUTER JOIN (SELECT "events"."id" AS id, string_agg("tags"."name"::text, ' ') AS pg_search_93f916f001b6b057ee2922 FROM "events" INNER JOIN "taggings" ON "taggings"."taggable_id" = "events"."id" AND taggings.context = 'tags' AND "taggings"."taggable_type" = 'Event' INNER JOIN "tags" ON "tags"."id" = "taggings"."tag_id" GROUP BY "events"."id") pg_search_b229fd995799cea4ca76c4 ON pg_search_b229fd995799cea4ca76c4.id = "events"."id" WHERE ("events"."datetime" BETWEEN '2012-11-07 07:00:00' AND '2012-11-08 07:00:00') AND (((setweight(to_tsvector('simple', coalesce("events"."description"::text, '')), 'A') || setweight(to_tsvector('simple', coalesce("events"."address"::text, '')), 'B') || setweight(to_tsvector('simple', coalesce("events"."normalized_address"::text, '')), 'B') || to_tsvector('simple', coalesce(pg_search_b229fd995799cea4ca76c4.pg_search_93f916f001b6b057ee2922::text, ''))) @@ (to_tsquery('simple', ''' ' || 'spam' || ' ''')))) ORDER BY pg_search_rank DESC, "events"."id" ASC LIMIT 100
+  Rendered events/search.js.erb (0.1ms)
+Completed 200 OK in 9ms (Views: 4.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/events/search?utf8=%E2%9C%93&s_query=spam&s_date=2012-11-7&s_time=20%3A00&s_timeframe=12" for 127.0.0.1 at 2012-11-07 20:04:25 +0100
+Processing by EventsController#search as JS
+  Parameters: {"utf8"=>"✓", "s_query"=>"spam", "s_date"=>"2012-11-7", "s_time"=>"20:00", "s_timeframe"=>"12"}
+  [1m[36m (1.0ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT 1 AS count_column FROM "events" LEFT OUTER JOIN (SELECT "events"."id" AS id, string_agg("tags"."name"::text, ' ') AS pg_search_93f916f001b6b057ee2922 FROM "events" INNER JOIN "taggings" ON "taggings"."taggable_id" = "events"."id" AND taggings.context = 'tags' AND "taggings"."taggable_type" = 'Event' INNER JOIN "tags" ON "tags"."id" = "taggings"."tag_id" GROUP BY "events"."id") pg_search_b229fd995799cea4ca76c4 ON pg_search_b229fd995799cea4ca76c4.id = "events"."id" WHERE ("events"."datetime" BETWEEN '2012-11-07 07:00:00' AND '2012-11-08 07:00:00') AND (((setweight(to_tsvector('simple', coalesce("events"."description"::text, '')), 'A') || setweight(to_tsvector('simple', coalesce("events"."address"::text, '')), 'B') || setweight(to_tsvector('simple', coalesce("events"."normalized_address"::text, '')), 'B') || to_tsvector('simple', coalesce(pg_search_b229fd995799cea4ca76c4.pg_search_93f916f001b6b057ee2922::text, ''))) @@ (to_tsquery('simple', ''' ' || 'spam' || ' ''')))) LIMIT 100) subquery_for_count [0m
+  [1m[35mEvent Load (1.1ms)[0m  SELECT "events".*, (ts_rank((setweight(to_tsvector('simple', coalesce("events"."description"::text, '')), 'A') || setweight(to_tsvector('simple', coalesce("events"."address"::text, '')), 'B') || setweight(to_tsvector('simple', coalesce("events"."normalized_address"::text, '')), 'B') || to_tsvector('simple', coalesce(pg_search_b229fd995799cea4ca76c4.pg_search_93f916f001b6b057ee2922::text, ''))), (to_tsquery('simple', ''' ' || 'spam' || ' ''')), 0)) AS pg_search_rank FROM "events" LEFT OUTER JOIN (SELECT "events"."id" AS id, string_agg("tags"."name"::text, ' ') AS pg_search_93f916f001b6b057ee2922 FROM "events" INNER JOIN "taggings" ON "taggings"."taggable_id" = "events"."id" AND taggings.context = 'tags' AND "taggings"."taggable_type" = 'Event' INNER JOIN "tags" ON "tags"."id" = "taggings"."tag_id" GROUP BY "events"."id") pg_search_b229fd995799cea4ca76c4 ON pg_search_b229fd995799cea4ca76c4.id = "events"."id" WHERE ("events"."datetime" BETWEEN '2012-11-07 07:00:00' AND '2012-11-08 07:00:00') AND (((setweight(to_tsvector('simple', coalesce("events"."description"::text, '')), 'A') || setweight(to_tsvector('simple', coalesce("events"."address"::text, '')), 'B') || setweight(to_tsvector('simple', coalesce("events"."normalized_address"::text, '')), 'B') || to_tsvector('simple', coalesce(pg_search_b229fd995799cea4ca76c4.pg_search_93f916f001b6b057ee2922::text, ''))) @@ (to_tsquery('simple', ''' ' || 'spam' || ' ''')))) ORDER BY pg_search_rank DESC, "events"."id" ASC LIMIT 100
+  Rendered events/search.js.erb (0.1ms)
+Completed 200 OK in 11ms (Views: 5.2ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/events/search?utf8=%E2%9C%93&s_query=spam&s_date=2012-11-7&s_time=20%3A00&s_timeframe=12" for 127.0.0.1 at 2012-11-07 20:04:26 +0100
+Processing by EventsController#search as JS
+  Parameters: {"utf8"=>"✓", "s_query"=>"spam", "s_date"=>"2012-11-7", "s_time"=>"20:00", "s_timeframe"=>"12"}
+  [1m[36m (1.1ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT 1 AS count_column FROM "events" LEFT OUTER JOIN (SELECT "events"."id" AS id, string_agg("tags"."name"::text, ' ') AS pg_search_93f916f001b6b057ee2922 FROM "events" INNER JOIN "taggings" ON "taggings"."taggable_id" = "events"."id" AND taggings.context = 'tags' AND "taggings"."taggable_type" = 'Event' INNER JOIN "tags" ON "tags"."id" = "taggings"."tag_id" GROUP BY "events"."id") pg_search_b229fd995799cea4ca76c4 ON pg_search_b229fd995799cea4ca76c4.id = "events"."id" WHERE ("events"."datetime" BETWEEN '2012-11-07 07:00:00' AND '2012-11-08 07:00:00') AND (((setweight(to_tsvector('simple', coalesce("events"."description"::text, '')), 'A') || setweight(to_tsvector('simple', coalesce("events"."address"::text, '')), 'B') || setweight(to_tsvector('simple', coalesce("events"."normalized_address"::text, '')), 'B') || to_tsvector('simple', coalesce(pg_search_b229fd995799cea4ca76c4.pg_search_93f916f001b6b057ee2922::text, ''))) @@ (to_tsquery('simple', ''' ' || 'spam' || ' ''')))) LIMIT 100) subquery_for_count [0m
+  [1m[35mEvent Load (1.2ms)[0m  SELECT "events".*, (ts_rank((setweight(to_tsvector('simple', coalesce("events"."description"::text, '')), 'A') || setweight(to_tsvector('simple', coalesce("events"."address"::text, '')), 'B') || setweight(to_tsvector('simple', coalesce("events"."normalized_address"::text, '')), 'B') || to_tsvector('simple', coalesce(pg_search_b229fd995799cea4ca76c4.pg_search_93f916f001b6b057ee2922::text, ''))), (to_tsquery('simple', ''' ' || 'spam' || ' ''')), 0)) AS pg_search_rank FROM "events" LEFT OUTER JOIN (SELECT "events"."id" AS id, string_agg("tags"."name"::text, ' ') AS pg_search_93f916f001b6b057ee2922 FROM "events" INNER JOIN "taggings" ON "taggings"."taggable_id" = "events"."id" AND taggings.context = 'tags' AND "taggings"."taggable_type" = 'Event' INNER JOIN "tags" ON "tags"."id" = "taggings"."tag_id" GROUP BY "events"."id") pg_search_b229fd995799cea4ca76c4 ON pg_search_b229fd995799cea4ca76c4.id = "events"."id" WHERE ("events"."datetime" BETWEEN '2012-11-07 07:00:00' AND '2012-11-08 07:00:00') AND (((setweight(to_tsvector('simple', coalesce("events"."description"::text, '')), 'A') || setweight(to_tsvector('simple', coalesce("events"."address"::text, '')), 'B') || setweight(to_tsvector('simple', coalesce("events"."normalized_address"::text, '')), 'B') || to_tsvector('simple', coalesce(pg_search_b229fd995799cea4ca76c4.pg_search_93f916f001b6b057ee2922::text, ''))) @@ (to_tsquery('simple', ''' ' || 'spam' || ' ''')))) ORDER BY pg_search_rank DESC, "events"."id" ASC LIMIT 100
+  Rendered events/search.js.erb (0.1ms)
+Completed 200 OK in 10ms (Views: 4.3ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/events/search?utf8=%E2%9C%93&s_query=spam&s_date=2012-11-7&s_time=20%3A00&s_timeframe=12" for 127.0.0.1 at 2012-11-07 20:04:26 +0100
+Processing by EventsController#search as JS
+  Parameters: {"utf8"=>"✓", "s_query"=>"spam", "s_date"=>"2012-11-7", "s_time"=>"20:00", "s_timeframe"=>"12"}
+  [1m[36m (1.1ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT 1 AS count_column FROM "events" LEFT OUTER JOIN (SELECT "events"."id" AS id, string_agg("tags"."name"::text, ' ') AS pg_search_93f916f001b6b057ee2922 FROM "events" INNER JOIN "taggings" ON "taggings"."taggable_id" = "events"."id" AND taggings.context = 'tags' AND "taggings"."taggable_type" = 'Event' INNER JOIN "tags" ON "tags"."id" = "taggings"."tag_id" GROUP BY "events"."id") pg_search_b229fd995799cea4ca76c4 ON pg_search_b229fd995799cea4ca76c4.id = "events"."id" WHERE ("events"."datetime" BETWEEN '2012-11-07 07:00:00' AND '2012-11-08 07:00:00') AND (((setweight(to_tsvector('simple', coalesce("events"."description"::text, '')), 'A') || setweight(to_tsvector('simple', coalesce("events"."address"::text, '')), 'B') || setweight(to_tsvector('simple', coalesce("events"."normalized_address"::text, '')), 'B') || to_tsvector('simple', coalesce(pg_search_b229fd995799cea4ca76c4.pg_search_93f916f001b6b057ee2922::text, ''))) @@ (to_tsquery('simple', ''' ' || 'spam' || ' ''')))) LIMIT 100) subquery_for_count [0m
+  [1m[35mEvent Load (1.6ms)[0m  SELECT "events".*, (ts_rank((setweight(to_tsvector('simple', coalesce("events"."description"::text, '')), 'A') || setweight(to_tsvector('simple', coalesce("events"."address"::text, '')), 'B') || setweight(to_tsvector('simple', coalesce("events"."normalized_address"::text, '')), 'B') || to_tsvector('simple', coalesce(pg_search_b229fd995799cea4ca76c4.pg_search_93f916f001b6b057ee2922::text, ''))), (to_tsquery('simple', ''' ' || 'spam' || ' ''')), 0)) AS pg_search_rank FROM "events" LEFT OUTER JOIN (SELECT "events"."id" AS id, string_agg("tags"."name"::text, ' ') AS pg_search_93f916f001b6b057ee2922 FROM "events" INNER JOIN "taggings" ON "taggings"."taggable_id" = "events"."id" AND taggings.context = 'tags' AND "taggings"."taggable_type" = 'Event' INNER JOIN "tags" ON "tags"."id" = "taggings"."tag_id" GROUP BY "events"."id") pg_search_b229fd995799cea4ca76c4 ON pg_search_b229fd995799cea4ca76c4.id = "events"."id" WHERE ("events"."datetime" BETWEEN '2012-11-07 07:00:00' AND '2012-11-08 07:00:00') AND (((setweight(to_tsvector('simple', coalesce("events"."description"::text, '')), 'A') || setweight(to_tsvector('simple', coalesce("events"."address"::text, '')), 'B') || setweight(to_tsvector('simple', coalesce("events"."normalized_address"::text, '')), 'B') || to_tsvector('simple', coalesce(pg_search_b229fd995799cea4ca76c4.pg_search_93f916f001b6b057ee2922::text, ''))) @@ (to_tsquery('simple', ''' ' || 'spam' || ' ''')))) ORDER BY pg_search_rank DESC, "events"."id" ASC LIMIT 100
+  Rendered events/search.js.erb (0.1ms)
+Completed 200 OK in 49ms (Views: 3.8ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/events/search?utf8=%E2%9C%93&s_query=spam&s_date=2012-11-7&s_time=20%3A00&s_timeframe=12" for 127.0.0.1 at 2012-11-07 20:04:26 +0100
+Processing by EventsController#search as JS
+  Parameters: {"utf8"=>"✓", "s_query"=>"spam", "s_date"=>"2012-11-7", "s_time"=>"20:00", "s_timeframe"=>"12"}
+  [1m[36m (1.1ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT 1 AS count_column FROM "events" LEFT OUTER JOIN (SELECT "events"."id" AS id, string_agg("tags"."name"::text, ' ') AS pg_search_93f916f001b6b057ee2922 FROM "events" INNER JOIN "taggings" ON "taggings"."taggable_id" = "events"."id" AND taggings.context = 'tags' AND "taggings"."taggable_type" = 'Event' INNER JOIN "tags" ON "tags"."id" = "taggings"."tag_id" GROUP BY "events"."id") pg_search_b229fd995799cea4ca76c4 ON pg_search_b229fd995799cea4ca76c4.id = "events"."id" WHERE ("events"."datetime" BETWEEN '2012-11-07 07:00:00' AND '2012-11-08 07:00:00') AND (((setweight(to_tsvector('simple', coalesce("events"."description"::text, '')), 'A') || setweight(to_tsvector('simple', coalesce("events"."address"::text, '')), 'B') || setweight(to_tsvector('simple', coalesce("events"."normalized_address"::text, '')), 'B') || to_tsvector('simple', coalesce(pg_search_b229fd995799cea4ca76c4.pg_search_93f916f001b6b057ee2922::text, ''))) @@ (to_tsquery('simple', ''' ' || 'spam' || ' ''')))) LIMIT 100) subquery_for_count [0m
+  [1m[35mEvent Load (1.1ms)[0m  SELECT "events".*, (ts_rank((setweight(to_tsvector('simple', coalesce("events"."description"::text, '')), 'A') || setweight(to_tsvector('simple', coalesce("events"."address"::text, '')), 'B') || setweight(to_tsvector('simple', coalesce("events"."normalized_address"::text, '')), 'B') || to_tsvector('simple', coalesce(pg_search_b229fd995799cea4ca76c4.pg_search_93f916f001b6b057ee2922::text, ''))), (to_tsquery('simple', ''' ' || 'spam' || ' ''')), 0)) AS pg_search_rank FROM "events" LEFT OUTER JOIN (SELECT "events"."id" AS id, string_agg("tags"."name"::text, ' ') AS pg_search_93f916f001b6b057ee2922 FROM "events" INNER JOIN "taggings" ON "taggings"."taggable_id" = "events"."id" AND taggings.context = 'tags' AND "taggings"."taggable_type" = 'Event' INNER JOIN "tags" ON "tags"."id" = "taggings"."tag_id" GROUP BY "events"."id") pg_search_b229fd995799cea4ca76c4 ON pg_search_b229fd995799cea4ca76c4.id = "events"."id" WHERE ("events"."datetime" BETWEEN '2012-11-07 07:00:00' AND '2012-11-08 07:00:00') AND (((setweight(to_tsvector('simple', coalesce("events"."description"::text, '')), 'A') || setweight(to_tsvector('simple', coalesce("events"."address"::text, '')), 'B') || setweight(to_tsvector('simple', coalesce("events"."normalized_address"::text, '')), 'B') || to_tsvector('simple', coalesce(pg_search_b229fd995799cea4ca76c4.pg_search_93f916f001b6b057ee2922::text, ''))) @@ (to_tsquery('simple', ''' ' || 'spam' || ' ''')))) ORDER BY pg_search_rank DESC, "events"."id" ASC LIMIT 100
+  Rendered events/search.js.erb (0.1ms)
+Completed 200 OK in 9ms (Views: 3.5ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/events/search?utf8=%E2%9C%93&s_query=spam&s_date=2012-11-7&s_time=20%3A00&s_timeframe=12" for 127.0.0.1 at 2012-11-07 20:04:26 +0100
+Processing by EventsController#search as JS
+  Parameters: {"utf8"=>"✓", "s_query"=>"spam", "s_date"=>"2012-11-7", "s_time"=>"20:00", "s_timeframe"=>"12"}
+  [1m[36m (1.1ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT 1 AS count_column FROM "events" LEFT OUTER JOIN (SELECT "events"."id" AS id, string_agg("tags"."name"::text, ' ') AS pg_search_93f916f001b6b057ee2922 FROM "events" INNER JOIN "taggings" ON "taggings"."taggable_id" = "events"."id" AND taggings.context = 'tags' AND "taggings"."taggable_type" = 'Event' INNER JOIN "tags" ON "tags"."id" = "taggings"."tag_id" GROUP BY "events"."id") pg_search_b229fd995799cea4ca76c4 ON pg_search_b229fd995799cea4ca76c4.id = "events"."id" WHERE ("events"."datetime" BETWEEN '2012-11-07 07:00:00' AND '2012-11-08 07:00:00') AND (((setweight(to_tsvector('simple', coalesce("events"."description"::text, '')), 'A') || setweight(to_tsvector('simple', coalesce("events"."address"::text, '')), 'B') || setweight(to_tsvector('simple', coalesce("events"."normalized_address"::text, '')), 'B') || to_tsvector('simple', coalesce(pg_search_b229fd995799cea4ca76c4.pg_search_93f916f001b6b057ee2922::text, ''))) @@ (to_tsquery('simple', ''' ' || 'spam' || ' ''')))) LIMIT 100) subquery_for_count [0m
+  [1m[35mEvent Load (1.2ms)[0m  SELECT "events".*, (ts_rank((setweight(to_tsvector('simple', coalesce("events"."description"::text, '')), 'A') || setweight(to_tsvector('simple', coalesce("events"."address"::text, '')), 'B') || setweight(to_tsvector('simple', coalesce("events"."normalized_address"::text, '')), 'B') || to_tsvector('simple', coalesce(pg_search_b229fd995799cea4ca76c4.pg_search_93f916f001b6b057ee2922::text, ''))), (to_tsquery('simple', ''' ' || 'spam' || ' ''')), 0)) AS pg_search_rank FROM "events" LEFT OUTER JOIN (SELECT "events"."id" AS id, string_agg("tags"."name"::text, ' ') AS pg_search_93f916f001b6b057ee2922 FROM "events" INNER JOIN "taggings" ON "taggings"."taggable_id" = "events"."id" AND taggings.context = 'tags' AND "taggings"."taggable_type" = 'Event' INNER JOIN "tags" ON "tags"."id" = "taggings"."tag_id" GROUP BY "events"."id") pg_search_b229fd995799cea4ca76c4 ON pg_search_b229fd995799cea4ca76c4.id = "events"."id" WHERE ("events"."datetime" BETWEEN '2012-11-07 07:00:00' AND '2012-11-08 07:00:00') AND (((setweight(to_tsvector('simple', coalesce("events"."description"::text, '')), 'A') || setweight(to_tsvector('simple', coalesce("events"."address"::text, '')), 'B') || setweight(to_tsvector('simple', coalesce("events"."normalized_address"::text, '')), 'B') || to_tsvector('simple', coalesce(pg_search_b229fd995799cea4ca76c4.pg_search_93f916f001b6b057ee2922::text, ''))) @@ (to_tsquery('simple', ''' ' || 'spam' || ' ''')))) ORDER BY pg_search_rank DESC, "events"."id" ASC LIMIT 100
+  Rendered events/search.js.erb (0.1ms)
+Completed 200 OK in 9ms (Views: 3.4ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/events/search?utf8=%E2%9C%93&s_query=spam&s_date=2012-11-7&s_time=20%3A00&s_timeframe=12" for 127.0.0.1 at 2012-11-07 20:04:26 +0100
+Processing by EventsController#search as JS
+  Parameters: {"utf8"=>"✓", "s_query"=>"spam", "s_date"=>"2012-11-7", "s_time"=>"20:00", "s_timeframe"=>"12"}
+  [1m[36m (1.1ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT 1 AS count_column FROM "events" LEFT OUTER JOIN (SELECT "events"."id" AS id, string_agg("tags"."name"::text, ' ') AS pg_search_93f916f001b6b057ee2922 FROM "events" INNER JOIN "taggings" ON "taggings"."taggable_id" = "events"."id" AND taggings.context = 'tags' AND "taggings"."taggable_type" = 'Event' INNER JOIN "tags" ON "tags"."id" = "taggings"."tag_id" GROUP BY "events"."id") pg_search_b229fd995799cea4ca76c4 ON pg_search_b229fd995799cea4ca76c4.id = "events"."id" WHERE ("events"."datetime" BETWEEN '2012-11-07 07:00:00' AND '2012-11-08 07:00:00') AND (((setweight(to_tsvector('simple', coalesce("events"."description"::text, '')), 'A') || setweight(to_tsvector('simple', coalesce("events"."address"::text, '')), 'B') || setweight(to_tsvector('simple', coalesce("events"."normalized_address"::text, '')), 'B') || to_tsvector('simple', coalesce(pg_search_b229fd995799cea4ca76c4.pg_search_93f916f001b6b057ee2922::text, ''))) @@ (to_tsquery('simple', ''' ' || 'spam' || ' ''')))) LIMIT 100) subquery_for_count [0m
+  [1m[35mEvent Load (1.2ms)[0m  SELECT "events".*, (ts_rank((setweight(to_tsvector('simple', coalesce("events"."description"::text, '')), 'A') || setweight(to_tsvector('simple', coalesce("events"."address"::text, '')), 'B') || setweight(to_tsvector('simple', coalesce("events"."normalized_address"::text, '')), 'B') || to_tsvector('simple', coalesce(pg_search_b229fd995799cea4ca76c4.pg_search_93f916f001b6b057ee2922::text, ''))), (to_tsquery('simple', ''' ' || 'spam' || ' ''')), 0)) AS pg_search_rank FROM "events" LEFT OUTER JOIN (SELECT "events"."id" AS id, string_agg("tags"."name"::text, ' ') AS pg_search_93f916f001b6b057ee2922 FROM "events" INNER JOIN "taggings" ON "taggings"."taggable_id" = "events"."id" AND taggings.context = 'tags' AND "taggings"."taggable_type" = 'Event' INNER JOIN "tags" ON "tags"."id" = "taggings"."tag_id" GROUP BY "events"."id") pg_search_b229fd995799cea4ca76c4 ON pg_search_b229fd995799cea4ca76c4.id = "events"."id" WHERE ("events"."datetime" BETWEEN '2012-11-07 07:00:00' AND '2012-11-08 07:00:00') AND (((setweight(to_tsvector('simple', coalesce("events"."description"::text, '')), 'A') || setweight(to_tsvector('simple', coalesce("events"."address"::text, '')), 'B') || setweight(to_tsvector('simple', coalesce("events"."normalized_address"::text, '')), 'B') || to_tsvector('simple', coalesce(pg_search_b229fd995799cea4ca76c4.pg_search_93f916f001b6b057ee2922::text, ''))) @@ (to_tsquery('simple', ''' ' || 'spam' || ' ''')))) ORDER BY pg_search_rank DESC, "events"."id" ASC LIMIT 100
+  Rendered events/search.js.erb (0.1ms)
+Completed 200 OK in 9ms (Views: 3.7ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/events/search?utf8=%E2%9C%93&s_query=spam&s_date=2012-11-7&s_time=20%3A00&s_timeframe=12" for 127.0.0.1 at 2012-11-07 20:04:27 +0100
+Processing by EventsController#search as JS
+  Parameters: {"utf8"=>"✓", "s_query"=>"spam", "s_date"=>"2012-11-7", "s_time"=>"20:00", "s_timeframe"=>"12"}
+  [1m[36m (1.2ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT 1 AS count_column FROM "events" LEFT OUTER JOIN (SELECT "events"."id" AS id, string_agg("tags"."name"::text, ' ') AS pg_search_93f916f001b6b057ee2922 FROM "events" INNER JOIN "taggings" ON "taggings"."taggable_id" = "events"."id" AND taggings.context = 'tags' AND "taggings"."taggable_type" = 'Event' INNER JOIN "tags" ON "tags"."id" = "taggings"."tag_id" GROUP BY "events"."id") pg_search_b229fd995799cea4ca76c4 ON pg_search_b229fd995799cea4ca76c4.id = "events"."id" WHERE ("events"."datetime" BETWEEN '2012-11-07 07:00:00' AND '2012-11-08 07:00:00') AND (((setweight(to_tsvector('simple', coalesce("events"."description"::text, '')), 'A') || setweight(to_tsvector('simple', coalesce("events"."address"::text, '')), 'B') || setweight(to_tsvector('simple', coalesce("events"."normalized_address"::text, '')), 'B') || to_tsvector('simple', coalesce(pg_search_b229fd995799cea4ca76c4.pg_search_93f916f001b6b057ee2922::text, ''))) @@ (to_tsquery('simple', ''' ' || 'spam' || ' ''')))) LIMIT 100) subquery_for_count [0m
+  [1m[35mEvent Load (1.3ms)[0m  SELECT "events".*, (ts_rank((setweight(to_tsvector('simple', coalesce("events"."description"::text, '')), 'A') || setweight(to_tsvector('simple', coalesce("events"."address"::text, '')), 'B') || setweight(to_tsvector('simple', coalesce("events"."normalized_address"::text, '')), 'B') || to_tsvector('simple', coalesce(pg_search_b229fd995799cea4ca76c4.pg_search_93f916f001b6b057ee2922::text, ''))), (to_tsquery('simple', ''' ' || 'spam' || ' ''')), 0)) AS pg_search_rank FROM "events" LEFT OUTER JOIN (SELECT "events"."id" AS id, string_agg("tags"."name"::text, ' ') AS pg_search_93f916f001b6b057ee2922 FROM "events" INNER JOIN "taggings" ON "taggings"."taggable_id" = "events"."id" AND taggings.context = 'tags' AND "taggings"."taggable_type" = 'Event' INNER JOIN "tags" ON "tags"."id" = "taggings"."tag_id" GROUP BY "events"."id") pg_search_b229fd995799cea4ca76c4 ON pg_search_b229fd995799cea4ca76c4.id = "events"."id" WHERE ("events"."datetime" BETWEEN '2012-11-07 07:00:00' AND '2012-11-08 07:00:00') AND (((setweight(to_tsvector('simple', coalesce("events"."description"::text, '')), 'A') || setweight(to_tsvector('simple', coalesce("events"."address"::text, '')), 'B') || setweight(to_tsvector('simple', coalesce("events"."normalized_address"::text, '')), 'B') || to_tsvector('simple', coalesce(pg_search_b229fd995799cea4ca76c4.pg_search_93f916f001b6b057ee2922::text, ''))) @@ (to_tsquery('simple', ''' ' || 'spam' || ' ''')))) ORDER BY pg_search_rank DESC, "events"."id" ASC LIMIT 100
+  Rendered events/search.js.erb (0.1ms)
+Completed 200 OK in 9ms (Views: 3.6ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/events/search?utf8=%E2%9C%93&s_query=spam&s_date=2012-11-7&s_time=20%3A00&s_timeframe=12" for 127.0.0.1 at 2012-11-07 20:04:27 +0100
+Processing by EventsController#search as JS
+  Parameters: {"utf8"=>"✓", "s_query"=>"spam", "s_date"=>"2012-11-7", "s_time"=>"20:00", "s_timeframe"=>"12"}
+  [1m[36m (1.0ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT 1 AS count_column FROM "events" LEFT OUTER JOIN (SELECT "events"."id" AS id, string_agg("tags"."name"::text, ' ') AS pg_search_93f916f001b6b057ee2922 FROM "events" INNER JOIN "taggings" ON "taggings"."taggable_id" = "events"."id" AND taggings.context = 'tags' AND "taggings"."taggable_type" = 'Event' INNER JOIN "tags" ON "tags"."id" = "taggings"."tag_id" GROUP BY "events"."id") pg_search_b229fd995799cea4ca76c4 ON pg_search_b229fd995799cea4ca76c4.id = "events"."id" WHERE ("events"."datetime" BETWEEN '2012-11-07 07:00:00' AND '2012-11-08 07:00:00') AND (((setweight(to_tsvector('simple', coalesce("events"."description"::text, '')), 'A') || setweight(to_tsvector('simple', coalesce("events"."address"::text, '')), 'B') || setweight(to_tsvector('simple', coalesce("events"."normalized_address"::text, '')), 'B') || to_tsvector('simple', coalesce(pg_search_b229fd995799cea4ca76c4.pg_search_93f916f001b6b057ee2922::text, ''))) @@ (to_tsquery('simple', ''' ' || 'spam' || ' ''')))) LIMIT 100) subquery_for_count [0m
+  [1m[35mEvent Load (1.0ms)[0m  SELECT "events".*, (ts_rank((setweight(to_tsvector('simple', coalesce("events"."description"::text, '')), 'A') || setweight(to_tsvector('simple', coalesce("events"."address"::text, '')), 'B') || setweight(to_tsvector('simple', coalesce("events"."normalized_address"::text, '')), 'B') || to_tsvector('simple', coalesce(pg_search_b229fd995799cea4ca76c4.pg_search_93f916f001b6b057ee2922::text, ''))), (to_tsquery('simple', ''' ' || 'spam' || ' ''')), 0)) AS pg_search_rank FROM "events" LEFT OUTER JOIN (SELECT "events"."id" AS id, string_agg("tags"."name"::text, ' ') AS pg_search_93f916f001b6b057ee2922 FROM "events" INNER JOIN "taggings" ON "taggings"."taggable_id" = "events"."id" AND taggings.context = 'tags' AND "taggings"."taggable_type" = 'Event' INNER JOIN "tags" ON "tags"."id" = "taggings"."tag_id" GROUP BY "events"."id") pg_search_b229fd995799cea4ca76c4 ON pg_search_b229fd995799cea4ca76c4.id = "events"."id" WHERE ("events"."datetime" BETWEEN '2012-11-07 07:00:00' AND '2012-11-08 07:00:00') AND (((setweight(to_tsvector('simple', coalesce("events"."description"::text, '')), 'A') || setweight(to_tsvector('simple', coalesce("events"."address"::text, '')), 'B') || setweight(to_tsvector('simple', coalesce("events"."normalized_address"::text, '')), 'B') || to_tsvector('simple', coalesce(pg_search_b229fd995799cea4ca76c4.pg_search_93f916f001b6b057ee2922::text, ''))) @@ (to_tsquery('simple', ''' ' || 'spam' || ' ''')))) ORDER BY pg_search_rank DESC, "events"."id" ASC LIMIT 100
+  Rendered events/search.js.erb (0.1ms)
+Completed 200 OK in 8ms (Views: 3.5ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/events/search?utf8=%E2%9C%93&s_query=spam&s_date=2012-11-7&s_time=20%3A00&s_timeframe=12" for 127.0.0.1 at 2012-11-07 20:04:27 +0100
+Processing by EventsController#search as JS
+  Parameters: {"utf8"=>"✓", "s_query"=>"spam", "s_date"=>"2012-11-7", "s_time"=>"20:00", "s_timeframe"=>"12"}
+  [1m[36m (1.3ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT 1 AS count_column FROM "events" LEFT OUTER JOIN (SELECT "events"."id" AS id, string_agg("tags"."name"::text, ' ') AS pg_search_93f916f001b6b057ee2922 FROM "events" INNER JOIN "taggings" ON "taggings"."taggable_id" = "events"."id" AND taggings.context = 'tags' AND "taggings"."taggable_type" = 'Event' INNER JOIN "tags" ON "tags"."id" = "taggings"."tag_id" GROUP BY "events"."id") pg_search_b229fd995799cea4ca76c4 ON pg_search_b229fd995799cea4ca76c4.id = "events"."id" WHERE ("events"."datetime" BETWEEN '2012-11-07 07:00:00' AND '2012-11-08 07:00:00') AND (((setweight(to_tsvector('simple', coalesce("events"."description"::text, '')), 'A') || setweight(to_tsvector('simple', coalesce("events"."address"::text, '')), 'B') || setweight(to_tsvector('simple', coalesce("events"."normalized_address"::text, '')), 'B') || to_tsvector('simple', coalesce(pg_search_b229fd995799cea4ca76c4.pg_search_93f916f001b6b057ee2922::text, ''))) @@ (to_tsquery('simple', ''' ' || 'spam' || ' ''')))) LIMIT 100) subquery_for_count [0m
+  [1m[35mEvent Load (1.0ms)[0m  SELECT "events".*, (ts_rank((setweight(to_tsvector('simple', coalesce("events"."description"::text, '')), 'A') || setweight(to_tsvector('simple', coalesce("events"."address"::text, '')), 'B') || setweight(to_tsvector('simple', coalesce("events"."normalized_address"::text, '')), 'B') || to_tsvector('simple', coalesce(pg_search_b229fd995799cea4ca76c4.pg_search_93f916f001b6b057ee2922::text, ''))), (to_tsquery('simple', ''' ' || 'spam' || ' ''')), 0)) AS pg_search_rank FROM "events" LEFT OUTER JOIN (SELECT "events"."id" AS id, string_agg("tags"."name"::text, ' ') AS pg_search_93f916f001b6b057ee2922 FROM "events" INNER JOIN "taggings" ON "taggings"."taggable_id" = "events"."id" AND taggings.context = 'tags' AND "taggings"."taggable_type" = 'Event' INNER JOIN "tags" ON "tags"."id" = "taggings"."tag_id" GROUP BY "events"."id") pg_search_b229fd995799cea4ca76c4 ON pg_search_b229fd995799cea4ca76c4.id = "events"."id" WHERE ("events"."datetime" BETWEEN '2012-11-07 07:00:00' AND '2012-11-08 07:00:00') AND (((setweight(to_tsvector('simple', coalesce("events"."description"::text, '')), 'A') || setweight(to_tsvector('simple', coalesce("events"."address"::text, '')), 'B') || setweight(to_tsvector('simple', coalesce("events"."normalized_address"::text, '')), 'B') || to_tsvector('simple', coalesce(pg_search_b229fd995799cea4ca76c4.pg_search_93f916f001b6b057ee2922::text, ''))) @@ (to_tsquery('simple', ''' ' || 'spam' || ' ''')))) ORDER BY pg_search_rank DESC, "events"."id" ASC LIMIT 100
+  Rendered events/search.js.erb (0.1ms)
+Completed 200 OK in 9ms (Views: 3.5ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/events/search?utf8=%E2%9C%93&s_query=spam&s_date=2012-11-7&s_time=20%3A00&s_timeframe=12" for 127.0.0.1 at 2012-11-07 20:04:27 +0100
+Processing by EventsController#search as JS
+  Parameters: {"utf8"=>"✓", "s_query"=>"spam", "s_date"=>"2012-11-7", "s_time"=>"20:00", "s_timeframe"=>"12"}
+  [1m[36m (1.1ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT 1 AS count_column FROM "events" LEFT OUTER JOIN (SELECT "events"."id" AS id, string_agg("tags"."name"::text, ' ') AS pg_search_93f916f001b6b057ee2922 FROM "events" INNER JOIN "taggings" ON "taggings"."taggable_id" = "events"."id" AND taggings.context = 'tags' AND "taggings"."taggable_type" = 'Event' INNER JOIN "tags" ON "tags"."id" = "taggings"."tag_id" GROUP BY "events"."id") pg_search_b229fd995799cea4ca76c4 ON pg_search_b229fd995799cea4ca76c4.id = "events"."id" WHERE ("events"."datetime" BETWEEN '2012-11-07 07:00:00' AND '2012-11-08 07:00:00') AND (((setweight(to_tsvector('simple', coalesce("events"."description"::text, '')), 'A') || setweight(to_tsvector('simple', coalesce("events"."address"::text, '')), 'B') || setweight(to_tsvector('simple', coalesce("events"."normalized_address"::text, '')), 'B') || to_tsvector('simple', coalesce(pg_search_b229fd995799cea4ca76c4.pg_search_93f916f001b6b057ee2922::text, ''))) @@ (to_tsquery('simple', ''' ' || 'spam' || ' ''')))) LIMIT 100) subquery_for_count [0m
+  [1m[35mEvent Load (1.2ms)[0m  SELECT "events".*, (ts_rank((setweight(to_tsvector('simple', coalesce("events"."description"::text, '')), 'A') || setweight(to_tsvector('simple', coalesce("events"."address"::text, '')), 'B') || setweight(to_tsvector('simple', coalesce("events"."normalized_address"::text, '')), 'B') || to_tsvector('simple', coalesce(pg_search_b229fd995799cea4ca76c4.pg_search_93f916f001b6b057ee2922::text, ''))), (to_tsquery('simple', ''' ' || 'spam' || ' ''')), 0)) AS pg_search_rank FROM "events" LEFT OUTER JOIN (SELECT "events"."id" AS id, string_agg("tags"."name"::text, ' ') AS pg_search_93f916f001b6b057ee2922 FROM "events" INNER JOIN "taggings" ON "taggings"."taggable_id" = "events"."id" AND taggings.context = 'tags' AND "taggings"."taggable_type" = 'Event' INNER JOIN "tags" ON "tags"."id" = "taggings"."tag_id" GROUP BY "events"."id") pg_search_b229fd995799cea4ca76c4 ON pg_search_b229fd995799cea4ca76c4.id = "events"."id" WHERE ("events"."datetime" BETWEEN '2012-11-07 07:00:00' AND '2012-11-08 07:00:00') AND (((setweight(to_tsvector('simple', coalesce("events"."description"::text, '')), 'A') || setweight(to_tsvector('simple', coalesce("events"."address"::text, '')), 'B') || setweight(to_tsvector('simple', coalesce("events"."normalized_address"::text, '')), 'B') || to_tsvector('simple', coalesce(pg_search_b229fd995799cea4ca76c4.pg_search_93f916f001b6b057ee2922::text, ''))) @@ (to_tsquery('simple', ''' ' || 'spam' || ' ''')))) ORDER BY pg_search_rank DESC, "events"."id" ASC LIMIT 100
+  Rendered events/search.js.erb (0.1ms)
+Completed 200 OK in 9ms (Views: 3.6ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/events/search?utf8=%E2%9C%93&s_query=spam&s_date=2012-11-7&s_time=20%3A00&s_timeframe=12" for 127.0.0.1 at 2012-11-07 20:04:28 +0100
+Processing by EventsController#search as JS
+  Parameters: {"utf8"=>"✓", "s_query"=>"spam", "s_date"=>"2012-11-7", "s_time"=>"20:00", "s_timeframe"=>"12"}
+  [1m[36m (1.0ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT 1 AS count_column FROM "events" LEFT OUTER JOIN (SELECT "events"."id" AS id, string_agg("tags"."name"::text, ' ') AS pg_search_93f916f001b6b057ee2922 FROM "events" INNER JOIN "taggings" ON "taggings"."taggable_id" = "events"."id" AND taggings.context = 'tags' AND "taggings"."taggable_type" = 'Event' INNER JOIN "tags" ON "tags"."id" = "taggings"."tag_id" GROUP BY "events"."id") pg_search_b229fd995799cea4ca76c4 ON pg_search_b229fd995799cea4ca76c4.id = "events"."id" WHERE ("events"."datetime" BETWEEN '2012-11-07 07:00:00' AND '2012-11-08 07:00:00') AND (((setweight(to_tsvector('simple', coalesce("events"."description"::text, '')), 'A') || setweight(to_tsvector('simple', coalesce("events"."address"::text, '')), 'B') || setweight(to_tsvector('simple', coalesce("events"."normalized_address"::text, '')), 'B') || to_tsvector('simple', coalesce(pg_search_b229fd995799cea4ca76c4.pg_search_93f916f001b6b057ee2922::text, ''))) @@ (to_tsquery('simple', ''' ' || 'spam' || ' ''')))) LIMIT 100) subquery_for_count [0m
+  [1m[35mEvent Load (0.9ms)[0m  SELECT "events".*, (ts_rank((setweight(to_tsvector('simple', coalesce("events"."description"::text, '')), 'A') || setweight(to_tsvector('simple', coalesce("events"."address"::text, '')), 'B') || setweight(to_tsvector('simple', coalesce("events"."normalized_address"::text, '')), 'B') || to_tsvector('simple', coalesce(pg_search_b229fd995799cea4ca76c4.pg_search_93f916f001b6b057ee2922::text, ''))), (to_tsquery('simple', ''' ' || 'spam' || ' ''')), 0)) AS pg_search_rank FROM "events" LEFT OUTER JOIN (SELECT "events"."id" AS id, string_agg("tags"."name"::text, ' ') AS pg_search_93f916f001b6b057ee2922 FROM "events" INNER JOIN "taggings" ON "taggings"."taggable_id" = "events"."id" AND taggings.context = 'tags' AND "taggings"."taggable_type" = 'Event' INNER JOIN "tags" ON "tags"."id" = "taggings"."tag_id" GROUP BY "events"."id") pg_search_b229fd995799cea4ca76c4 ON pg_search_b229fd995799cea4ca76c4.id = "events"."id" WHERE ("events"."datetime" BETWEEN '2012-11-07 07:00:00' AND '2012-11-08 07:00:00') AND (((setweight(to_tsvector('simple', coalesce("events"."description"::text, '')), 'A') || setweight(to_tsvector('simple', coalesce("events"."address"::text, '')), 'B') || setweight(to_tsvector('simple', coalesce("events"."normalized_address"::text, '')), 'B') || to_tsvector('simple', coalesce(pg_search_b229fd995799cea4ca76c4.pg_search_93f916f001b6b057ee2922::text, ''))) @@ (to_tsquery('simple', ''' ' || 'spam' || ' ''')))) ORDER BY pg_search_rank DESC, "events"."id" ASC LIMIT 100
+  Rendered events/search.js.erb (0.1ms)
+Completed 200 OK in 8ms (Views: 3.4ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/events/search?utf8=%E2%9C%93&s_query=spam&s_date=2012-11-7&s_time=20%3A00&s_timeframe=12" for 127.0.0.1 at 2012-11-07 20:04:28 +0100
+Processing by EventsController#search as JS
+  Parameters: {"utf8"=>"✓", "s_query"=>"spam", "s_date"=>"2012-11-7", "s_time"=>"20:00", "s_timeframe"=>"12"}
+  [1m[36m (1.0ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT 1 AS count_column FROM "events" LEFT OUTER JOIN (SELECT "events"."id" AS id, string_agg("tags"."name"::text, ' ') AS pg_search_93f916f001b6b057ee2922 FROM "events" INNER JOIN "taggings" ON "taggings"."taggable_id" = "events"."id" AND taggings.context = 'tags' AND "taggings"."taggable_type" = 'Event' INNER JOIN "tags" ON "tags"."id" = "taggings"."tag_id" GROUP BY "events"."id") pg_search_b229fd995799cea4ca76c4 ON pg_search_b229fd995799cea4ca76c4.id = "events"."id" WHERE ("events"."datetime" BETWEEN '2012-11-07 07:00:00' AND '2012-11-08 07:00:00') AND (((setweight(to_tsvector('simple', coalesce("events"."description"::text, '')), 'A') || setweight(to_tsvector('simple', coalesce("events"."address"::text, '')), 'B') || setweight(to_tsvector('simple', coalesce("events"."normalized_address"::text, '')), 'B') || to_tsvector('simple', coalesce(pg_search_b229fd995799cea4ca76c4.pg_search_93f916f001b6b057ee2922::text, ''))) @@ (to_tsquery('simple', ''' ' || 'spam' || ' ''')))) LIMIT 100) subquery_for_count [0m
+  [1m[35mEvent Load (1.2ms)[0m  SELECT "events".*, (ts_rank((setweight(to_tsvector('simple', coalesce("events"."description"::text, '')), 'A') || setweight(to_tsvector('simple', coalesce("events"."address"::text, '')), 'B') || setweight(to_tsvector('simple', coalesce("events"."normalized_address"::text, '')), 'B') || to_tsvector('simple', coalesce(pg_search_b229fd995799cea4ca76c4.pg_search_93f916f001b6b057ee2922::text, ''))), (to_tsquery('simple', ''' ' || 'spam' || ' ''')), 0)) AS pg_search_rank FROM "events" LEFT OUTER JOIN (SELECT "events"."id" AS id, string_agg("tags"."name"::text, ' ') AS pg_search_93f916f001b6b057ee2922 FROM "events" INNER JOIN "taggings" ON "taggings"."taggable_id" = "events"."id" AND taggings.context = 'tags' AND "taggings"."taggable_type" = 'Event' INNER JOIN "tags" ON "tags"."id" = "taggings"."tag_id" GROUP BY "events"."id") pg_search_b229fd995799cea4ca76c4 ON pg_search_b229fd995799cea4ca76c4.id = "events"."id" WHERE ("events"."datetime" BETWEEN '2012-11-07 07:00:00' AND '2012-11-08 07:00:00') AND (((setweight(to_tsvector('simple', coalesce("events"."description"::text, '')), 'A') || setweight(to_tsvector('simple', coalesce("events"."address"::text, '')), 'B') || setweight(to_tsvector('simple', coalesce("events"."normalized_address"::text, '')), 'B') || to_tsvector('simple', coalesce(pg_search_b229fd995799cea4ca76c4.pg_search_93f916f001b6b057ee2922::text, ''))) @@ (to_tsquery('simple', ''' ' || 'spam' || ' ''')))) ORDER BY pg_search_rank DESC, "events"."id" ASC LIMIT 100
+  Rendered events/search.js.erb (0.1ms)
+Completed 200 OK in 9ms (Views: 4.1ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/events/search?utf8=%E2%9C%93&s_query=spam&s_date=2012-11-7&s_time=20%3A00&s_timeframe=12" for 127.0.0.1 at 2012-11-07 20:04:28 +0100
+Processing by EventsController#search as JS
+  Parameters: {"utf8"=>"✓", "s_query"=>"spam", "s_date"=>"2012-11-7", "s_time"=>"20:00", "s_timeframe"=>"12"}
+  [1m[36m (1.0ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT 1 AS count_column FROM "events" LEFT OUTER JOIN (SELECT "events"."id" AS id, string_agg("tags"."name"::text, ' ') AS pg_search_93f916f001b6b057ee2922 FROM "events" INNER JOIN "taggings" ON "taggings"."taggable_id" = "events"."id" AND taggings.context = 'tags' AND "taggings"."taggable_type" = 'Event' INNER JOIN "tags" ON "tags"."id" = "taggings"."tag_id" GROUP BY "events"."id") pg_search_b229fd995799cea4ca76c4 ON pg_search_b229fd995799cea4ca76c4.id = "events"."id" WHERE ("events"."datetime" BETWEEN '2012-11-07 07:00:00' AND '2012-11-08 07:00:00') AND (((setweight(to_tsvector('simple', coalesce("events"."description"::text, '')), 'A') || setweight(to_tsvector('simple', coalesce("events"."address"::text, '')), 'B') || setweight(to_tsvector('simple', coalesce("events"."normalized_address"::text, '')), 'B') || to_tsvector('simple', coalesce(pg_search_b229fd995799cea4ca76c4.pg_search_93f916f001b6b057ee2922::text, ''))) @@ (to_tsquery('simple', ''' ' || 'spam' || ' ''')))) LIMIT 100) subquery_for_count [0m
+  [1m[35mEvent Load (1.0ms)[0m  SELECT "events".*, (ts_rank((setweight(to_tsvector('simple', coalesce("events"."description"::text, '')), 'A') || setweight(to_tsvector('simple', coalesce("events"."address"::text, '')), 'B') || setweight(to_tsvector('simple', coalesce("events"."normalized_address"::text, '')), 'B') || to_tsvector('simple', coalesce(pg_search_b229fd995799cea4ca76c4.pg_search_93f916f001b6b057ee2922::text, ''))), (to_tsquery('simple', ''' ' || 'spam' || ' ''')), 0)) AS pg_search_rank FROM "events" LEFT OUTER JOIN (SELECT "events"."id" AS id, string_agg("tags"."name"::text, ' ') AS pg_search_93f916f001b6b057ee2922 FROM "events" INNER JOIN "taggings" ON "taggings"."taggable_id" = "events"."id" AND taggings.context = 'tags' AND "taggings"."taggable_type" = 'Event' INNER JOIN "tags" ON "tags"."id" = "taggings"."tag_id" GROUP BY "events"."id") pg_search_b229fd995799cea4ca76c4 ON pg_search_b229fd995799cea4ca76c4.id = "events"."id" WHERE ("events"."datetime" BETWEEN '2012-11-07 07:00:00' AND '2012-11-08 07:00:00') AND (((setweight(to_tsvector('simple', coalesce("events"."description"::text, '')), 'A') || setweight(to_tsvector('simple', coalesce("events"."address"::text, '')), 'B') || setweight(to_tsvector('simple', coalesce("events"."normalized_address"::text, '')), 'B') || to_tsvector('simple', coalesce(pg_search_b229fd995799cea4ca76c4.pg_search_93f916f001b6b057ee2922::text, ''))) @@ (to_tsquery('simple', ''' ' || 'spam' || ' ''')))) ORDER BY pg_search_rank DESC, "events"."id" ASC LIMIT 100
+  Rendered events/search.js.erb (0.1ms)
+Completed 200 OK in 9ms (Views: 3.4ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/events/search?utf8=%E2%9C%93&s_query=spam&s_date=2012-11-7&s_time=20%3A00&s_timeframe=12" for 127.0.0.1 at 2012-11-07 20:04:29 +0100
+Processing by EventsController#search as JS
+  Parameters: {"utf8"=>"✓", "s_query"=>"spam", "s_date"=>"2012-11-7", "s_time"=>"20:00", "s_timeframe"=>"12"}
+  [1m[36m (1.3ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT 1 AS count_column FROM "events" LEFT OUTER JOIN (SELECT "events"."id" AS id, string_agg("tags"."name"::text, ' ') AS pg_search_93f916f001b6b057ee2922 FROM "events" INNER JOIN "taggings" ON "taggings"."taggable_id" = "events"."id" AND taggings.context = 'tags' AND "taggings"."taggable_type" = 'Event' INNER JOIN "tags" ON "tags"."id" = "taggings"."tag_id" GROUP BY "events"."id") pg_search_b229fd995799cea4ca76c4 ON pg_search_b229fd995799cea4ca76c4.id = "events"."id" WHERE ("events"."datetime" BETWEEN '2012-11-07 07:00:00' AND '2012-11-08 07:00:00') AND (((setweight(to_tsvector('simple', coalesce("events"."description"::text, '')), 'A') || setweight(to_tsvector('simple', coalesce("events"."address"::text, '')), 'B') || setweight(to_tsvector('simple', coalesce("events"."normalized_address"::text, '')), 'B') || to_tsvector('simple', coalesce(pg_search_b229fd995799cea4ca76c4.pg_search_93f916f001b6b057ee2922::text, ''))) @@ (to_tsquery('simple', ''' ' || 'spam' || ' ''')))) LIMIT 100) subquery_for_count [0m
+  [1m[35mEvent Load (1.6ms)[0m  SELECT "events".*, (ts_rank((setweight(to_tsvector('simple', coalesce("events"."description"::text, '')), 'A') || setweight(to_tsvector('simple', coalesce("events"."address"::text, '')), 'B') || setweight(to_tsvector('simple', coalesce("events"."normalized_address"::text, '')), 'B') || to_tsvector('simple', coalesce(pg_search_b229fd995799cea4ca76c4.pg_search_93f916f001b6b057ee2922::text, ''))), (to_tsquery('simple', ''' ' || 'spam' || ' ''')), 0)) AS pg_search_rank FROM "events" LEFT OUTER JOIN (SELECT "events"."id" AS id, string_agg("tags"."name"::text, ' ') AS pg_search_93f916f001b6b057ee2922 FROM "events" INNER JOIN "taggings" ON "taggings"."taggable_id" = "events"."id" AND taggings.context = 'tags' AND "taggings"."taggable_type" = 'Event' INNER JOIN "tags" ON "tags"."id" = "taggings"."tag_id" GROUP BY "events"."id") pg_search_b229fd995799cea4ca76c4 ON pg_search_b229fd995799cea4ca76c4.id = "events"."id" WHERE ("events"."datetime" BETWEEN '2012-11-07 07:00:00' AND '2012-11-08 07:00:00') AND (((setweight(to_tsvector('simple', coalesce("events"."description"::text, '')), 'A') || setweight(to_tsvector('simple', coalesce("events"."address"::text, '')), 'B') || setweight(to_tsvector('simple', coalesce("events"."normalized_address"::text, '')), 'B') || to_tsvector('simple', coalesce(pg_search_b229fd995799cea4ca76c4.pg_search_93f916f001b6b057ee2922::text, ''))) @@ (to_tsquery('simple', ''' ' || 'spam' || ' ''')))) ORDER BY pg_search_rank DESC, "events"."id" ASC LIMIT 100
+  Rendered events/search.js.erb (0.1ms)
+Completed 200 OK in 11ms (Views: 3.9ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/events/search?utf8=%E2%9C%93&s_query=spam&s_date=2012-11-7&s_time=20%3A00&s_timeframe=12" for 127.0.0.1 at 2012-11-07 20:04:29 +0100
+Processing by EventsController#search as JS
+  Parameters: {"utf8"=>"✓", "s_query"=>"spam", "s_date"=>"2012-11-7", "s_time"=>"20:00", "s_timeframe"=>"12"}
+  [1m[36m (1.0ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT 1 AS count_column FROM "events" LEFT OUTER JOIN (SELECT "events"."id" AS id, string_agg("tags"."name"::text, ' ') AS pg_search_93f916f001b6b057ee2922 FROM "events" INNER JOIN "taggings" ON "taggings"."taggable_id" = "events"."id" AND taggings.context = 'tags' AND "taggings"."taggable_type" = 'Event' INNER JOIN "tags" ON "tags"."id" = "taggings"."tag_id" GROUP BY "events"."id") pg_search_b229fd995799cea4ca76c4 ON pg_search_b229fd995799cea4ca76c4.id = "events"."id" WHERE ("events"."datetime" BETWEEN '2012-11-07 07:00:00' AND '2012-11-08 07:00:00') AND (((setweight(to_tsvector('simple', coalesce("events"."description"::text, '')), 'A') || setweight(to_tsvector('simple', coalesce("events"."address"::text, '')), 'B') || setweight(to_tsvector('simple', coalesce("events"."normalized_address"::text, '')), 'B') || to_tsvector('simple', coalesce(pg_search_b229fd995799cea4ca76c4.pg_search_93f916f001b6b057ee2922::text, ''))) @@ (to_tsquery('simple', ''' ' || 'spam' || ' ''')))) LIMIT 100) subquery_for_count [0m
+  [1m[35mEvent Load (0.9ms)[0m  SELECT "events".*, (ts_rank((setweight(to_tsvector('simple', coalesce("events"."description"::text, '')), 'A') || setweight(to_tsvector('simple', coalesce("events"."address"::text, '')), 'B') || setweight(to_tsvector('simple', coalesce("events"."normalized_address"::text, '')), 'B') || to_tsvector('simple', coalesce(pg_search_b229fd995799cea4ca76c4.pg_search_93f916f001b6b057ee2922::text, ''))), (to_tsquery('simple', ''' ' || 'spam' || ' ''')), 0)) AS pg_search_rank FROM "events" LEFT OUTER JOIN (SELECT "events"."id" AS id, string_agg("tags"."name"::text, ' ') AS pg_search_93f916f001b6b057ee2922 FROM "events" INNER JOIN "taggings" ON "taggings"."taggable_id" = "events"."id" AND taggings.context = 'tags' AND "taggings"."taggable_type" = 'Event' INNER JOIN "tags" ON "tags"."id" = "taggings"."tag_id" GROUP BY "events"."id") pg_search_b229fd995799cea4ca76c4 ON pg_search_b229fd995799cea4ca76c4.id = "events"."id" WHERE ("events"."datetime" BETWEEN '2012-11-07 07:00:00' AND '2012-11-08 07:00:00') AND (((setweight(to_tsvector('simple', coalesce("events"."description"::text, '')), 'A') || setweight(to_tsvector('simple', coalesce("events"."address"::text, '')), 'B') || setweight(to_tsvector('simple', coalesce("events"."normalized_address"::text, '')), 'B') || to_tsvector('simple', coalesce(pg_search_b229fd995799cea4ca76c4.pg_search_93f916f001b6b057ee2922::text, ''))) @@ (to_tsquery('simple', ''' ' || 'spam' || ' ''')))) ORDER BY pg_search_rank DESC, "events"."id" ASC LIMIT 100
+  Rendered events/search.js.erb (0.1ms)
+Completed 200 OK in 9ms (Views: 3.4ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-07 20:41:43 +0100
+Processing by EventsController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/gmaps4rails-1.5.6/app/views/gmaps4rails/_gmaps4rails.html.erb (1.0ms)
+  Rendered application/_flash.html.haml (0.1ms)
+  Rendered events/_search.html.haml (1.4ms)
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  Rendered events/_error_div.html.haml (2.1ms)
+  Rendered application/_only_when_signed_in_button.html.haml (0.2ms)
+  Rendered events/_create.html.haml (5.9ms)
+  Rendered events/index.html.haml within layouts/application (13.5ms)
+  Rendered events/_hidden_modals.html.haml (0.8ms)
+  Rendered events/_title.html.haml (0.2ms)
+  Rendered devise/menu/_login_items.html.haml (0.7ms)
+  Rendered devise/menu/_registration_items.html.haml (0.1ms)
+  Rendered application/_facebook_sdk.html.erb (0.0ms)
+  Rendered events/_index_script.html.erb (0.0ms)
+Completed 200 OK in 36ms (Views: 35.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-07 20:41:43 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2012-11-07 20:41:43 +0100
+Served asset /events.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2012-11-07 20:41:43 +0100
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-timepicker.css?body=1" for 127.0.0.1 at 2012-11-07 20:41:43 +0100
+Served asset /bootstrap-timepicker.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-datepicker.css?body=1" for 127.0.0.1 at 2012-11-07 20:41:43 +0100
+Served asset /bootstrap-datepicker.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-07 20:41:43 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps4rails.css?body=1" for 127.0.0.1 at 2012-11-07 20:41:43 +0100
+Served asset /gmaps4rails.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-07 20:41:43 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-11-07 20:41:43 +0100
+Served asset /bootstrap.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/gmaps4rails/gmaps4rails.base.js?body=1" for 127.0.0.1 at 2012-11-07 20:41:43 +0100
+Served asset /gmaps4rails/gmaps4rails.base.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps4rails/gmaps4rails.googlemaps.js?body=1" for 127.0.0.1 at 2012-11-07 20:41:43 +0100
+Served asset /gmaps4rails/gmaps4rails.googlemaps.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2012-11-07 20:41:43 +0100
+Served asset /events.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-11-07 20:41:43 +0100
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2012-11-07 20:41:43 +0100
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2012-11-07 20:41:43 +0100
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2012-11-07 20:41:43 +0100
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2012-11-07 20:41:43 +0100
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2012-11-07 20:41:43 +0100
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2012-11-07 20:41:43 +0100
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-11-07 20:41:43 +0100
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2012-11-07 20:41:43 +0100
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2012-11-07 20:41:43 +0100
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2012-11-07 20:41:43 +0100
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2012-11-07 20:41:43 +0100
+Served asset /twitter/bootstrap.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2012-11-07 20:41:43 +0100
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2012-11-07 20:41:43 +0100
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-datepicker/core.js?body=1" for 127.0.0.1 at 2012-11-07 20:41:43 +0100
+Served asset /bootstrap-datepicker/core.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/temporal.js?body=1" for 127.0.0.1 at 2012-11-07 20:41:43 +0100
+Served asset /temporal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-timepicker.js?body=1" for 127.0.0.1 at 2012-11-07 20:41:43 +0100
+Served asset /bootstrap-timepicker.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-07 20:41:43 +0100
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2012-11-07 20:41:43 +0100
+Served asset /logo.svg - 304 Not Modified (2ms)
+
+
+Started GET "/events/local_events?lat=52.55137656885516&lng=13.389089486792955" for 127.0.0.1 at 2012-11-07 20:41:44 +0100
+Processing by EventsController#local_events as JSON
+  Parameters: {"lat"=>"52.55137656885516", "lng"=>"13.389089486792955"}
+  [1m[35mEvent Load (1.0ms)[0m  SELECT "events".* FROM "events" WHERE ("events"."lat" BETWEEN 52.30137656885516 AND 52.80137656885516) AND ("events"."lng" BETWEEN 13.139089486792955 AND 13.639089486792955) AND ("events"."datetime" BETWEEN '2012-11-07 19:11:44' AND '2012-11-08 19:41:44') LIMIT 100
+Completed 200 OK in 4ms (Views: 0.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/events/search?utf8=%E2%9C%93&s_query=&s_date=2012-11-7&s_time=20%3A30&s_timeframe=12" for 127.0.0.1 at 2012-11-07 20:41:45 +0100
+Processing by EventsController#search as JS
+  Parameters: {"utf8"=>"✓", "s_query"=>"", "s_date"=>"2012-11-7", "s_time"=>"20:30", "s_timeframe"=>"12"}
+  [1m[36m (0.5ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT 1 AS count_column FROM "events" WHERE ("events"."datetime" BETWEEN '2012-11-07 07:30:00' AND '2012-11-08 07:30:00') LIMIT 100) subquery_for_count [0m
+  [1m[35mEvent Load (0.7ms)[0m  SELECT "events".* FROM "events" WHERE ("events"."datetime" BETWEEN '2012-11-07 07:30:00' AND '2012-11-08 07:30:00') LIMIT 100
+  Rendered events/search.js.erb (0.1ms)
+Completed 200 OK in 10ms (Views: 6.5ms | ActiveRecord: 1.2ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-09 00:30:19 +0100
+Processing by EventsController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/gmaps4rails-1.5.6/app/views/gmaps4rails/_gmaps4rails.html.erb (1.8ms)
+  Rendered application/_flash.html.haml (2.1ms)
+  Rendered events/_search.html.haml (4.5ms)
+  [1m[36mUser Load (4.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  Rendered events/_error_div.html.haml (82.3ms)
+  Rendered application/_only_when_signed_in_button.html.haml (2.0ms)
+  Rendered events/_create.html.haml (91.8ms)
+  Rendered events/index.html.haml within layouts/application (120.0ms)
+  Rendered events/_hidden_modals.html.haml (5.1ms)
+  Rendered events/_title.html.haml (1.0ms)
+  Rendered devise/menu/_login_items.html.haml (3.6ms)
+  Rendered devise/menu/_registration_items.html.haml (1.2ms)
+  Rendered application/_facebook_sdk.html.erb (0.4ms)
+  Rendered events/_index_script.html.erb (0.6ms)
+Completed 200 OK in 346ms (Views: 309.9ms | ActiveRecord: 8.3ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2012-11-09 00:30:20 +0100
+Served asset /events.css - 304 Not Modified (33ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-09 00:30:20 +0100
+Served asset /application.css - 304 Not Modified (15ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2012-11-09 00:30:20 +0100
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/bootstrap-datepicker.css?body=1" for 127.0.0.1 at 2012-11-09 00:30:20 +0100
+Served asset /bootstrap-datepicker.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/gmaps4rails.css?body=1" for 127.0.0.1 at 2012-11-09 00:30:20 +0100
+Served asset /gmaps4rails.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-timepicker.css?body=1" for 127.0.0.1 at 2012-11-09 00:30:20 +0100
+Served asset /bootstrap-timepicker.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-09 00:30:20 +0100
+Served asset /jquery.js - 200 OK (7ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-09 00:30:20 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-11-09 00:30:20 +0100
+Served asset /bootstrap.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/gmaps4rails/gmaps4rails.base.js?body=1" for 127.0.0.1 at 2012-11-09 00:30:20 +0100
+Served asset /gmaps4rails/gmaps4rails.base.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2012-11-09 00:30:20 +0100
+Served asset /events.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2012-11-09 00:30:20 +0100
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/fontawesome-webfont.woff" for 127.0.0.1 at 2012-11-09 00:30:20 +0100
+Served asset /fontawesome-webfont.woff - 200 OK (8ms)
+
+
+Started GET "/assets/gmaps4rails/gmaps4rails.googlemaps.js?body=1" for 127.0.0.1 at 2012-11-09 00:30:20 +0100
+Served asset /gmaps4rails/gmaps4rails.googlemaps.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-11-09 00:30:20 +0100
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2012-11-09 00:30:20 +0100
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2012-11-09 00:30:20 +0100
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2012-11-09 00:30:20 +0100
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (48ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2012-11-09 00:30:20 +0100
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-11-09 00:30:20 +0100
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2012-11-09 00:30:20 +0100
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2012-11-09 00:30:20 +0100
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2012-11-09 00:30:20 +0100
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2012-11-09 00:30:20 +0100
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2012-11-09 00:30:20 +0100
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2012-11-09 00:30:20 +0100
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2012-11-09 00:30:20 +0100
+Served asset /twitter/bootstrap.js - 304 Not Modified (21ms)
+
+
+Started GET "/assets/bootstrap-datepicker/core.js?body=1" for 127.0.0.1 at 2012-11-09 00:30:20 +0100
+Served asset /bootstrap-datepicker/core.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/bootstrap-timepicker.js?body=1" for 127.0.0.1 at 2012-11-09 00:30:20 +0100
+Served asset /bootstrap-timepicker.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/temporal.js?body=1" for 127.0.0.1 at 2012-11-09 00:30:20 +0100
+Served asset /temporal.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-09 00:30:20 +0100
+Served asset /application.js - 304 Not Modified (35ms)
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2012-11-09 00:30:20 +0100
+Served asset /logo.svg - 304 Not Modified (3ms)
+
+
+Started GET "/events/local_events?lat=52.55128132599382&lng=13.389223227686443" for 127.0.0.1 at 2012-11-09 00:30:21 +0100
+Processing by EventsController#local_events as JSON
+  Parameters: {"lat"=>"52.55128132599382", "lng"=>"13.389223227686443"}
+  [1m[35mEvent Load (10.3ms)[0m  SELECT "events".* FROM "events" WHERE ("events"."lat" BETWEEN 52.30128132599382 AND 52.80128132599382) AND ("events"."lng" BETWEEN 13.139223227686443 AND 13.639223227686443) AND ("events"."datetime" BETWEEN '2012-11-08 23:00:21' AND '2012-11-09 23:30:21') LIMIT 100
+Completed 200 OK in 79ms (Views: 0.4ms | ActiveRecord: 10.3ms)
+
+
+Started GET "/events/search?utf8=%E2%9C%93&s_query=spam&s_date=2012-11-9&s_time=00%3A30&s_timeframe=12" for 127.0.0.1 at 2012-11-09 00:30:23 +0100
+Processing by EventsController#search as JS
+  Parameters: {"utf8"=>"✓", "s_query"=>"spam", "s_date"=>"2012-11-9", "s_time"=>"00:30", "s_timeframe"=>"12"}
+  [1m[36m (19.3ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT 1 AS count_column FROM "events" LEFT OUTER JOIN (SELECT "events"."id" AS id, string_agg("tags"."name"::text, ' ') AS pg_search_93f916f001b6b057ee2922 FROM "events" INNER JOIN "taggings" ON "taggings"."taggable_id" = "events"."id" AND taggings.context = 'tags' AND "taggings"."taggable_type" = 'Event' INNER JOIN "tags" ON "tags"."id" = "taggings"."tag_id" GROUP BY "events"."id") pg_search_b229fd995799cea4ca76c4 ON pg_search_b229fd995799cea4ca76c4.id = "events"."id" WHERE ("events"."datetime" BETWEEN '2012-11-08 11:30:00' AND '2012-11-09 11:30:00') AND (((setweight(to_tsvector('simple', coalesce("events"."description"::text, '')), 'A') || setweight(to_tsvector('simple', coalesce("events"."address"::text, '')), 'B') || setweight(to_tsvector('simple', coalesce("events"."normalized_address"::text, '')), 'B') || to_tsvector('simple', coalesce(pg_search_b229fd995799cea4ca76c4.pg_search_93f916f001b6b057ee2922::text, ''))) @@ (to_tsquery('simple', ''' ' || 'spam' || ' ''')))) LIMIT 100) subquery_for_count [0m
+  [1m[35mEvent Load (3.0ms)[0m  SELECT "events".*, (ts_rank((setweight(to_tsvector('simple', coalesce("events"."description"::text, '')), 'A') || setweight(to_tsvector('simple', coalesce("events"."address"::text, '')), 'B') || setweight(to_tsvector('simple', coalesce("events"."normalized_address"::text, '')), 'B') || to_tsvector('simple', coalesce(pg_search_b229fd995799cea4ca76c4.pg_search_93f916f001b6b057ee2922::text, ''))), (to_tsquery('simple', ''' ' || 'spam' || ' ''')), 0)) AS pg_search_rank FROM "events" LEFT OUTER JOIN (SELECT "events"."id" AS id, string_agg("tags"."name"::text, ' ') AS pg_search_93f916f001b6b057ee2922 FROM "events" INNER JOIN "taggings" ON "taggings"."taggable_id" = "events"."id" AND taggings.context = 'tags' AND "taggings"."taggable_type" = 'Event' INNER JOIN "tags" ON "tags"."id" = "taggings"."tag_id" GROUP BY "events"."id") pg_search_b229fd995799cea4ca76c4 ON pg_search_b229fd995799cea4ca76c4.id = "events"."id" WHERE ("events"."datetime" BETWEEN '2012-11-08 11:30:00' AND '2012-11-09 11:30:00') AND (((setweight(to_tsvector('simple', coalesce("events"."description"::text, '')), 'A') || setweight(to_tsvector('simple', coalesce("events"."address"::text, '')), 'B') || setweight(to_tsvector('simple', coalesce("events"."normalized_address"::text, '')), 'B') || to_tsvector('simple', coalesce(pg_search_b229fd995799cea4ca76c4.pg_search_93f916f001b6b057ee2922::text, ''))) @@ (to_tsquery('simple', ''' ' || 'spam' || ' ''')))) ORDER BY pg_search_rank DESC, "events"."id" ASC LIMIT 100
+  Rendered events/search.js.erb (0.6ms)
+Completed 200 OK in 114ms (Views: 5.5ms | ActiveRecord: 26.3ms)
+Connecting to database specified by database.yml
